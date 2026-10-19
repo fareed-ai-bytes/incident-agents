@@ -1,18 +1,18 @@
 # Architecture — Pipeline Incident Response Agent
-_Last reviewed: 2026-10-19 · Status: designed, not yet built — every entry below is (planned) until its story closes_
+_Last reviewed: 2026-10-19 · Status: built (S1–S44). Real-model checks still pending — see verification.md_
 
 ## Stack
 | Layer | Technology | Version | Notes |
 |---|---|---|---|
-| Language | Python | 3.11+ (pin in S1) | |
-| Orchestration | LangGraph | pin in S1 | StateGraph, conditional edges, interrupts |
-| Persistence | LangGraph SQLite checkpointer + SQLite audit DB | pin in S1 | One thread_id per incident |
-| Model serving | Ollama (OpenAI-compatible endpoint) | pin in S1 | Model chosen by S3 benchmark |
-| Tool protocol | MCP (Python SDK), stdio transport | pin in S1 | Local server process |
-| Mock warehouse | DuckDB | pin in S1 | Stand-in for Snowflake |
-| Mock logs | JSON/text fixtures | — | 5 scenarios |
-| Interface | CLI (Typer or argparse — decide in S1) | — | No web UI in v1 |
-| Tests | pytest | — | |
+| Language | Python | 3.11+ (dev: 3.11.3) | |
+| Orchestration | LangGraph | 1.2.16 | StateGraph, Send fan-out, conditional edges, interrupt_before |
+| Persistence | langgraph-checkpoint-sqlite + SQLite audit DB | 3.1.2 | One thread_id per incident |
+| Model serving | Ollama (OpenAI-compatible endpoint) via httpx | httpx 0.28.1 | Model chosen by S3 benchmark (pending); `heuristic` offline stand-in for CI |
+| Tool protocol | MCP Python SDK (`MCPServer`/`Client`), stdio transport | mcp 2.3.0 | Local server process; in-process in unit tests |
+| Mock warehouse | DuckDB | 1.5.6 | Stand-in for Snowflake |
+| Mock logs | Generated text fixtures | — | 5 scenarios, `mocks/fixtures_gen.py` |
+| Interface | CLI (argparse, plain text) | — | No web UI in v1; Rich not added |
+| Tests | pytest, ruff | 9.1.1, 0.17.1 | |
 
 ## System overview
 The scenario injector emits an alert. The LangGraph graph triages the alert and the supervisor routes it to specialist workers, which run in parallel and call tools discovered from the local MCP server. The supervisor aggregates their findings, then the planner drafts an ordered remediation plan. Before the executor runs, any gated step triggers an interrupt that waits for a human decision, stored in SQLite so it can be resumed hours later. The executor calls write tools, which only record to the fake job runner's audit log. The verify node then ends the incident, loops back once to re-diagnose, or escalates. Every node transition is checkpointed.
@@ -30,10 +30,15 @@ flowchart TD
   WA --> AG
   AG -->|confidence < threshold| F
   AG --> P[Remediation Planner]
-  P --> G{Approval gate<br/>interrupt_before}
-  G -->|approved / read-only| X[Executor]
-  G -->|rejected| F
+  P -->|READ-only plan| XA[execute_auto]
+  P -->|gated steps| RA[request_approval]
+  P -->|no valid plan| F
+  RA --> G{Approval gate<br/>interrupt_before execute}
+  G -->|approved| X[Executor]
+  G -->|rejected / expired| F
   X --> V{Verify}
+  XA --> V
+  X -->|step failed| F
   V -->|healthy| E[END]
   V -->|failing, first time| S
   V -->|failing again| F
@@ -44,7 +49,7 @@ flowchart TD
   end
 ```
 
-## Directory map (planned)
+## Directory map
 ```
 src/incident_agent/
   graph/       # StateGraph definition, nodes, routing functions, state schema
@@ -53,8 +58,9 @@ src/incident_agent/
   mcp_server/  # MCP server exposing read, metadata and write tools
   mcp_client/  # tool discovery and schema conversion
   mocks/       # DuckDB seed, log fixtures, fake job runner, scenario injector
-  policy/      # risk tiers, approval rules, token budgets
-  cli/         # run, approvals, checkpoints, fork commands
+  policy/      # risk tiers, token budgets, durable approval store
+  llm/         # Ollama client (localhost only) + deterministic heuristic model
+  cli/         # seed, inject, run, approvals, show, checkpoints, fork, resume
 tests/
   unit/        # per-module tests
   e2e/         # one test per scenario
@@ -96,7 +102,8 @@ docs/          # this documentation set
   - `step_results`, `retry_counts`, `verify_attempts`
   - `summary_note`: rolling summary for the sliding window
 - **SQLite checkpoints**: managed by the LangGraph checkpointer, keyed by thread_id = incident_id.
-- **audit_log** (SQLite): id, incident_id, action, args_json, risk_tier, approver, decision, timestamp.
+- **audit_log** (SQLite): id, incident_id, action, args_json, risk_tier, approver, approval_id, step_index, decision, status, result_json, timestamp. Unique per (incident, approval, step, action), so a replayed step never writes twice.
+- **approvals** (SQLite, same file): one row per gated step, PENDING -> APPROVED / REJECTED / EXPIRED, with approver and decided_at.
 - **Mock warehouse** (DuckDB): 3+ business tables and a `load_audit` table.
 
 ## External integrations
@@ -107,7 +114,7 @@ docs/          # this documentation set
 | DuckDB file | Mock warehouse | File path | Fail fast: a setup error, not an incident |
 
 ## Environments & config
-- Env vars live in `.env` (gitignored); `.env.example` is committed. Keys: `MODEL_NAME`, `OLLAMA_BASE_URL`, `CHECKPOINT_DB`, `AUDIT_DB`, `WAREHOUSE_DB`, `MAX_ITERATIONS`, `CONFIDENCE_THRESHOLD`.
+- Env vars live in `.env` (gitignored); `.env.example` is committed. Keys: `MODEL_PROVIDER`, `MODEL_NAME`, `OLLAMA_BASE_URL`, `CHECKPOINT_DB`, `AUDIT_DB`, `WAREHOUSE_DB`, `MAX_ITERATIONS`, `CONFIDENCE_THRESHOLD`, `LOG_PAGE_SIZE`, `APPROVAL_TTL_HOURS`, `LOG_LEVEL`.
 - Environments: local only. There is no dev or prod in v1.
 
 ## Architecture decisions (short form — detail in memory.md)
