@@ -89,3 +89,30 @@ def test_read_warehouse_status_and_partitions(server):
 def test_read_unknown_pipeline_is_permanent_error(server):
     err, msg = raw_call(server, "get_pipeline_info", {"pipeline": "nope"})
     assert err and "[permanent]" in msg
+
+
+# -- S10: metadata tools ----------------------------------------------------------------------
+
+
+def test_schema_drift_detected_for_schema_drift_pipeline(server):
+    err, out = raw_call(server, "compare_source_schema", {"pipeline": "crm_customers_sync"})
+    assert not err and out["drift"] is True
+    assert out["added"] == [{"name": "loyalty_tier", "type": "VARCHAR"}]
+
+
+def test_schema_compare_identical_schemas_returns_no_differences(server):
+    from incident_agent.mcp_server.metadata_tools import compare_schemas
+
+    cols = [{"name": "id", "type": "INTEGER"}, {"name": "email", "type": "VARCHAR"}]
+    assert compare_schemas(cols, list(cols)) == {"added": [], "removed": [], "type_changed": []}
+    for pipeline in ("orders_warehouse_load", "payments_fivetran_sync", "events_daily_partition"):
+        err, out = raw_call(server, "compare_source_schema", {"pipeline": pipeline})
+        assert out["drift"] is False, pipeline
+
+
+def test_schema_preview_alter_table_shows_before_and_after(server):
+    args = {"table": "crm_customers", "add_columns": [{"name": "loyalty_tier", "type": "VARCHAR"}]}
+    err, out = raw_call(server, "preview_write_action", {"tool": "alter_table", "args": args})
+    assert not err
+    assert not any("loyalty_tier" in line for line in out["before"])
+    assert any("loyalty_tier" in line for line in out["after"])
