@@ -8,14 +8,7 @@ import anyio
 import pytest
 from mcp import Client
 
-from incident_agent.mcp_server.server import build_server
 from incident_agent.mocks import warehouse
-
-
-@pytest.fixture
-def server(settings):
-    warehouse.seed(settings.warehouse_db)
-    return build_server(settings)
 
 
 def raw_call(server, name, args):
@@ -164,14 +157,6 @@ def test_write_tool_with_approval_records_audit_row(server, settings):
 
 
 # -- S12: client discovery --------------------------------------------------------------------
-
-
-@pytest.fixture
-def client(server):
-    from incident_agent.mcp_client import ToolClient
-
-    with ToolClient(server) as c:
-        yield c
 
 
 def test_mcp_tool_discovery(client):
