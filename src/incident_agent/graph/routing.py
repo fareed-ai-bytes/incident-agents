@@ -66,3 +66,18 @@ def route_to_workers(state: IncidentState) -> list[Send]:
         "diagnosis_round": state["diagnosis_round"],
     }
     return [Send(worker, payload) for worker in state["active_workers"]]
+
+
+PLANNER = "planner"
+
+
+def make_route_after_aggregate(threshold: float):
+    """Diagnosis confidence below the threshold (BR-03) or UNKNOWN goes to fallback (FR-05)."""
+
+    def route_after_aggregate(state: IncidentState) -> str:
+        diag = state.get("diagnosis")
+        if not diag or diag["category"] == AlertType.UNKNOWN.value:
+            return FALLBACK
+        return PLANNER if diag["confidence"] >= threshold else FALLBACK
+
+    return route_after_aggregate
