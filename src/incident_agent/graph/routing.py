@@ -81,3 +81,23 @@ def make_route_after_aggregate(threshold: float):
         return PLANNER if diag["confidence"] >= threshold else FALLBACK
 
     return route_after_aggregate
+
+
+REQUEST_APPROVAL = "request_approval"
+EXECUTE = "execute"
+EXECUTE_AUTO = "execute_auto"
+VERIFY = "verify"
+
+
+def route_after_plan(state: IncidentState) -> str:
+    """No plan -> fallback; any gated step -> approval gate; READ-only -> run unattended."""
+    plan = state.get("plan") or []
+    if state.get("plan_error") or not plan:
+        return FALLBACK
+    if any(step["risk_tier"] != "READ" for step in plan):
+        return REQUEST_APPROVAL
+    return EXECUTE_AUTO
+
+
+def route_after_execute(state: IncidentState) -> str:
+    return VERIFY if state.get("execution_status") == "SUCCEEDED" else FALLBACK

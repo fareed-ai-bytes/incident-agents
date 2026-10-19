@@ -156,3 +156,28 @@ def test_fallback_reason_per_dead_end(patch, reason, settings):
     out = make_fallback_node(settings)(state)
     assert out["escalation"]["reason"] == reason
     assert out["escalation"]["summary"]
+
+
+def _plan(*tiers):
+    return [
+        {"index": i, "tool": "t", "args": {}, "risk_tier": t, "rationale": ""}
+        for i, t in enumerate(tiers)
+    ]
+
+
+def test_route_after_plan_branches():
+    from incident_agent.graph.routing import EXECUTE_AUTO, REQUEST_APPROVAL, route_after_plan
+
+    assert route_after_plan({"plan": _plan("READ", "READ")}) == EXECUTE_AUTO
+    assert route_after_plan({"plan": _plan("READ", "REVERSIBLE")}) == REQUEST_APPROVAL
+    assert route_after_plan({"plan": _plan("DESTRUCTIVE")}) == REQUEST_APPROVAL
+    assert route_after_plan({"plan": []}) == FALLBACK
+    assert route_after_plan({"plan": _plan("READ"), "plan_error": "x"}) == FALLBACK
+
+
+def test_route_after_execute_branches():
+    from incident_agent.graph.routing import VERIFY, route_after_execute
+
+    assert route_after_execute({"execution_status": "SUCCEEDED"}) == VERIFY
+    for status in ("FAILED", "REJECTED", "EXPIRED", ""):
+        assert route_after_execute({"execution_status": status}) == FALLBACK
