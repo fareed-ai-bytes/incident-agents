@@ -33,6 +33,7 @@ incident_agent = ["mocks/fixtures/**/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["tests"]
 addopts = "-ra"
 markers = [
     "real_model: needs a running local Ollama model (skipped unless RUN_REAL_MODEL=1)",
