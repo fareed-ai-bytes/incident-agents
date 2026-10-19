@@ -12,7 +12,7 @@ from incident_agent.mcp_client import ScopedTools
 from incident_agent.models import Alert, AlertType, Finding
 from incident_agent.policy.budgets import budget_for
 from incident_agent.raw_loop import LoopResult, run_react_loop
-from incident_agent.raw_loop.memory import Transcript
+from incident_agent.raw_loop.memory import SlidingWindow, Transcript
 from incident_agent.raw_loop.retry import RetryPolicy
 
 WORKER = "log_analyst"
@@ -27,7 +27,7 @@ class LogAnalysis:
 
 
 def make_transcript(settings: Settings) -> Transcript:
-    return Transcript()
+    return SlidingWindow(window=settings.observation_window)
 
 
 def run_log_analyst(

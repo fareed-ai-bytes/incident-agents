@@ -12,8 +12,7 @@ import re
 from typing import Any
 
 from incident_agent.llm.base import ChatMessage, ToolSchema
-
-SUMMARY_PREFIX = "Summary of earlier observations"
+from incident_agent.raw_loop.memory import SUMMARY_PREFIX
 
 # The "knowledge" of this model: log signatures -> (category, root cause template).
 SIGNATURES: list[tuple[re.Pattern[str], str, str]] = [
