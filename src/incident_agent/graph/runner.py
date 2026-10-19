@@ -24,6 +24,7 @@ from incident_agent.log import get_logger
 from incident_agent.mcp_client import ToolClient
 from incident_agent.mocks.injector import inject
 from incident_agent.models import Alert, ApprovalDecision
+from incident_agent.policy.approvals import ApprovalStore
 
 log = get_logger(__name__)
 
@@ -68,7 +69,10 @@ class IncidentRunner:
             clock=clock,
             health_check=health_check,
         )
-        self.graph = build_graph(self.runtime, self.checkpointer)
+        self.store = ApprovalStore(settings.audit_db)
+        self.graph = build_graph(
+            self.runtime, self.checkpointer, on_approval_request=self.store.add_pending
+        )
 
     # -- lifecycle ---------------------------------------------------------------------------
 
@@ -134,11 +138,15 @@ class IncidentRunner:
         """Write approval decisions into the halted thread's state (checkpointed)."""
         self._require(incident_id)
         self.graph.update_state(thread_config(incident_id), {"approvals": decisions})
+        self.store.record(decisions)
 
     def pending_incidents(self) -> list[str]:
-        """Incidents halted at the approval gate."""
-        return [
-            i
-            for i in self.incident_ids()
-            if tuple(self.graph.get_state(thread_config(i)).next) == ("execute",)
-        ]
+        """Incidents halted at the approval gate, oldest request first (from the durable store,
+        cross-checked against each incident's checkpointed state)."""
+        out = []
+        for _, incident_id in self.store.pending_incidents():
+            if self.exists(incident_id) and tuple(
+                self.graph.get_state(thread_config(incident_id)).next
+            ) == ("execute",):
+                out.append(incident_id)
+        return out

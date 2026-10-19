@@ -32,6 +32,7 @@ from incident_agent.log import configure_logging
 from incident_agent.mocks.injector import inject
 from incident_agent.mocks.scenarios import SCENARIOS, UnknownScenarioError
 from incident_agent.mocks.seed import seed_all
+from incident_agent.policy.approvals import expired
 
 EXIT_OK = 0
 EXIT_ERROR = 1
@@ -162,7 +163,10 @@ def cmd_approvals(args: argparse.Namespace, settings: Settings) -> int:
             return EXIT_OK
         print(f"{'Incident':<46} {'Steps':>5}  {'Age':>8}")
         for requested_at, incident_id, pending in rows:
-            print(f"{incident_id:<46} {len(pending['items']):>5}  {age(requested_at, now):>8}")
+            late = "  EXPIRED" if expired(requested_at, now, settings.approval_ttl_hours) else ""
+            print(
+                f"{incident_id:<46} {len(pending['items']):>5}  {age(requested_at, now):>8}{late}"
+            )
         if not interactive(args):
             print("\nRe-run in a terminal to decide (Enter alone rejects).")
             return EXIT_OK

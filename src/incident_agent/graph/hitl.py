@@ -13,6 +13,7 @@ from typing import TYPE_CHECKING, Any
 from incident_agent.graph.state import ApprovalItem, IncidentState
 from incident_agent.mcp_client.schema import validate_args
 from incident_agent.models import ApprovalDecision
+from incident_agent.policy.approvals import expired
 from incident_agent.policy.risk import requires_diff
 
 if TYPE_CHECKING:
@@ -109,10 +110,20 @@ class ApprovalSession:
             "args": item["args"],
         }
 
+    @property
+    def is_expired(self) -> bool:
+        return expired(
+            self.pending["requested_at"],
+            self.runner.runtime.clock(),
+            self.runner.settings.approval_ttl_hours,
+        )
+
     def submit(self) -> IncidentState:
         for step_index in self.items:
             if step_index not in self.decisions:
                 self.decide(step_index, REJECTED)  # safe default
         decisions = [self.decisions[i] for i in sorted(self.decisions)]
+        if self.is_expired:  # BR-08: too late to approve; the executor will escalate
+            decisions = [{**d, "decision": "expired"} for d in decisions]
         self.runner.record_decisions(self.incident_id, decisions)
         return self.runner.resume(self.incident_id)
