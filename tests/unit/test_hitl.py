@@ -70,6 +70,7 @@ def test_approve_all_executes_and_resolves(runner, seeded):
     incident = runner.start("schema_drift")
     session = ApprovalSession(runner, incident, "ana")
     for idx in session.items:
+        session.render_diff(idx)  # alter_table is DESTRUCTIVE: diff must be shown (S38)
         session.decide(idx, APPROVED)
     final = session.submit()
     assert final["status"] == "RESOLVED"
@@ -153,3 +154,47 @@ def test_cli_without_seed_fails_clearly(settings, monkeypatch, capsys):
         monkeypatch.setenv(key, value)
     assert main(["approvals", "--no-input"]) == 1
     assert "run: python -m incident_agent.cli seed" in capsys.readouterr().err
+
+
+# -- S38 --------------------------------------------------------------------------------------
+
+
+def test_destructive_action_requires_diff_approval(runner, seeded):
+    from incident_agent.graph.hitl import DiffNotShownError
+
+    incident = runner.start("schema_drift")
+    session = ApprovalSession(runner, incident, "ana")
+    destructive, reversible = sorted(session.items)  # alter_table, rerun_job
+    with pytest.raises(DiffNotShownError):
+        session.decide(destructive, APPROVED)
+    session.decide(reversible, APPROVED)  # REVERSIBLE: one approval, no diff needed
+    diff = session.render_diff(destructive)
+    assert "+  loyalty_tier VARCHAR" in diff
+    assert any(line.startswith("-  created_at TIMESTAMP") for line in diff)
+    session.decide(destructive, APPROVED)
+    assert session.submit()["status"] == "RESOLVED"
+
+
+def test_editing_a_destructive_step_requires_rendering_the_new_diff(runner):
+    from incident_agent.graph.hitl import DiffNotShownError
+
+    incident = runner.start("late_data")
+    session = ApprovalSession(runner, incident, "ana")
+    idx = next(i for i, it in session.items.items() if it["tool"] == "backfill_partition")
+    session.render_diff(idx)
+    session.edit(idx, {"table": "events_daily", "partition": "dt=2026-10-17"})
+    with pytest.raises(DiffNotShownError):
+        session.decide(idx, APPROVED)
+    assert any("dt=2026-10-17" in line for line in session.render_diff(idx))
+    session.decide(idx, APPROVED)
+
+
+def test_diff_prompt_is_plain_text_with_no_color(runner, monkeypatch):
+    monkeypatch.setenv("NO_COLOR", "1")
+    incident = runner.start("late_data")
+    script = Script(["a"])
+    approve_interactively(runner, incident, "ana", script.ask, script.say)
+    text = "\n".join(script.output)
+    assert "Diff:" in text and "--- before" in text and "+++ after" in text
+    assert "\x1b[" not in text  # no ANSI colour codes
+    assert max(len(line) for line in text.splitlines()) <= 80

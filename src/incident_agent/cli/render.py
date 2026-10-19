@@ -104,19 +104,36 @@ def render_incident(values: dict[str, Any], verbose: bool = False) -> str:
     return "\n".join(out)
 
 
-def render_item(item: dict[str, Any]) -> str:
+def render_item(item: dict[str, Any], diff: list[str] | None = None) -> str:
+    """One gated step. DESTRUCTIVE steps are always followed by a diff block (design.md)."""
     lines = [
         f"  Step {item['step_index'] + 1}: {item['tool']} [{item['risk_tier']}]",
         wrap(f"Args: {json.dumps(item['args'], sort_keys=True)}", "    "),
     ]
     if item.get("rationale"):
         lines.append(wrap(f"Why: {item['rationale']}", "    "))
-    if item.get("before") or item.get("after"):
+    if diff is not None:
+        lines.append("    Diff:")
+        lines.extend(_block(diff))
+    elif item.get("before") or item.get("after"):
         lines.append("    Before:")
-        lines.extend(f"      {ln}" for ln in item.get("before", []))
+        lines.extend(_block(item.get("before", [])))
         lines.append("    After:")
-        lines.extend(f"      {ln}" for ln in item.get("after", []))
+        lines.extend(_block(item.get("after", [])))
     return "\n".join(lines)
+
+
+def _block(lines: list[str], indent: str = "      ") -> list[str]:
+    """Indent preview/diff lines, wrapping any that would pass 80 columns."""
+    out = []
+    for ln in lines:
+        if len(indent) + len(ln) <= WIDTH:
+            out.append(indent + ln)
+        else:
+            out.extend(
+                textwrap.wrap(ln, WIDTH, initial_indent=indent, subsequent_indent=indent + "    ")
+            )
+    return out
 
 
 def age(since_iso: str, now: datetime) -> str:

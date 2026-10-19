@@ -21,6 +21,7 @@ from incident_agent.cli.render import (
     render_incident,
     render_item,
     status_label,
+    wrap,
 )
 from incident_agent.config import ConfigError, Settings
 from incident_agent.graph.hitl import APPROVED, REJECTED, ApprovalSession, DecisionError
@@ -80,7 +81,9 @@ def approve_interactively(
     say(render_incident(session.values))
     for idx in sorted(session.items):
         while True:
-            say("\n" + render_item(session.item(idx)))
+            item = session.item(idx)
+            diff = session.render_diff(idx) if item["risk_tier"] == "DESTRUCTIVE" else None
+            say("\n" + render_item(item, diff))
             choice = parse_choice(ask(PROMPT))
             if choice == "approve":
                 session.decide(idx, APPROVED)
@@ -132,7 +135,7 @@ def cmd_run(args: argparse.Namespace, settings: Settings) -> int:
         print(f"Running {args.scenario} with model {runner.model.name} ...")
         incident_id = runner.start(args.scenario)
         values = runner.snapshot(incident_id).values
-        print(f"Nodes: {' > '.join(values.get('node_log', []))}")
+        print(wrap(f"Nodes: {' > '.join(values.get('node_log', []))}", ""))
         if values.get("pending_approval") and interactive(args):
             approve_interactively(runner, incident_id, args.approver or default_approver())
             return EXIT_OK

@@ -7,11 +7,13 @@ rejected: the safe default (design.md).
 
 from __future__ import annotations
 
+import difflib
 from typing import TYPE_CHECKING, Any
 
 from incident_agent.graph.state import ApprovalItem, IncidentState
 from incident_agent.mcp_client.schema import validate_args
 from incident_agent.models import ApprovalDecision
+from incident_agent.policy.risk import requires_diff
 
 if TYPE_CHECKING:
     from incident_agent.graph.runner import IncidentRunner
@@ -22,6 +24,18 @@ REJECTED = "rejected"
 
 class DecisionError(ValueError):
     """The decision cannot be accepted (no pending approval, bad args, missing approver...)."""
+
+
+class DiffNotShownError(DecisionError):
+    """A DESTRUCTIVE step was approved before its before/after diff was rendered (FR-08)."""
+
+
+def diff_lines(item: ApprovalItem) -> list[str]:
+    """Unified diff of the step's before/after preview (plain text, colour-free)."""
+    diff = difflib.unified_diff(
+        item.get("before", []), item.get("after", []), "before", "after", lineterm="", n=3
+    )
+    return list(diff) or ["(no change)"]
 
 
 class ApprovalSession:
@@ -40,6 +54,7 @@ class ApprovalSession:
             i["step_index"]: dict(i) for i in self.pending["items"]
         }
         self.decisions: dict[int, ApprovalDecision] = {}
+        self._diff_shown: set[int] = set()
 
     def item(self, step_index: int) -> ApprovalItem:
         try:
@@ -61,12 +76,30 @@ class ApprovalSession:
             "preview_write_action", {"tool": item["tool"], "args": args}, self.incident_id
         )
         item.update(args=args, before=preview["before"], after=preview["after"])
+        self._diff_shown.discard(step_index)  # the new diff must be shown before approval
         return item
+
+    def render_diff(self, step_index: int) -> list[str]:
+        """Return the diff for display and record that it was shown."""
+        lines = diff_lines(self.item(step_index))
+        self._diff_shown.add(step_index)
+        return lines
+
+    def diff_shown(self, step_index: int) -> bool:
+        return step_index in self._diff_shown
 
     def decide(self, step_index: int, decision: str) -> None:
         if decision not in (APPROVED, REJECTED):
             raise DecisionError(f"unknown decision {decision!r}")
         item = self.item(step_index)
+        if (
+            decision == APPROVED
+            and requires_diff(item["risk_tier"])
+            and not self.diff_shown(step_index)
+        ):
+            raise DiffNotShownError(
+                f"step {step_index + 1} ({item['tool']}) is DESTRUCTIVE: render its diff before approving"
+            )
         self.decisions[step_index] = {
             "approval_id": item["approval_id"],
             "step_index": step_index,

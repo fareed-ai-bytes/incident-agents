@@ -65,7 +65,8 @@ def register_metadata_tools(server: MCPServer, ctx: ServerContext) -> None:
             arrived = warehouse.partition_arrived(db, table, part)
             before = [f"{table} {part}: arrived={arrived}, rows=0"]
             after = [
-                f"{table} {part}: arrived=True, rows reloaded from s3://mock-bucket/events/",
+                f"{table} {part}: arrived=True, rows reloaded",
+                "source: s3://mock-bucket/events/",
                 f"existing rows in {part} are DELETED then re-inserted",
             ]
         elif tool == "resume_warehouse":
