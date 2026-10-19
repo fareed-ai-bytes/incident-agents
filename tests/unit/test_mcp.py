@@ -161,3 +161,75 @@ def test_write_tool_with_approval_records_audit_row(server, settings):
     assert [(r["action"], r["approver"], r["risk_tier"]) for r in rows] == [
         ("alter_table", "ana", "DESTRUCTIVE")
     ]
+
+
+# -- S12: client discovery --------------------------------------------------------------------
+
+
+@pytest.fixture
+def client(server):
+    from incident_agent.mcp_client import ToolClient
+
+    with ToolClient(server) as c:
+        yield c
+
+
+def test_mcp_tool_discovery(client):
+    specs = client.discover()
+    assert {"fetch_log_window", "compare_source_schema", "alter_table"} <= set(specs)
+    assert specs["alter_table"].risk_tier == "DESTRUCTIVE" and specs["alter_table"].is_write
+    assert specs["search_logs"].risk_tier == "READ" and not specs["search_logs"].is_write
+    assert "pattern" in specs["search_logs"].input_schema["properties"]
+
+
+def test_client_call_and_error_classification(client):
+    from incident_agent.errors import PermanentToolError, TransientToolError
+
+    out = client.call("get_pipeline_info", {"pipeline": "crm_customers_sync"})
+    assert out["table"] == "crm_customers"
+    with pytest.raises(TransientToolError):
+        client.call("get_job_status", {"pipeline": "inventory_glue_job", "incident_id": "INC-C"})
+    with pytest.raises(PermanentToolError):
+        client.call("get_pipeline_info", {"pipeline": "nope"})
+
+
+def test_scoped_tools_enforce_allow_list(client):
+    from incident_agent.errors import PermanentToolError
+
+    scoped = client.scoped({"search_logs"})
+    assert set(scoped.specs) == {"search_logs"}
+    with pytest.raises(PermanentToolError, match="allow-list"):
+        scoped.call("rerun_job", {"pipeline": "x", "incident_id": "y"})
+
+
+def test_model_schema_hides_injected_args_and_validates(client):
+    from incident_agent.mcp_client.schema import model_parameters, validate_args
+
+    spec = client.spec("alter_table")
+    params = model_parameters(spec)
+    assert "approver" not in params["properties"] and "incident_id" not in params["required"]
+    assert validate_args(spec, {"table": "t", "add_columns": []}) == []
+    errors = validate_args(spec, {"table": 3, "bogus": 1})
+    assert any("add_columns" in e for e in errors)
+    assert any("bogus" in e for e in errors)
+    assert any("'table'" in e for e in errors)
+
+
+def test_mcp_client_does_not_import_server_package():
+    from pathlib import Path
+
+    import incident_agent.mcp_client as pkg
+
+    for path in Path(pkg.__file__).parent.glob("*.py"):
+        assert "mcp_server" not in path.read_text(encoding="utf-8"), path
+
+
+def test_stdio_transport_discovers_tools(settings):
+    """Spawn the real server process over stdio, as production does."""
+    from incident_agent.mcp_client import ToolClient
+
+    warehouse.seed(settings.warehouse_db)
+    with ToolClient.from_settings(settings) as c:
+        assert "fetch_log_window" in c.discover()
+        out = c.call("search_logs", {"pipeline": "crm_customers_sync", "pattern": "loyalty_tier"})
+        assert out["hits"]
