@@ -23,7 +23,7 @@ from incident_agent.llm.base import ChatModel
 from incident_agent.log import get_logger
 from incident_agent.mcp_client import ToolClient
 from incident_agent.mocks.injector import inject
-from incident_agent.models import Alert
+from incident_agent.models import Alert, ApprovalDecision
 
 log = get_logger(__name__)
 
@@ -127,3 +127,18 @@ class IncidentRunner:
             raise IncidentNotFoundError(
                 f"no incident {incident_id!r} in {self.settings.checkpoint_db}"
             )
+
+    # -- approvals -----------------------------------------------------------------------
+
+    def record_decisions(self, incident_id: str, decisions: list[ApprovalDecision]) -> None:
+        """Write approval decisions into the halted thread's state (checkpointed)."""
+        self._require(incident_id)
+        self.graph.update_state(thread_config(incident_id), {"approvals": decisions})
+
+    def pending_incidents(self) -> list[str]:
+        """Incidents halted at the approval gate."""
+        return [
+            i
+            for i in self.incident_ids()
+            if tuple(self.graph.get_state(thread_config(i)).next) == ("execute",)
+        ]
