@@ -16,6 +16,7 @@ from incident_agent.graph.nodes.executor import make_execute_node
 from incident_agent.graph.nodes.fallback import make_fallback_node
 from incident_agent.graph.nodes.planner import make_planner_node
 from incident_agent.graph.nodes.triage import make_triage_node
+from incident_agent.graph.nodes.verify import make_route_after_verify, make_verify_node
 from incident_agent.graph.nodes.workers import make_worker_nodes
 from incident_agent.graph.routing import (
     EXECUTE,
@@ -24,6 +25,7 @@ from incident_agent.graph.routing import (
     PLANNER,
     REQUEST_APPROVAL,
     SUPERVISOR,
+    VERIFY,
     WORKERS,
     make_route_after_aggregate,
     route_after_execute,
@@ -54,6 +56,7 @@ def build_graph(
     g.add_node(REQUEST_APPROVAL, make_request_approval_node(rt, on_approval_request))
     g.add_node(EXECUTE, make_execute_node(rt, EXECUTE))
     g.add_node(EXECUTE_AUTO, make_execute_node(rt, EXECUTE_AUTO))
+    g.add_node(VERIFY, make_verify_node(rt))
     g.add_node(FALLBACK, make_fallback_node(rt.settings))
 
     g.add_edge(START, "triage")
@@ -69,7 +72,12 @@ def build_graph(
     g.add_conditional_edges(PLANNER, route_after_plan, [REQUEST_APPROVAL, EXECUTE_AUTO, FALLBACK])
     g.add_edge(REQUEST_APPROVAL, EXECUTE)
     for node in (EXECUTE, EXECUTE_AUTO):
-        g.add_conditional_edges(node, route_after_execute, {"verify": END, FALLBACK: FALLBACK})
+        g.add_conditional_edges(node, route_after_execute, [VERIFY, FALLBACK])
+    g.add_conditional_edges(
+        VERIFY,
+        make_route_after_verify(rt.settings.max_verify_attempts),
+        {END: END, SUPERVISOR: SUPERVISOR, FALLBACK: FALLBACK},
+    )
     g.add_edge(FALLBACK, END)
     gate = [EXECUTE] if interrupt_before is None else interrupt_before
     return g.compile(checkpointer=checkpointer, interrupt_before=gate)
