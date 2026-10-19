@@ -57,3 +57,24 @@ def test_messages_reducer_is_add_messages():
     hints = IncidentState.__annotations__
     assert "add_messages" in str(hints["messages"])
     assert "operator.add" in str(hints["findings"]) or "add" in str(hints["findings"])
+
+
+# -- S25: parallel fan-out + merge ------------------------------------------------------------
+
+
+def test_parallel_workers_findings_merge(runtime):
+    from langgraph.checkpoint.memory import InMemorySaver
+
+    from incident_agent.graph.builder import build_graph
+    from incident_agent.mocks.fixtures import load_alert
+
+    graph = build_graph(runtime, checkpointer=InMemorySaver())
+    cfg = {"configurable": {"thread_id": "INC-P"}}
+    out = graph.invoke(initial_state("INC-P", "schema_drift", load_alert("schema_drift")), cfg)
+    # One superstep scheduled both workers together (parallel fan-out)...
+    scheduled = [set(snap.next) for snap in graph.get_state_history(cfg)]
+    assert {"log_analyst", "schema_inspector"} in scheduled
+    # ...and the reducer kept both findings: nothing was overwritten.
+    workers = [f["worker"] for f in out["findings"]]
+    assert sorted(workers) == ["log_analyst", "schema_inspector"]
+    assert len(out["findings"]) == len(out["active_workers"])
