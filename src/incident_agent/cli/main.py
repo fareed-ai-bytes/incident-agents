@@ -1,6 +1,6 @@
 """Command-line interface: `python -m incident_agent.cli <command>`.
 
-Commands: seed, inject, run, approvals, show, resume. Every command prints a one-line state
+Commands: seed, inject, run, approvals, show, checkpoints, fork, resume. Every command prints a one-line state
 message, never empty output (design.md).
 """
 
@@ -25,7 +25,7 @@ from incident_agent.cli.render import (
 )
 from incident_agent.config import ConfigError, Settings
 from incident_agent.graph.hitl import APPROVED, REJECTED, ApprovalSession, DecisionError
-from incident_agent.graph.runner import IncidentNotFoundError, IncidentRunner
+from incident_agent.graph.runner import ForkError, IncidentNotFoundError, IncidentRunner
 from incident_agent.graph.runtime import utcnow
 from incident_agent.llm.base import ModelError
 from incident_agent.log import configure_logging
@@ -196,6 +196,45 @@ def cmd_resume(args: argparse.Namespace, settings: Settings) -> int:
     return EXIT_OK
 
 
+def cmd_checkpoints(args: argparse.Namespace, settings: Settings) -> int:
+    with open_runner(settings, args.model) as runner:
+        infos = runner.checkpoints(args.incident)
+        print(f"{len(infos)} checkpoints for {args.incident} (oldest first)")
+        print(f"{'#':>3}  {'checkpoint':<36}  {'step':>4}  {'next':<18} {'status':<16}")
+        for i, c in enumerate(infos):
+            nxt = ",".join(c.next) or "(end)"
+            print(f"{i:>3}  {c.checkpoint_id:<36}  {c.step:>4}  {nxt[:18]:<18} {c.status[:16]:<16}")
+        print(
+            "\nFork with: python -m incident_agent.cli fork <incident> <#|checkpoint> --category ..."
+        )
+    return EXIT_OK
+
+
+def cmd_fork(args: argparse.Namespace, settings: Settings) -> int:
+    with open_runner(settings, args.model) as runner:
+        checkpoint_id = runner.resolve_checkpoint(args.incident, args.checkpoint)
+        values = runner.graph.get_state(
+            {"configurable": {"thread_id": args.incident, "checkpoint_id": checkpoint_id}}
+        ).values
+        edits: dict = {}
+        if any(v is not None for v in (args.category, args.root_cause, args.confidence)):
+            diag = dict(values.get("diagnosis") or {})
+            if not diag:
+                print("[FAILED] that checkpoint has no diagnosis to edit", file=sys.stderr)
+                return EXIT_USAGE
+            if args.category:
+                diag["category"] = args.category.upper()
+            if args.root_cause:
+                diag["root_cause"] = args.root_cause
+            if args.confidence is not None:
+                diag["confidence"] = args.confidence
+            edits["diagnosis"] = diag
+        new_id = runner.fork(args.incident, checkpoint_id, edits)
+        print(f"[OK] Forked {args.incident} at {checkpoint_id} into {new_id}")
+        print(render_incident(runner.snapshot(new_id).values, verbose=args.verbose))
+    return EXIT_OK
+
+
 # -- parser -----------------------------------------------------------------------------------
 
 
@@ -239,6 +278,18 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("incident")
     runner_opts(p)
 
+    p = add("checkpoints", cmd_checkpoints, "list an incident's checkpoints (time travel)")
+    p.add_argument("incident")
+    runner_opts(p)
+
+    p = add("fork", cmd_fork, "re-run an incident from a past checkpoint with edited state")
+    p.add_argument("incident")
+    p.add_argument("checkpoint", help="checkpoint id, unique prefix, or # from `checkpoints`")
+    p.add_argument("--category", help="edited diagnosis category (e.g. WAREHOUSE_UNAVAILABLE)")
+    p.add_argument("--root-cause", help="edited diagnosis root cause")
+    p.add_argument("--confidence", type=float, help="edited diagnosis confidence")
+    runner_opts(p)
+
     p = add("resume", cmd_resume, "resume an incident interrupted by a crash")
     p.add_argument("incident")
     runner_opts(p)
@@ -252,7 +303,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         settings = Settings.from_env()
         return args.func(args, settings)
-    except (ConfigError, IncidentNotFoundError, DecisionError, ModelError) as exc:
+    except (ConfigError, IncidentNotFoundError, DecisionError, ForkError, ModelError) as exc:
         print(f"[FAILED] {exc}", file=sys.stderr)
         return EXIT_ERROR
 

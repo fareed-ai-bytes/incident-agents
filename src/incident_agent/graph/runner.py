@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import sqlite3
 from collections.abc import Callable, Iterator
+from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
 
@@ -150,3 +151,84 @@ class IncidentRunner:
             ) == ("execute",):
                 out.append(incident_id)
         return out
+
+    # -- time travel (S40) ---------------------------------------------------------------
+
+    def checkpoints(self, incident_id: str) -> list[CheckpointInfo]:
+        """Every checkpoint of an incident, oldest first."""
+        infos = []
+        for snap in self.history(incident_id):
+            values = snap.values or {}
+            diag = values.get("diagnosis") or {}
+            infos.append(
+                CheckpointInfo(
+                    checkpoint_id=snap.config["configurable"]["checkpoint_id"],
+                    step=snap.metadata.get("step", -1) if snap.metadata else -1,
+                    next=tuple(snap.next),
+                    status=values.get("status", ""),
+                    category=diag.get("category", ""),
+                    created_at=snap.created_at or "",
+                )
+            )
+        return list(reversed(infos))
+
+    def resolve_checkpoint(self, incident_id: str, ref: str) -> str:
+        """Accept a full checkpoint id, a unique prefix, or a list index from `checkpoints`."""
+        infos = self.checkpoints(incident_id)
+        if ref.isdigit() and int(ref) < len(infos):
+            return infos[int(ref)].checkpoint_id
+        matches = [c.checkpoint_id for c in infos if c.checkpoint_id.startswith(ref)]
+        if len(matches) != 1:
+            raise ForkError(
+                f"checkpoint {ref!r} matches {len(matches)} checkpoints of {incident_id}"
+            )
+        return matches[0]
+
+    def fork(self, incident_id: str, checkpoint_ref: str, edits: dict[str, Any]) -> str:
+        """Copy the state at a past checkpoint into a NEW incident, apply `edits`, and run it.
+
+        The original incident's history is never modified.
+        """
+        checkpoint_id = self.resolve_checkpoint(incident_id, checkpoint_ref)
+        snap = self.graph.get_state(thread_config(incident_id, checkpoint_id))
+        if not snap.next:
+            raise ForkError("cannot fork from a final checkpoint")
+        as_node = FORK_AS_NODE.get(snap.next[0])
+        if as_node is None:
+            raise ForkError(
+                f"fork from a checkpoint whose next node is one of {', '.join(FORK_AS_NODE)} "
+                f"(this one is before {snap.next[0]})"
+            )
+        n = 1
+        while self.exists(f"{incident_id}-fork{n}"):
+            n += 1
+        new_id = f"{incident_id}-fork{n}"
+        values = {**snap.values, **edits, "incident_id": new_id}
+        self.graph.update_state(thread_config(new_id), values, as_node=as_node)
+        log.info("forked %s@%s into %s (as %s)", incident_id, checkpoint_id, new_id, as_node)
+        self.graph.invoke(None, thread_config(new_id))
+        return new_id
+
+
+class ForkError(ValueError):
+    pass
+
+
+# Node whose completion a fork impersonates, keyed by the checkpoint's next node.
+FORK_AS_NODE = {
+    "planner": "aggregate",
+    "request_approval": "planner",
+    "execute_auto": "planner",
+    "execute": "request_approval",
+    "verify": "execute",
+}
+
+
+@dataclass(frozen=True)
+class CheckpointInfo:
+    checkpoint_id: str
+    step: int
+    next: tuple[str, ...]
+    status: str
+    category: str
+    created_at: str
