@@ -116,3 +116,48 @@ def test_schema_preview_alter_table_shows_before_and_after(server):
     assert not err
     assert not any("loyalty_tier" in line for line in out["before"])
     assert any("loyalty_tier" in line for line in out["after"])
+
+
+# -- S11: write tools + risk tiers ------------------------------------------------------------
+
+
+def test_write_every_tool_carries_a_risk_tier(server):
+    tools = raw_tools(server)
+    missing = [name for name, t in tools.items() if (t.meta or {}).get("risk_tier") is None]
+    assert missing == []
+    tiers = {name: t.meta["risk_tier"] for name, t in tools.items()}
+    assert tiers["get_job_status"] == "READ"
+    assert tiers["rerun_job"] == "REVERSIBLE"
+    assert tiers["alter_table"] == tiers["backfill_partition"] == "DESTRUCTIVE"
+
+
+def test_write_tools_refuse_without_approval(server, settings):
+    from incident_agent.mocks.job_runner import FakeJobRunner
+
+    err, msg = raw_call(
+        server, "rerun_job", {"pipeline": "orders_warehouse_load", "incident_id": "INC-W"}
+    )
+    assert err and "[permanent]" in msg and "approval" in msg
+    assert FakeJobRunner(settings.audit_db).audit_rows("INC-W") == []
+
+
+def test_write_tool_with_approval_records_audit_row(server, settings):
+    from incident_agent.mocks.job_runner import FakeJobRunner
+
+    err, out = raw_call(
+        server,
+        "alter_table",
+        {
+            "table": "crm_customers",
+            "add_columns": [{"name": "loyalty_tier", "type": "VARCHAR"}],
+            "incident_id": "INC-W",
+            "approver": "ana",
+            "approval_id": "AP-1",
+            "step_index": 0,
+        },
+    )
+    assert not err and out["status"] == "SUCCEEDED"
+    rows = FakeJobRunner(settings.audit_db).audit_rows("INC-W")
+    assert [(r["action"], r["approver"], r["risk_tier"]) for r in rows] == [
+        ("alter_table", "ana", "DESTRUCTIVE")
+    ]
