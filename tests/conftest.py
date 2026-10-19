@@ -36,3 +36,11 @@ def client(server):
 
     with ToolClient(server) as c:
         yield c
+
+
+@pytest.fixture
+def runtime(seeded: Settings, client):
+    from incident_agent.graph.runtime import Runtime
+    from incident_agent.llm.heuristic import HeuristicModel
+
+    return Runtime(settings=seeded, model=HeuristicModel(), tools=client)

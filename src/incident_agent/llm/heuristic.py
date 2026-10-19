@@ -74,6 +74,15 @@ def _call(name: str, args: dict[str, Any], thought: str = "") -> ChatMessage:
     }
 
 
+_TRIAGE_RULES: list[tuple[re.Pattern[str], str]] = [
+    (re.compile(r"invalid identifier|column .* not found|schema", re.I), "SCHEMA_DRIFT"),
+    (re.compile(r"authenticat|credential|password|login", re.I), "AUTH_FAILURE"),
+    (re.compile(r"suspended|warehouse .* unavailable", re.I), "WAREHOUSE_UNAVAILABLE"),
+    (re.compile(r"freshness|partition .* missing|late (data|arrival)", re.I), "LATE_DATA"),
+    (re.compile(r"connection reset|timed out|timeout|network", re.I), "TRANSIENT_NETWORK"),
+]
+
+
 class HeuristicModel:
     name = "heuristic"
 
@@ -88,6 +97,18 @@ class HeuristicModel:
         if handler is None:
             return {"role": "assistant", "content": "{}"}
         return handler(messages)
+
+    # -- Triage ---------------------------------------------------------------------------
+
+    def _triage(self, messages: list[ChatMessage]) -> ChatMessage:
+        text = messages[-1]["content"]
+        try:
+            alert = json.loads(text.split("Alert:", 1)[1])
+            text = f"{alert.get('summary', '')} {alert.get('message', '')}"
+        except (IndexError, ValueError, AttributeError):
+            pass
+        label = next((t for rx, t in _TRIAGE_RULES if rx.search(text)), "UNKNOWN")
+        return {"role": "assistant", "content": json.dumps({"alert_type": label})}
 
     # -- Log Analyst ------------------------------------------------------------------------
 
