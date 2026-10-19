@@ -12,6 +12,7 @@ from langgraph.graph import END, START, StateGraph
 
 from incident_agent.graph.nodes.aggregate import aggregate
 from incident_agent.graph.nodes.fallback import make_fallback_node
+from incident_agent.graph.nodes.planner import make_planner_node
 from incident_agent.graph.nodes.triage import make_triage_node
 from incident_agent.graph.nodes.workers import make_worker_nodes
 from incident_agent.graph.routing import (
@@ -35,6 +36,7 @@ def build_graph(rt: Runtime, checkpointer: Any = None, interrupt_before: list[st
     for name, node in make_worker_nodes(rt).items():
         g.add_node(name, node)
     g.add_node("aggregate", aggregate)
+    g.add_node(PLANNER, make_planner_node(rt))
     g.add_node(FALLBACK, make_fallback_node(rt.settings))
 
     g.add_edge(START, "triage")
@@ -45,7 +47,10 @@ def build_graph(rt: Runtime, checkpointer: Any = None, interrupt_before: list[st
     g.add_conditional_edges(
         "aggregate",
         make_route_after_aggregate(rt.settings.confidence_threshold),
-        {PLANNER: END, FALLBACK: FALLBACK},
+        [PLANNER, FALLBACK],
+    )
+    g.add_conditional_edges(
+        PLANNER, lambda s: FALLBACK if s.get("plan_error") else END, [FALLBACK, END]
     )
     g.add_edge(FALLBACK, END)
     return g.compile(checkpointer=checkpointer, interrupt_before=interrupt_before or [])

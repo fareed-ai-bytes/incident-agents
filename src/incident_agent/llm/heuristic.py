@@ -169,3 +169,86 @@ class HeuristicModel:
             },
             "The error line and its context agree.",
         )
+
+    # -- Planner ----------------------------------------------------------------------------
+
+    def _planner(self, messages: list[ChatMessage]) -> ChatMessage:
+        user = next(m["content"] for m in messages if m["role"] == "user")
+        diag_text, ctx_text = user.split("Context (from READ tools):", 1)
+        diagnosis = json.loads(diag_text.split("Diagnosis:", 1)[1])
+        context = json.loads(ctx_text)
+        steps = playbook(diagnosis["category"], context)
+        return {"role": "assistant", "content": json.dumps({"steps": steps})}
+
+
+def playbook(category: str, context: dict[str, Any]) -> list[dict[str, Any]]:
+    """Standard remediation for each failure type (what an experienced on-call would do)."""
+    info = context.get("pipeline_info", {})
+    pipeline = info.get("pipeline", "")
+    health = {
+        "tool": "check_pipeline_health",
+        "args": {"pipeline": pipeline},
+        "rationale": "confirm the fix",
+    }
+    rerun = {
+        "tool": "rerun_job",
+        "args": {"pipeline": pipeline},
+        "rationale": "reload with the fix in place",
+    }
+    if category == "SCHEMA_DRIFT":
+        added = context.get("schema_diff", {}).get("added", [])
+        return [
+            {
+                "tool": "alter_table",
+                "args": {"table": info.get("table", ""), "add_columns": added},
+                "rationale": "add the columns the source started sending",
+            },
+            rerun,
+            health,
+        ]
+    if category == "AUTH_FAILURE":
+        return [
+            {
+                "tool": "rotate_credentials",
+                "args": {"connector_user": info.get("connector_user", "")},
+                "rationale": "the service user's password expired",
+            },
+            rerun,
+            health,
+        ]
+    if category == "WAREHOUSE_UNAVAILABLE":
+        return [
+            {
+                "tool": "get_warehouse_status",
+                "args": {"warehouse_name": info.get("warehouse", "")},
+                "rationale": "confirm the warehouse is still suspended",
+            },
+            {
+                "tool": "resume_warehouse",
+                "args": {"warehouse_name": info.get("warehouse", "")},
+                "rationale": "resume the suspended warehouse",
+            },
+            rerun,
+            health,
+        ]
+    if category == "LATE_DATA":
+        part = {"table": info.get("table", ""), "partition": info.get("partition", "")}
+        return [
+            {
+                "tool": "check_partition_arrival",
+                "args": part,
+                "rationale": "has the partition landed now?",
+            },
+            {"tool": "backfill_partition", "args": part, "rationale": "reload the late partition"},
+            health,
+        ]
+    if category == "TRANSIENT_NETWORK":
+        return [
+            {
+                "tool": "get_job_status",
+                "args": {"pipeline": pipeline},
+                "rationale": "the scheduler retries transient failures; confirm the retry succeeded",
+            },
+            health,
+        ]
+    return []
