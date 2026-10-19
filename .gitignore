@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Runtime state (SQLite checkpoints, audit DB, DuckDB warehouse)
+var/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite-*
+*.db
+
+# Secrets
+.env

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incident-agent"
+version = "0.1.0"
+description = "Multi-agent LangGraph system that triages, diagnoses and remediates failed data-pipeline loads on local models, with human approval for every write."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Fareed" }]
+dependencies = [
+    "langgraph==1.2.16",
+    "langgraph-checkpoint-sqlite==3.1.2",
+    "langchain-core==1.6.12",
+    "mcp==2.3.0",
+    "duckdb==1.5.6",
+    "pydantic==2.14.1",
+    "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.17.1"]
+
+[project.scripts]
+incident-agent = "incident_agent.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+incident_agent = ["mocks/fixtures/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "real_model: needs a running local Ollama model (skipped unless RUN_REAL_MODEL=1)",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".venv", "var"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM", "T20"]
+
+[tool.ruff.lint.per-file-ignores]
+# print() is allowed only in the CLI and in standalone scripts (rules.md).
+"src/incident_agent/cli/**" = ["T20"]
+"scripts/**" = ["T20"]
