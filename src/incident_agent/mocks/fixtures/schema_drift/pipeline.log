@@ -1,0 +1,1200 @@
+2026-10-18T02:00:00.500Z INFO  [loader] staged batch 492 to @RAW_STAGE/crm_customers_sync/ (1432 rows)
+2026-10-18T02:00:01.000Z INFO  [extract] fetched page 120 from source (692 rows)
+2026-10-18T02:00:01.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:00:02.000Z INFO  [loader] staged batch 425 to @RAW_STAGE/crm_customers_sync/ (3357 rows)
+2026-10-18T02:00:02.500Z INFO  [loader] staged batch 124 to @RAW_STAGE/crm_customers_sync/ (4088 rows)
+2026-10-18T02:00:03.000Z INFO  [loader] staged batch 363 to @RAW_STAGE/crm_customers_sync/ (4206 rows)
+2026-10-18T02:00:03.500Z INFO  [monitor] throughput 1403 rows/min
+2026-10-18T02:00:04.000Z INFO  [transform] applied 243 column mappings for crm_customers
+2026-10-18T02:00:04.500Z INFO  [extract] fetched page 453 from source (470 rows)
+2026-10-18T02:00:05.000Z INFO  [extract] fetched page 474 from source (2100 rows)
+2026-10-18T02:00:05.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:06.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:06.500Z INFO  [loader] staged batch 70 to @RAW_STAGE/crm_customers_sync/ (375 rows)
+2026-10-18T02:00:07.000Z INFO  [loader] staged batch 366 to @RAW_STAGE/crm_customers_sync/ (4163 rows)
+2026-10-18T02:00:07.500Z INFO  [transform] applied 173 column mappings for crm_customers
+2026-10-18T02:00:08.000Z INFO  [extract] fetched page 147 from source (3950 rows)
+2026-10-18T02:00:08.500Z INFO  [transform] applied 211 column mappings for crm_customers
+2026-10-18T02:00:09.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:09.500Z INFO  [extract] fetched page 355 from source (921 rows)
+2026-10-18T02:00:10.000Z INFO  [transform] applied 432 column mappings for crm_customers
+2026-10-18T02:00:10.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:11.000Z INFO  [monitor] throughput 1195 rows/min
+2026-10-18T02:00:11.500Z INFO  [warehouse] TRANSFORM_WH credit usage 13 units this hour
+2026-10-18T02:00:12.000Z INFO  [loader] staged batch 203 to @RAW_STAGE/crm_customers_sync/ (1843 rows)
+2026-10-18T02:00:12.500Z INFO  [extract] fetched page 146 from source (1714 rows)
+2026-10-18T02:00:13.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:13.500Z INFO  [warehouse] TRANSFORM_WH credit usage 357 units this hour
+2026-10-18T02:00:14.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:14.500Z INFO  [warehouse] TRANSFORM_WH credit usage 448 units this hour
+2026-10-18T02:00:15.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:15.500Z INFO  [loader] staged batch 283 to @RAW_STAGE/crm_customers_sync/ (3110 rows)
+2026-10-18T02:00:16.000Z INFO  [monitor] throughput 1660 rows/min
+2026-10-18T02:00:16.500Z INFO  [monitor] throughput 1709 rows/min
+2026-10-18T02:00:17.000Z INFO  [loader] staged batch 160 to @RAW_STAGE/crm_customers_sync/ (865 rows)
+2026-10-18T02:00:17.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:18.000Z INFO  [transform] applied 337 column mappings for crm_customers
+2026-10-18T02:00:18.500Z INFO  [loader] staged batch 410 to @RAW_STAGE/crm_customers_sync/ (4557 rows)
+2026-10-18T02:00:19.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:19.500Z INFO  [loader] staged batch 122 to @RAW_STAGE/crm_customers_sync/ (1987 rows)
+2026-10-18T02:00:20.000Z INFO  [transform] applied 121 column mappings for crm_customers
+2026-10-18T02:00:20.500Z INFO  [warehouse] TRANSFORM_WH credit usage 347 units this hour
+2026-10-18T02:00:21.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:21.500Z INFO  [extract] fetched page 300 from source (2753 rows)
+2026-10-18T02:00:22.000Z INFO  [extract] fetched page 450 from source (3765 rows)
+2026-10-18T02:00:22.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:23.000Z INFO  [extract] fetched page 114 from source (815 rows)
+2026-10-18T02:00:23.500Z INFO  [loader] staged batch 390 to @RAW_STAGE/crm_customers_sync/ (1789 rows)
+2026-10-18T02:00:24.000Z INFO  [loader] staged batch 126 to @RAW_STAGE/crm_customers_sync/ (4093 rows)
+2026-10-18T02:00:24.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:25.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:25.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:26.000Z INFO  [transform] applied 497 column mappings for crm_customers
+2026-10-18T02:00:26.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:27.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:27.500Z INFO  [extract] fetched page 90 from source (3163 rows)
+2026-10-18T02:00:28.000Z INFO  [monitor] throughput 1955 rows/min
+2026-10-18T02:00:28.500Z INFO  [transform] applied 247 column mappings for crm_customers
+2026-10-18T02:00:29.000Z INFO  [loader] staged batch 38 to @RAW_STAGE/crm_customers_sync/ (2227 rows)
+2026-10-18T02:00:29.500Z WARN  [extract] source returned HTTP 429, backing off 1s (recovered)
+2026-10-18T02:00:30.000Z INFO  [loader] staged batch 154 to @RAW_STAGE/crm_customers_sync/ (1362 rows)
+2026-10-18T02:00:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 7 units this hour
+2026-10-18T02:00:31.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:31.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:32.000Z INFO  [loader] staged batch 346 to @RAW_STAGE/crm_customers_sync/ (1272 rows)
+2026-10-18T02:00:32.500Z INFO  [transform] applied 355 column mappings for crm_customers
+2026-10-18T02:00:33.000Z INFO  [warehouse] TRANSFORM_WH credit usage 485 units this hour
+2026-10-18T02:00:33.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:34.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:34.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:35.000Z INFO  [transform] applied 47 column mappings for crm_customers
+2026-10-18T02:00:35.500Z INFO  [warehouse] TRANSFORM_WH credit usage 215 units this hour
+2026-10-18T02:00:36.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:36.500Z INFO  [loader] staged batch 324 to @RAW_STAGE/crm_customers_sync/ (3773 rows)
+2026-10-18T02:00:37.000Z INFO  [transform] applied 157 column mappings for crm_customers
+2026-10-18T02:00:37.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:38.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:38.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:39.000Z INFO  [loader] staged batch 254 to @RAW_STAGE/crm_customers_sync/ (3569 rows)
+2026-10-18T02:00:39.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:40.000Z INFO  [loader] staged batch 386 to @RAW_STAGE/crm_customers_sync/ (4557 rows)
+2026-10-18T02:00:40.500Z INFO  [loader] staged batch 266 to @RAW_STAGE/crm_customers_sync/ (175 rows)
+2026-10-18T02:00:41.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:41.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:00:42.000Z INFO  [transform] applied 356 column mappings for crm_customers
+2026-10-18T02:00:42.500Z INFO  [extract] fetched page 28 from source (1126 rows)
+2026-10-18T02:00:43.000Z INFO  [transform] applied 233 column mappings for crm_customers
+2026-10-18T02:00:43.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:44.000Z INFO  [extract] fetched page 207 from source (2699 rows)
+2026-10-18T02:00:44.500Z INFO  [warehouse] TRANSFORM_WH credit usage 474 units this hour
+2026-10-18T02:00:45.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:45.500Z INFO  [loader] staged batch 325 to @RAW_STAGE/crm_customers_sync/ (2166 rows)
+2026-10-18T02:00:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 66 units this hour
+2026-10-18T02:00:46.500Z INFO  [monitor] throughput 332 rows/min
+2026-10-18T02:00:47.000Z INFO  [extract] fetched page 339 from source (3634 rows)
+2026-10-18T02:00:47.500Z INFO  [warehouse] TRANSFORM_WH credit usage 185 units this hour
+2026-10-18T02:00:48.000Z INFO  [transform] applied 289 column mappings for crm_customers
+2026-10-18T02:00:48.500Z INFO  [warehouse] TRANSFORM_WH credit usage 268 units this hour
+2026-10-18T02:00:49.000Z INFO  [loader] staged batch 383 to @RAW_STAGE/crm_customers_sync/ (3137 rows)
+2026-10-18T02:00:49.500Z INFO  [warehouse] TRANSFORM_WH credit usage 449 units this hour
+2026-10-18T02:00:50.000Z INFO  [extract] fetched page 293 from source (3056 rows)
+2026-10-18T02:00:50.500Z INFO  [loader] staged batch 37 to @RAW_STAGE/crm_customers_sync/ (2348 rows)
+2026-10-18T02:00:51.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:51.500Z INFO  [loader] staged batch 111 to @RAW_STAGE/crm_customers_sync/ (4474 rows)
+2026-10-18T02:00:52.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:52.500Z INFO  [warehouse] TRANSFORM_WH credit usage 424 units this hour
+2026-10-18T02:00:53.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:53.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:00:54.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:54.500Z INFO  [extract] fetched page 7 from source (2466 rows)
+2026-10-18T02:00:55.000Z INFO  [extract] fetched page 25 from source (4103 rows)
+2026-10-18T02:00:55.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 355 units this hour
+2026-10-18T02:00:56.500Z INFO  [warehouse] TRANSFORM_WH credit usage 285 units this hour
+2026-10-18T02:00:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 87 units this hour
+2026-10-18T02:00:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 474 units this hour
+2026-10-18T02:00:58.000Z INFO  [loader] staged batch 270 to @RAW_STAGE/crm_customers_sync/ (2336 rows)
+2026-10-18T02:00:58.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:59.000Z INFO  [warehouse] TRANSFORM_WH credit usage 423 units this hour
+2026-10-18T02:00:59.500Z INFO  [monitor] throughput 2520 rows/min
+2026-10-18T02:01:00.000Z INFO  [extract] fetched page 415 from source (4364 rows)
+2026-10-18T02:01:00.500Z INFO  [extract] fetched page 361 from source (2510 rows)
+2026-10-18T02:01:01.000Z INFO  [monitor] throughput 2533 rows/min
+2026-10-18T02:01:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 495 units this hour
+2026-10-18T02:01:02.000Z INFO  [monitor] throughput 4680 rows/min
+2026-10-18T02:01:02.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:03.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:03.500Z INFO  [loader] staged batch 232 to @RAW_STAGE/crm_customers_sync/ (4987 rows)
+2026-10-18T02:01:04.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:04.500Z INFO  [loader] staged batch 485 to @RAW_STAGE/crm_customers_sync/ (547 rows)
+2026-10-18T02:01:05.000Z INFO  [warehouse] TRANSFORM_WH credit usage 190 units this hour
+2026-10-18T02:01:05.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:06.000Z INFO  [loader] staged batch 148 to @RAW_STAGE/crm_customers_sync/ (3828 rows)
+2026-10-18T02:01:06.500Z INFO  [transform] applied 181 column mappings for crm_customers
+2026-10-18T02:01:07.000Z INFO  [monitor] throughput 3652 rows/min
+2026-10-18T02:01:07.500Z INFO  [transform] applied 320 column mappings for crm_customers
+2026-10-18T02:01:08.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:01:08.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:09.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:09.500Z INFO  [extract] fetched page 498 from source (2597 rows)
+2026-10-18T02:01:10.000Z INFO  [extract] fetched page 479 from source (261 rows)
+2026-10-18T02:01:10.500Z INFO  [monitor] throughput 3198 rows/min
+2026-10-18T02:01:11.000Z INFO  [extract] fetched page 300 from source (1936 rows)
+2026-10-18T02:01:11.500Z INFO  [warehouse] TRANSFORM_WH credit usage 411 units this hour
+2026-10-18T02:01:12.000Z INFO  [monitor] throughput 3122 rows/min
+2026-10-18T02:01:12.500Z INFO  [monitor] throughput 2990 rows/min
+2026-10-18T02:01:13.000Z INFO  [extract] fetched page 489 from source (190 rows)
+2026-10-18T02:01:13.500Z INFO  [monitor] throughput 756 rows/min
+2026-10-18T02:01:14.000Z INFO  [transform] applied 288 column mappings for crm_customers
+2026-10-18T02:01:14.500Z INFO  [loader] staged batch 139 to @RAW_STAGE/crm_customers_sync/ (1486 rows)
+2026-10-18T02:01:15.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:15.500Z INFO  [extract] fetched page 157 from source (1049 rows)
+2026-10-18T02:01:16.000Z INFO  [extract] fetched page 357 from source (1217 rows)
+2026-10-18T02:01:16.500Z INFO  [extract] fetched page 126 from source (4900 rows)
+2026-10-18T02:01:17.000Z INFO  [loader] staged batch 55 to @RAW_STAGE/crm_customers_sync/ (2870 rows)
+2026-10-18T02:01:17.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:18.000Z INFO  [extract] fetched page 353 from source (1875 rows)
+2026-10-18T02:01:18.500Z INFO  [loader] staged batch 405 to @RAW_STAGE/crm_customers_sync/ (2868 rows)
+2026-10-18T02:01:19.000Z INFO  [loader] staged batch 74 to @RAW_STAGE/crm_customers_sync/ (3040 rows)
+2026-10-18T02:01:19.500Z INFO  [loader] staged batch 465 to @RAW_STAGE/crm_customers_sync/ (1106 rows)
+2026-10-18T02:01:20.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:20.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:21.000Z INFO  [monitor] throughput 1153 rows/min
+2026-10-18T02:01:21.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:22.000Z INFO  [extract] fetched page 372 from source (1241 rows)
+2026-10-18T02:01:22.500Z INFO  [loader] staged batch 67 to @RAW_STAGE/crm_customers_sync/ (1570 rows)
+2026-10-18T02:01:23.000Z INFO  [extract] fetched page 98 from source (3838 rows)
+2026-10-18T02:01:23.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:24.000Z INFO  [loader] staged batch 262 to @RAW_STAGE/crm_customers_sync/ (2156 rows)
+2026-10-18T02:01:24.500Z INFO  [warehouse] TRANSFORM_WH credit usage 3 units this hour
+2026-10-18T02:01:25.000Z INFO  [warehouse] TRANSFORM_WH credit usage 139 units this hour
+2026-10-18T02:01:25.500Z INFO  [transform] applied 20 column mappings for crm_customers
+2026-10-18T02:01:26.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:26.500Z INFO  [extract] fetched page 486 from source (782 rows)
+2026-10-18T02:01:27.000Z INFO  [transform] applied 38 column mappings for crm_customers
+2026-10-18T02:01:27.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:28.000Z INFO  [transform] applied 365 column mappings for crm_customers
+2026-10-18T02:01:28.500Z INFO  [monitor] throughput 1105 rows/min
+2026-10-18T02:01:29.000Z INFO  [loader] staged batch 254 to @RAW_STAGE/crm_customers_sync/ (4418 rows)
+2026-10-18T02:01:29.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:30.000Z INFO  [transform] applied 96 column mappings for crm_customers
+2026-10-18T02:01:30.500Z INFO  [transform] applied 34 column mappings for crm_customers
+2026-10-18T02:01:31.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:31.500Z INFO  [warehouse] TRANSFORM_WH credit usage 27 units this hour
+2026-10-18T02:01:32.000Z INFO  [extract] fetched page 319 from source (693 rows)
+2026-10-18T02:01:32.500Z INFO  [monitor] throughput 4261 rows/min
+2026-10-18T02:01:33.000Z INFO  [extract] fetched page 283 from source (3853 rows)
+2026-10-18T02:01:33.500Z INFO  [monitor] throughput 4093 rows/min
+2026-10-18T02:01:34.000Z INFO  [monitor] throughput 251 rows/min
+2026-10-18T02:01:34.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:35.000Z INFO  [monitor] throughput 1347 rows/min
+2026-10-18T02:01:35.500Z INFO  [transform] applied 271 column mappings for crm_customers
+2026-10-18T02:01:36.000Z INFO  [warehouse] TRANSFORM_WH credit usage 438 units this hour
+2026-10-18T02:01:36.500Z INFO  [monitor] throughput 3700 rows/min
+2026-10-18T02:01:37.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:37.500Z INFO  [extract] fetched page 457 from source (3548 rows)
+2026-10-18T02:01:38.000Z INFO  [extract] fetched page 19 from source (2429 rows)
+2026-10-18T02:01:38.500Z INFO  [transform] applied 294 column mappings for crm_customers
+2026-10-18T02:01:39.000Z INFO  [extract] fetched page 157 from source (3767 rows)
+2026-10-18T02:01:39.500Z INFO  [extract] fetched page 240 from source (1013 rows)
+2026-10-18T02:01:40.000Z INFO  [warehouse] TRANSFORM_WH credit usage 194 units this hour
+2026-10-18T02:01:40.500Z INFO  [loader] staged batch 52 to @RAW_STAGE/crm_customers_sync/ (2870 rows)
+2026-10-18T02:01:41.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:41.500Z INFO  [warehouse] TRANSFORM_WH credit usage 127 units this hour
+2026-10-18T02:01:42.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:42.500Z INFO  [extract] fetched page 57 from source (4769 rows)
+2026-10-18T02:01:43.000Z INFO  [warehouse] TRANSFORM_WH credit usage 193 units this hour
+2026-10-18T02:01:43.500Z INFO  [transform] applied 163 column mappings for crm_customers
+2026-10-18T02:01:44.000Z INFO  [monitor] throughput 2430 rows/min
+2026-10-18T02:01:44.500Z INFO  [monitor] throughput 4710 rows/min
+2026-10-18T02:01:45.000Z INFO  [transform] applied 319 column mappings for crm_customers
+2026-10-18T02:01:45.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:46.000Z INFO  [loader] staged batch 337 to @RAW_STAGE/crm_customers_sync/ (4198 rows)
+2026-10-18T02:01:46.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:47.000Z INFO  [monitor] throughput 3526 rows/min
+2026-10-18T02:01:47.500Z INFO  [extract] fetched page 274 from source (4089 rows)
+2026-10-18T02:01:48.000Z INFO  [extract] fetched page 296 from source (4015 rows)
+2026-10-18T02:01:48.500Z INFO  [transform] applied 179 column mappings for crm_customers
+2026-10-18T02:01:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 248 units this hour
+2026-10-18T02:01:49.500Z INFO  [warehouse] TRANSFORM_WH credit usage 486 units this hour
+2026-10-18T02:01:50.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:50.500Z INFO  [transform] applied 381 column mappings for crm_customers
+2026-10-18T02:01:51.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:51.500Z INFO  [monitor] throughput 4673 rows/min
+2026-10-18T02:01:52.000Z INFO  [transform] applied 344 column mappings for crm_customers
+2026-10-18T02:01:52.500Z INFO  [monitor] throughput 3724 rows/min
+2026-10-18T02:01:53.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:53.500Z INFO  [transform] applied 215 column mappings for crm_customers
+2026-10-18T02:01:54.000Z INFO  [extract] fetched page 287 from source (4379 rows)
+2026-10-18T02:01:54.500Z INFO  [monitor] throughput 1371 rows/min
+2026-10-18T02:01:55.000Z INFO  [transform] applied 201 column mappings for crm_customers
+2026-10-18T02:01:55.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:56.000Z INFO  [extract] fetched page 455 from source (4887 rows)
+2026-10-18T02:01:56.500Z INFO  [loader] staged batch 246 to @RAW_STAGE/crm_customers_sync/ (3877 rows)
+2026-10-18T02:01:57.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:01:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 30 units this hour
+2026-10-18T02:01:58.000Z INFO  [loader] staged batch 221 to @RAW_STAGE/crm_customers_sync/ (3532 rows)
+2026-10-18T02:01:58.500Z INFO  [extract] fetched page 189 from source (3214 rows)
+2026-10-18T02:01:59.000Z INFO  [extract] fetched page 325 from source (4762 rows)
+2026-10-18T02:01:59.500Z INFO  [transform] applied 233 column mappings for crm_customers
+2026-10-18T02:02:00.000Z INFO  [transform] applied 437 column mappings for crm_customers
+2026-10-18T02:02:00.500Z INFO  [loader] staged batch 188 to @RAW_STAGE/crm_customers_sync/ (485 rows)
+2026-10-18T02:02:01.000Z INFO  [extract] fetched page 335 from source (3088 rows)
+2026-10-18T02:02:01.500Z INFO  [extract] fetched page 134 from source (3373 rows)
+2026-10-18T02:02:02.000Z INFO  [extract] fetched page 65 from source (4054 rows)
+2026-10-18T02:02:02.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:03.000Z INFO  [transform] applied 191 column mappings for crm_customers
+2026-10-18T02:02:03.500Z INFO  [warehouse] TRANSFORM_WH credit usage 302 units this hour
+2026-10-18T02:02:04.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:04.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:05.000Z INFO  [warehouse] TRANSFORM_WH credit usage 35 units this hour
+2026-10-18T02:02:05.500Z INFO  [loader] staged batch 255 to @RAW_STAGE/crm_customers_sync/ (1777 rows)
+2026-10-18T02:02:06.000Z INFO  [transform] applied 36 column mappings for crm_customers
+2026-10-18T02:02:06.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:07.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:07.500Z INFO  [warehouse] TRANSFORM_WH credit usage 136 units this hour
+2026-10-18T02:02:08.000Z INFO  [warehouse] TRANSFORM_WH credit usage 129 units this hour
+2026-10-18T02:02:08.500Z INFO  [warehouse] TRANSFORM_WH credit usage 318 units this hour
+2026-10-18T02:02:09.000Z INFO  [transform] applied 402 column mappings for crm_customers
+2026-10-18T02:02:09.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:10.000Z INFO  [monitor] throughput 1980 rows/min
+2026-10-18T02:02:10.500Z INFO  [warehouse] TRANSFORM_WH credit usage 364 units this hour
+2026-10-18T02:02:11.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:11.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:12.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:12.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:13.000Z INFO  [transform] applied 411 column mappings for crm_customers
+2026-10-18T02:02:13.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:14.000Z INFO  [loader] staged batch 85 to @RAW_STAGE/crm_customers_sync/ (3768 rows)
+2026-10-18T02:02:14.500Z INFO  [loader] staged batch 179 to @RAW_STAGE/crm_customers_sync/ (2136 rows)
+2026-10-18T02:02:15.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:15.500Z INFO  [warehouse] TRANSFORM_WH credit usage 57 units this hour
+2026-10-18T02:02:16.000Z INFO  [extract] fetched page 353 from source (253 rows)
+2026-10-18T02:02:16.500Z INFO  [monitor] throughput 3460 rows/min
+2026-10-18T02:02:17.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:17.500Z INFO  [extract] fetched page 404 from source (4319 rows)
+2026-10-18T02:02:18.000Z INFO  [transform] applied 349 column mappings for crm_customers
+2026-10-18T02:02:18.500Z INFO  [transform] applied 345 column mappings for crm_customers
+2026-10-18T02:02:19.000Z INFO  [monitor] throughput 4418 rows/min
+2026-10-18T02:02:19.500Z INFO  [warehouse] TRANSFORM_WH credit usage 476 units this hour
+2026-10-18T02:02:20.000Z INFO  [transform] applied 185 column mappings for crm_customers
+2026-10-18T02:02:20.500Z INFO  [transform] applied 234 column mappings for crm_customers
+2026-10-18T02:02:21.000Z INFO  [loader] staged batch 418 to @RAW_STAGE/crm_customers_sync/ (4625 rows)
+2026-10-18T02:02:21.500Z INFO  [monitor] throughput 4140 rows/min
+2026-10-18T02:02:22.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:22.500Z INFO  [extract] fetched page 346 from source (941 rows)
+2026-10-18T02:02:23.000Z INFO  [monitor] throughput 4574 rows/min
+2026-10-18T02:02:23.500Z INFO  [loader] staged batch 54 to @RAW_STAGE/crm_customers_sync/ (2508 rows)
+2026-10-18T02:02:24.000Z INFO  [monitor] throughput 1323 rows/min
+2026-10-18T02:02:24.500Z INFO  [transform] applied 288 column mappings for crm_customers
+2026-10-18T02:02:25.000Z INFO  [warehouse] TRANSFORM_WH credit usage 130 units this hour
+2026-10-18T02:02:25.500Z INFO  [monitor] throughput 1123 rows/min
+2026-10-18T02:02:26.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:26.500Z INFO  [warehouse] TRANSFORM_WH credit usage 457 units this hour
+2026-10-18T02:02:27.000Z INFO  [transform] applied 129 column mappings for crm_customers
+2026-10-18T02:02:27.500Z INFO  [monitor] throughput 3927 rows/min
+2026-10-18T02:02:28.000Z INFO  [loader] staged batch 203 to @RAW_STAGE/crm_customers_sync/ (1185 rows)
+2026-10-18T02:02:28.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:29.000Z INFO  [transform] applied 241 column mappings for crm_customers
+2026-10-18T02:02:29.500Z INFO  [warehouse] TRANSFORM_WH credit usage 50 units this hour
+2026-10-18T02:02:30.000Z INFO  [monitor] throughput 4820 rows/min
+2026-10-18T02:02:30.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:31.000Z INFO  [transform] applied 497 column mappings for crm_customers
+2026-10-18T02:02:31.500Z INFO  [warehouse] TRANSFORM_WH credit usage 398 units this hour
+2026-10-18T02:02:32.000Z INFO  [loader] staged batch 115 to @RAW_STAGE/crm_customers_sync/ (1893 rows)
+2026-10-18T02:02:32.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:33.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:33.500Z INFO  [loader] staged batch 485 to @RAW_STAGE/crm_customers_sync/ (3557 rows)
+2026-10-18T02:02:34.000Z INFO  [extract] fetched page 215 from source (2849 rows)
+2026-10-18T02:02:34.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:35.000Z INFO  [warehouse] TRANSFORM_WH credit usage 398 units this hour
+2026-10-18T02:02:35.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:36.000Z INFO  [extract] fetched page 72 from source (4875 rows)
+2026-10-18T02:02:36.500Z INFO  [transform] applied 275 column mappings for crm_customers
+2026-10-18T02:02:37.000Z INFO  [monitor] throughput 1768 rows/min
+2026-10-18T02:02:37.500Z INFO  [transform] applied 234 column mappings for crm_customers
+2026-10-18T02:02:38.000Z INFO  [transform] applied 242 column mappings for crm_customers
+2026-10-18T02:02:38.500Z INFO  [transform] applied 476 column mappings for crm_customers
+2026-10-18T02:02:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 430 units this hour
+2026-10-18T02:02:39.500Z INFO  [warehouse] TRANSFORM_WH credit usage 59 units this hour
+2026-10-18T02:02:40.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:40.500Z INFO  [extract] fetched page 221 from source (4374 rows)
+2026-10-18T02:02:41.000Z INFO  [warehouse] TRANSFORM_WH credit usage 238 units this hour
+2026-10-18T02:02:41.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:42.000Z INFO  [loader] staged batch 266 to @RAW_STAGE/crm_customers_sync/ (4577 rows)
+2026-10-18T02:02:42.500Z INFO  [monitor] throughput 1294 rows/min
+2026-10-18T02:02:43.000Z INFO  [monitor] throughput 2786 rows/min
+2026-10-18T02:02:43.500Z INFO  [extract] fetched page 493 from source (922 rows)
+2026-10-18T02:02:44.000Z INFO  [loader] staged batch 13 to @RAW_STAGE/crm_customers_sync/ (3005 rows)
+2026-10-18T02:02:44.500Z INFO  [loader] staged batch 341 to @RAW_STAGE/crm_customers_sync/ (4131 rows)
+2026-10-18T02:02:45.000Z INFO  [transform] applied 433 column mappings for crm_customers
+2026-10-18T02:02:45.500Z INFO  [monitor] throughput 1501 rows/min
+2026-10-18T02:02:46.000Z INFO  [loader] staged batch 65 to @RAW_STAGE/crm_customers_sync/ (2587 rows)
+2026-10-18T02:02:46.500Z INFO  [monitor] throughput 1163 rows/min
+2026-10-18T02:02:47.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:47.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:48.000Z INFO  [loader] staged batch 33 to @RAW_STAGE/crm_customers_sync/ (252 rows)
+2026-10-18T02:02:48.500Z INFO  [loader] staged batch 307 to @RAW_STAGE/crm_customers_sync/ (709 rows)
+2026-10-18T02:02:49.000Z INFO  [transform] applied 310 column mappings for crm_customers
+2026-10-18T02:02:49.500Z INFO  [extract] fetched page 294 from source (4422 rows)
+2026-10-18T02:02:50.000Z INFO  [warehouse] TRANSFORM_WH credit usage 207 units this hour
+2026-10-18T02:02:50.500Z INFO  [loader] staged batch 394 to @RAW_STAGE/crm_customers_sync/ (2994 rows)
+2026-10-18T02:02:51.000Z INFO  [monitor] throughput 285 rows/min
+2026-10-18T02:02:51.500Z INFO  [warehouse] TRANSFORM_WH credit usage 63 units this hour
+2026-10-18T02:02:52.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:52.500Z INFO  [extract] fetched page 178 from source (4190 rows)
+2026-10-18T02:02:53.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:53.500Z INFO  [extract] fetched page 200 from source (4396 rows)
+2026-10-18T02:02:54.000Z INFO  [transform] applied 440 column mappings for crm_customers
+2026-10-18T02:02:54.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:55.000Z INFO  [monitor] throughput 2787 rows/min
+2026-10-18T02:02:55.500Z INFO  [transform] applied 147 column mappings for crm_customers
+2026-10-18T02:02:56.000Z INFO  [transform] applied 16 column mappings for crm_customers
+2026-10-18T02:02:56.500Z INFO  [monitor] throughput 4076 rows/min
+2026-10-18T02:02:57.000Z INFO  [extract] fetched page 184 from source (3576 rows)
+2026-10-18T02:02:57.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:58.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:58.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:59.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:02:59.500Z INFO  [monitor] throughput 687 rows/min
+2026-10-18T02:03:00.000Z INFO  [loader] staged batch 493 to @RAW_STAGE/crm_customers_sync/ (2003 rows)
+2026-10-18T02:03:00.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:01.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 309 units this hour
+2026-10-18T02:03:02.000Z INFO  [warehouse] TRANSFORM_WH credit usage 129 units this hour
+2026-10-18T02:03:02.500Z INFO  [extract] fetched page 268 from source (1548 rows)
+2026-10-18T02:03:03.000Z INFO  [transform] applied 265 column mappings for crm_customers
+2026-10-18T02:03:03.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:04.000Z INFO  [extract] fetched page 299 from source (4176 rows)
+2026-10-18T02:03:04.500Z INFO  [loader] staged batch 399 to @RAW_STAGE/crm_customers_sync/ (2786 rows)
+2026-10-18T02:03:05.000Z INFO  [warehouse] TRANSFORM_WH credit usage 140 units this hour
+2026-10-18T02:03:05.500Z INFO  [extract] fetched page 253 from source (3750 rows)
+2026-10-18T02:03:06.000Z INFO  [loader] staged batch 487 to @RAW_STAGE/crm_customers_sync/ (3490 rows)
+2026-10-18T02:03:06.500Z INFO  [extract] fetched page 391 from source (3244 rows)
+2026-10-18T02:03:07.000Z INFO  [monitor] throughput 202 rows/min
+2026-10-18T02:03:07.500Z INFO  [transform] applied 357 column mappings for crm_customers
+2026-10-18T02:03:08.000Z INFO  [loader] staged batch 6 to @RAW_STAGE/crm_customers_sync/ (2863 rows)
+2026-10-18T02:03:08.500Z INFO  [transform] applied 186 column mappings for crm_customers
+2026-10-18T02:03:09.000Z INFO  [loader] staged batch 162 to @RAW_STAGE/crm_customers_sync/ (761 rows)
+2026-10-18T02:03:09.500Z INFO  [transform] applied 272 column mappings for crm_customers
+2026-10-18T02:03:10.000Z INFO  [transform] applied 478 column mappings for crm_customers
+2026-10-18T02:03:10.500Z INFO  [loader] staged batch 300 to @RAW_STAGE/crm_customers_sync/ (1431 rows)
+2026-10-18T02:03:11.000Z INFO  [monitor] throughput 136 rows/min
+2026-10-18T02:03:11.500Z INFO  [monitor] throughput 2227 rows/min
+2026-10-18T02:03:12.000Z INFO  [monitor] throughput 2011 rows/min
+2026-10-18T02:03:12.500Z INFO  [extract] fetched page 8 from source (4485 rows)
+2026-10-18T02:03:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 272 units this hour
+2026-10-18T02:03:13.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:03:14.000Z INFO  [extract] fetched page 450 from source (583 rows)
+2026-10-18T02:03:14.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:15.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:15.500Z INFO  [extract] fetched page 410 from source (2912 rows)
+2026-10-18T02:03:16.000Z INFO  [loader] staged batch 272 to @RAW_STAGE/crm_customers_sync/ (4915 rows)
+2026-10-18T02:03:16.500Z INFO  [monitor] throughput 2676 rows/min
+2026-10-18T02:03:17.000Z INFO  [monitor] throughput 4756 rows/min
+2026-10-18T02:03:17.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:18.000Z INFO  [warehouse] TRANSFORM_WH credit usage 302 units this hour
+2026-10-18T02:03:18.500Z INFO  [extract] fetched page 10 from source (1180 rows)
+2026-10-18T02:03:19.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:19.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:20.000Z INFO  [transform] applied 254 column mappings for crm_customers
+2026-10-18T02:03:20.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:21.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:21.500Z INFO  [monitor] throughput 673 rows/min
+2026-10-18T02:03:22.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:22.500Z INFO  [extract] fetched page 91 from source (2680 rows)
+2026-10-18T02:03:23.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:03:23.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:24.000Z INFO  [extract] fetched page 224 from source (4192 rows)
+2026-10-18T02:03:24.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:25.000Z INFO  [transform] applied 444 column mappings for crm_customers
+2026-10-18T02:03:25.500Z INFO  [warehouse] TRANSFORM_WH credit usage 361 units this hour
+2026-10-18T02:03:26.000Z INFO  [transform] applied 384 column mappings for crm_customers
+2026-10-18T02:03:26.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:27.000Z INFO  [warehouse] TRANSFORM_WH credit usage 105 units this hour
+2026-10-18T02:03:27.500Z INFO  [transform] applied 419 column mappings for crm_customers
+2026-10-18T02:03:28.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:28.500Z INFO  [monitor] throughput 3443 rows/min
+2026-10-18T02:03:29.000Z INFO  [monitor] throughput 194 rows/min
+2026-10-18T02:03:29.500Z INFO  [loader] staged batch 35 to @RAW_STAGE/crm_customers_sync/ (4435 rows)
+2026-10-18T02:03:30.000Z INFO  [monitor] throughput 2216 rows/min
+2026-10-18T02:03:30.500Z INFO  [extract] fetched page 448 from source (215 rows)
+2026-10-18T02:03:31.000Z INFO  [transform] applied 477 column mappings for crm_customers
+2026-10-18T02:03:31.500Z INFO  [transform] applied 298 column mappings for crm_customers
+2026-10-18T02:03:32.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:32.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:33.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:33.500Z INFO  [extract] fetched page 436 from source (1175 rows)
+2026-10-18T02:03:34.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:34.500Z INFO  [extract] fetched page 431 from source (4723 rows)
+2026-10-18T02:03:35.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:35.500Z INFO  [extract] fetched page 440 from source (2219 rows)
+2026-10-18T02:03:36.000Z INFO  [loader] staged batch 137 to @RAW_STAGE/crm_customers_sync/ (3716 rows)
+2026-10-18T02:03:36.500Z INFO  [transform] applied 222 column mappings for crm_customers
+2026-10-18T02:03:37.000Z INFO  [transform] applied 492 column mappings for crm_customers
+2026-10-18T02:03:37.500Z INFO  [monitor] throughput 2186 rows/min
+2026-10-18T02:03:38.000Z INFO  [monitor] throughput 847 rows/min
+2026-10-18T02:03:38.500Z INFO  [extract] fetched page 280 from source (698 rows)
+2026-10-18T02:03:39.000Z INFO  [monitor] throughput 2042 rows/min
+2026-10-18T02:03:39.500Z INFO  [loader] staged batch 436 to @RAW_STAGE/crm_customers_sync/ (2086 rows)
+2026-10-18T02:03:40.000Z INFO  [loader] staged batch 398 to @RAW_STAGE/crm_customers_sync/ (4736 rows)
+2026-10-18T02:03:40.500Z INFO  [loader] staged batch 287 to @RAW_STAGE/crm_customers_sync/ (2285 rows)
+2026-10-18T02:03:41.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:03:41.500Z INFO  [monitor] throughput 3760 rows/min
+2026-10-18T02:03:42.000Z INFO  [monitor] throughput 3668 rows/min
+2026-10-18T02:03:42.500Z INFO  [transform] applied 267 column mappings for crm_customers
+2026-10-18T02:03:43.000Z INFO  [transform] applied 419 column mappings for crm_customers
+2026-10-18T02:03:43.500Z ERROR [metrics] failed to push metrics to statsd:8125 (ignored, non-fatal)
+2026-10-18T02:03:44.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:44.500Z INFO  [loader] staged batch 482 to @RAW_STAGE/crm_customers_sync/ (576 rows)
+2026-10-18T02:03:45.000Z INFO  [extract] fetched page 282 from source (4126 rows)
+2026-10-18T02:03:45.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:46.000Z INFO  [monitor] throughput 4622 rows/min
+2026-10-18T02:03:46.500Z INFO  [loader] staged batch 359 to @RAW_STAGE/crm_customers_sync/ (3522 rows)
+2026-10-18T02:03:47.000Z WARN  [monitor] query queue latency 2.3s above 2.0s target
+2026-10-18T02:03:47.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 28 units this hour
+2026-10-18T02:03:48.500Z INFO  [monitor] throughput 1612 rows/min
+2026-10-18T02:03:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 457 units this hour
+2026-10-18T02:03:49.500Z INFO  [extract] fetched page 154 from source (2051 rows)
+2026-10-18T02:03:50.000Z INFO  [transform] applied 256 column mappings for crm_customers
+2026-10-18T02:03:50.500Z INFO  [extract] fetched page 449 from source (2234 rows)
+2026-10-18T02:03:51.000Z INFO  [loader] staged batch 290 to @RAW_STAGE/crm_customers_sync/ (2498 rows)
+2026-10-18T02:03:51.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:03:52.000Z INFO  [monitor] throughput 4680 rows/min
+2026-10-18T02:03:52.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:03:53.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:03:53.500Z INFO  [extract] fetched page 246 from source (1842 rows)
+2026-10-18T02:03:54.000Z INFO  [extract] fetched page 215 from source (3370 rows)
+2026-10-18T02:03:54.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:03:55.000Z INFO  [loader] staged batch 361 to @RAW_STAGE/crm_customers_sync/ (1937 rows)
+2026-10-18T02:03:55.500Z INFO  [transform] applied 184 column mappings for crm_customers
+2026-10-18T02:03:56.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:56.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:03:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 91 units this hour
+2026-10-18T02:03:57.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:03:58.000Z INFO  [warehouse] TRANSFORM_WH credit usage 434 units this hour
+2026-10-18T02:03:58.500Z INFO  [transform] applied 219 column mappings for crm_customers
+2026-10-18T02:03:59.000Z INFO  [monitor] throughput 976 rows/min
+2026-10-18T02:03:59.500Z INFO  [transform] applied 29 column mappings for crm_customers
+2026-10-18T02:04:00.000Z INFO  [loader] staged batch 167 to @RAW_STAGE/crm_customers_sync/ (2794 rows)
+2026-10-18T02:04:00.500Z INFO  [warehouse] TRANSFORM_WH credit usage 173 units this hour
+2026-10-18T02:04:01.000Z INFO  [warehouse] TRANSFORM_WH credit usage 255 units this hour
+2026-10-18T02:04:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 37 units this hour
+2026-10-18T02:04:02.000Z INFO  [extract] fetched page 317 from source (4217 rows)
+2026-10-18T02:04:02.500Z INFO  [warehouse] TRANSFORM_WH credit usage 282 units this hour
+2026-10-18T02:04:03.000Z INFO  [monitor] throughput 1383 rows/min
+2026-10-18T02:04:03.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:04.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:04.500Z INFO  [loader] staged batch 269 to @RAW_STAGE/crm_customers_sync/ (4629 rows)
+2026-10-18T02:04:05.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:05.500Z INFO  [warehouse] TRANSFORM_WH credit usage 171 units this hour
+2026-10-18T02:04:06.000Z INFO  [warehouse] TRANSFORM_WH credit usage 301 units this hour
+2026-10-18T02:04:06.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:07.000Z INFO  [extract] fetched page 212 from source (4928 rows)
+2026-10-18T02:04:07.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:08.000Z INFO  [warehouse] TRANSFORM_WH credit usage 283 units this hour
+2026-10-18T02:04:08.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:09.000Z INFO  [warehouse] TRANSFORM_WH credit usage 442 units this hour
+2026-10-18T02:04:09.500Z INFO  [extract] fetched page 284 from source (4640 rows)
+2026-10-18T02:04:10.000Z INFO  [monitor] throughput 1751 rows/min
+2026-10-18T02:04:10.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:11.000Z INFO  [transform] applied 11 column mappings for crm_customers
+2026-10-18T02:04:11.500Z INFO  [transform] applied 381 column mappings for crm_customers
+2026-10-18T02:04:12.000Z INFO  [monitor] throughput 4992 rows/min
+2026-10-18T02:04:12.500Z INFO  [monitor] throughput 2770 rows/min
+2026-10-18T02:04:13.000Z INFO  [monitor] throughput 4059 rows/min
+2026-10-18T02:04:13.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:14.000Z INFO  [monitor] throughput 754 rows/min
+2026-10-18T02:04:14.500Z INFO  [loader] staged batch 493 to @RAW_STAGE/crm_customers_sync/ (4006 rows)
+2026-10-18T02:04:15.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:04:15.500Z INFO  [extract] fetched page 20 from source (833 rows)
+2026-10-18T02:04:16.000Z INFO  [extract] fetched page 354 from source (3603 rows)
+2026-10-18T02:04:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 32 units this hour
+2026-10-18T02:04:17.000Z INFO  [warehouse] TRANSFORM_WH credit usage 293 units this hour
+2026-10-18T02:04:17.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:18.000Z INFO  [warehouse] TRANSFORM_WH credit usage 60 units this hour
+2026-10-18T02:04:18.500Z INFO  [monitor] throughput 4157 rows/min
+2026-10-18T02:04:19.000Z INFO  [loader] staged batch 39 to @RAW_STAGE/crm_customers_sync/ (2143 rows)
+2026-10-18T02:04:19.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:20.000Z INFO  [transform] applied 392 column mappings for crm_customers
+2026-10-18T02:04:20.500Z INFO  [monitor] throughput 875 rows/min
+2026-10-18T02:04:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 79 units this hour
+2026-10-18T02:04:21.500Z INFO  [extract] fetched page 90 from source (4414 rows)
+2026-10-18T02:04:22.000Z INFO  [monitor] throughput 3423 rows/min
+2026-10-18T02:04:22.500Z INFO  [extract] fetched page 153 from source (496 rows)
+2026-10-18T02:04:23.000Z INFO  [monitor] throughput 1810 rows/min
+2026-10-18T02:04:23.500Z INFO  [warehouse] TRANSFORM_WH credit usage 353 units this hour
+2026-10-18T02:04:24.000Z INFO  [monitor] throughput 764 rows/min
+2026-10-18T02:04:24.500Z INFO  [transform] applied 249 column mappings for crm_customers
+2026-10-18T02:04:25.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:25.500Z INFO  [extract] fetched page 130 from source (3929 rows)
+2026-10-18T02:04:26.000Z INFO  [monitor] throughput 755 rows/min
+2026-10-18T02:04:26.500Z INFO  [loader] staged batch 478 to @RAW_STAGE/crm_customers_sync/ (3306 rows)
+2026-10-18T02:04:27.000Z INFO  [loader] staged batch 395 to @RAW_STAGE/crm_customers_sync/ (3103 rows)
+2026-10-18T02:04:27.500Z INFO  [transform] applied 391 column mappings for crm_customers
+2026-10-18T02:04:28.000Z INFO  [monitor] throughput 951 rows/min
+2026-10-18T02:04:28.500Z INFO  [extract] fetched page 210 from source (2331 rows)
+2026-10-18T02:04:29.000Z INFO  [transform] applied 284 column mappings for crm_customers
+2026-10-18T02:04:29.500Z INFO  [extract] fetched page 219 from source (2555 rows)
+2026-10-18T02:04:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 329 units this hour
+2026-10-18T02:04:30.500Z INFO  [loader] staged batch 40 to @RAW_STAGE/crm_customers_sync/ (4815 rows)
+2026-10-18T02:04:31.000Z INFO  [loader] staged batch 238 to @RAW_STAGE/crm_customers_sync/ (4661 rows)
+2026-10-18T02:04:31.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:32.000Z INFO  [loader] staged batch 99 to @RAW_STAGE/crm_customers_sync/ (3416 rows)
+2026-10-18T02:04:32.500Z INFO  [warehouse] TRANSFORM_WH credit usage 248 units this hour
+2026-10-18T02:04:33.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:33.500Z INFO  [loader] staged batch 368 to @RAW_STAGE/crm_customers_sync/ (4570 rows)
+2026-10-18T02:04:34.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:34.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:35.000Z INFO  [loader] staged batch 290 to @RAW_STAGE/crm_customers_sync/ (4115 rows)
+2026-10-18T02:04:35.500Z INFO  [loader] staged batch 87 to @RAW_STAGE/crm_customers_sync/ (651 rows)
+2026-10-18T02:04:36.000Z INFO  [transform] applied 170 column mappings for crm_customers
+2026-10-18T02:04:36.500Z INFO  [warehouse] TRANSFORM_WH credit usage 75 units this hour
+2026-10-18T02:04:37.000Z INFO  [loader] staged batch 261 to @RAW_STAGE/crm_customers_sync/ (1071 rows)
+2026-10-18T02:04:37.500Z INFO  [warehouse] TRANSFORM_WH credit usage 437 units this hour
+2026-10-18T02:04:38.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:38.500Z INFO  [extract] fetched page 4 from source (4972 rows)
+2026-10-18T02:04:39.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:39.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:40.000Z INFO  [extract] fetched page 448 from source (4850 rows)
+2026-10-18T02:04:40.500Z INFO  [transform] applied 413 column mappings for crm_customers
+2026-10-18T02:04:41.000Z INFO  [loader] staged batch 389 to @RAW_STAGE/crm_customers_sync/ (4432 rows)
+2026-10-18T02:04:41.500Z INFO  [extract] fetched page 52 from source (817 rows)
+2026-10-18T02:04:42.000Z INFO  [warehouse] TRANSFORM_WH credit usage 77 units this hour
+2026-10-18T02:04:42.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:43.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:04:43.500Z INFO  [loader] staged batch 62 to @RAW_STAGE/crm_customers_sync/ (3461 rows)
+2026-10-18T02:04:44.000Z INFO  [monitor] throughput 2949 rows/min
+2026-10-18T02:04:44.500Z INFO  [monitor] throughput 705 rows/min
+2026-10-18T02:04:45.000Z INFO  [loader] staged batch 218 to @RAW_STAGE/crm_customers_sync/ (549 rows)
+2026-10-18T02:04:45.500Z INFO  [extract] fetched page 167 from source (1811 rows)
+2026-10-18T02:04:46.000Z INFO  [transform] applied 77 column mappings for crm_customers
+2026-10-18T02:04:46.500Z INFO  [loader] staged batch 65 to @RAW_STAGE/crm_customers_sync/ (4250 rows)
+2026-10-18T02:04:47.000Z INFO  [transform] applied 258 column mappings for crm_customers
+2026-10-18T02:04:47.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:48.000Z INFO  [transform] applied 261 column mappings for crm_customers
+2026-10-18T02:04:48.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 407 units this hour
+2026-10-18T02:04:49.500Z INFO  [loader] staged batch 373 to @RAW_STAGE/crm_customers_sync/ (4210 rows)
+2026-10-18T02:04:50.000Z INFO  [extract] fetched page 306 from source (3911 rows)
+2026-10-18T02:04:50.500Z INFO  [warehouse] TRANSFORM_WH credit usage 185 units this hour
+2026-10-18T02:04:51.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:51.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:52.000Z INFO  [transform] applied 60 column mappings for crm_customers
+2026-10-18T02:04:52.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:04:53.000Z INFO  [extract] fetched page 174 from source (3958 rows)
+2026-10-18T02:04:53.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:54.000Z INFO  [warehouse] TRANSFORM_WH credit usage 115 units this hour
+2026-10-18T02:04:54.500Z INFO  [loader] staged batch 99 to @RAW_STAGE/crm_customers_sync/ (2868 rows)
+2026-10-18T02:04:55.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:55.500Z INFO  [warehouse] TRANSFORM_WH credit usage 51 units this hour
+2026-10-18T02:04:56.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:56.500Z INFO  [monitor] throughput 4746 rows/min
+2026-10-18T02:04:57.000Z INFO  [extract] fetched page 485 from source (627 rows)
+2026-10-18T02:04:57.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:58.000Z INFO  [loader] staged batch 5 to @RAW_STAGE/crm_customers_sync/ (2432 rows)
+2026-10-18T02:04:58.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:04:59.000Z INFO  [warehouse] TRANSFORM_WH credit usage 44 units this hour
+2026-10-18T02:04:59.500Z INFO  [warehouse] TRANSFORM_WH credit usage 366 units this hour
+2026-10-18T02:05:00.000Z INFO  [extract] fetched page 450 from source (1383 rows)
+2026-10-18T02:05:00.500Z INFO  [loader] staged batch 80 to @RAW_STAGE/crm_customers_sync/ (4319 rows)
+2026-10-18T02:05:01.000Z INFO  [loader] staged batch 28 to @RAW_STAGE/crm_customers_sync/ (3726 rows)
+2026-10-18T02:05:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 212 units this hour
+2026-10-18T02:05:02.000Z INFO  [transform] applied 13 column mappings for crm_customers
+2026-10-18T02:05:02.500Z INFO  [transform] applied 88 column mappings for crm_customers
+2026-10-18T02:05:03.000Z INFO  [monitor] throughput 3348 rows/min
+2026-10-18T02:05:03.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:04.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:04.500Z INFO  [warehouse] TRANSFORM_WH credit usage 140 units this hour
+2026-10-18T02:05:05.000Z INFO  [warehouse] TRANSFORM_WH credit usage 115 units this hour
+2026-10-18T02:05:05.500Z INFO  [monitor] throughput 4487 rows/min
+2026-10-18T02:05:06.000Z INFO  [monitor] throughput 2770 rows/min
+2026-10-18T02:05:06.500Z INFO  [loader] staged batch 497 to @RAW_STAGE/crm_customers_sync/ (1321 rows)
+2026-10-18T02:05:07.000Z INFO  [extract] fetched page 31 from source (894 rows)
+2026-10-18T02:05:07.500Z INFO  [monitor] throughput 2393 rows/min
+2026-10-18T02:05:08.000Z INFO  [transform] applied 93 column mappings for crm_customers
+2026-10-18T02:05:08.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:09.000Z INFO  [loader] staged batch 244 to @RAW_STAGE/crm_customers_sync/ (1425 rows)
+2026-10-18T02:05:09.500Z INFO  [warehouse] TRANSFORM_WH credit usage 73 units this hour
+2026-10-18T02:05:10.000Z INFO  [loader] staged batch 31 to @RAW_STAGE/crm_customers_sync/ (1528 rows)
+2026-10-18T02:05:10.500Z INFO  [loader] staged batch 263 to @RAW_STAGE/crm_customers_sync/ (574 rows)
+2026-10-18T02:05:11.000Z INFO  [monitor] throughput 3395 rows/min
+2026-10-18T02:05:11.500Z INFO  [loader] staged batch 377 to @RAW_STAGE/crm_customers_sync/ (3180 rows)
+2026-10-18T02:05:12.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:12.500Z INFO  [transform] applied 319 column mappings for crm_customers
+2026-10-18T02:05:13.000Z INFO  [extract] fetched page 105 from source (1552 rows)
+2026-10-18T02:05:13.500Z INFO  [transform] applied 223 column mappings for crm_customers
+2026-10-18T02:05:14.000Z INFO  [warehouse] TRANSFORM_WH credit usage 145 units this hour
+2026-10-18T02:05:14.500Z INFO  [extract] fetched page 169 from source (2060 rows)
+2026-10-18T02:05:15.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:15.500Z INFO  [transform] applied 274 column mappings for crm_customers
+2026-10-18T02:05:16.000Z INFO  [monitor] throughput 4468 rows/min
+2026-10-18T02:05:16.500Z INFO  [monitor] throughput 1339 rows/min
+2026-10-18T02:05:17.000Z INFO  [monitor] throughput 4583 rows/min
+2026-10-18T02:05:17.500Z INFO  [extract] fetched page 41 from source (1274 rows)
+2026-10-18T02:05:18.000Z INFO  [transform] applied 153 column mappings for crm_customers
+2026-10-18T02:05:18.500Z INFO  [transform] applied 319 column mappings for crm_customers
+2026-10-18T02:05:19.000Z INFO  [monitor] throughput 2296 rows/min
+2026-10-18T02:05:19.500Z INFO  [loader] staged batch 43 to @RAW_STAGE/crm_customers_sync/ (786 rows)
+2026-10-18T02:05:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 42 units this hour
+2026-10-18T02:05:20.500Z INFO  [warehouse] TRANSFORM_WH credit usage 77 units this hour
+2026-10-18T02:05:21.000Z INFO  [transform] applied 302 column mappings for crm_customers
+2026-10-18T02:05:21.500Z INFO  [loader] staged batch 157 to @RAW_STAGE/crm_customers_sync/ (4534 rows)
+2026-10-18T02:05:22.000Z INFO  [monitor] throughput 4631 rows/min
+2026-10-18T02:05:22.500Z INFO  [monitor] throughput 2408 rows/min
+2026-10-18T02:05:23.000Z INFO  [extract] fetched page 300 from source (3241 rows)
+2026-10-18T02:05:23.500Z INFO  [transform] applied 388 column mappings for crm_customers
+2026-10-18T02:05:24.000Z INFO  [warehouse] TRANSFORM_WH credit usage 159 units this hour
+2026-10-18T02:05:24.500Z INFO  [transform] applied 418 column mappings for crm_customers
+2026-10-18T02:05:25.000Z INFO  [transform] applied 478 column mappings for crm_customers
+2026-10-18T02:05:25.500Z INFO  [transform] applied 342 column mappings for crm_customers
+2026-10-18T02:05:26.000Z INFO  [extract] fetched page 251 from source (1301 rows)
+2026-10-18T02:05:26.500Z INFO  [transform] applied 320 column mappings for crm_customers
+2026-10-18T02:05:27.000Z INFO  [monitor] throughput 4835 rows/min
+2026-10-18T02:05:27.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:28.000Z INFO  [warehouse] TRANSFORM_WH credit usage 385 units this hour
+2026-10-18T02:05:28.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:29.000Z INFO  [loader] staged batch 148 to @RAW_STAGE/crm_customers_sync/ (3829 rows)
+2026-10-18T02:05:29.500Z INFO  [loader] staged batch 10 to @RAW_STAGE/crm_customers_sync/ (3893 rows)
+2026-10-18T02:05:30.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:30.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:31.000Z INFO  [extract] fetched page 201 from source (159 rows)
+2026-10-18T02:05:31.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:32.000Z INFO  [extract] fetched page 152 from source (2812 rows)
+2026-10-18T02:05:32.500Z INFO  [monitor] throughput 894 rows/min
+2026-10-18T02:05:33.000Z INFO  [extract] fetched page 399 from source (1642 rows)
+2026-10-18T02:05:33.500Z INFO  [warehouse] TRANSFORM_WH credit usage 402 units this hour
+2026-10-18T02:05:34.000Z INFO  [extract] fetched page 71 from source (4090 rows)
+2026-10-18T02:05:34.500Z INFO  [warehouse] TRANSFORM_WH credit usage 132 units this hour
+2026-10-18T02:05:35.000Z INFO  [monitor] throughput 3522 rows/min
+2026-10-18T02:05:35.500Z INFO  [warehouse] TRANSFORM_WH credit usage 271 units this hour
+2026-10-18T02:05:36.000Z INFO  [transform] applied 470 column mappings for crm_customers
+2026-10-18T02:05:36.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:37.000Z INFO  [extract] fetched page 70 from source (4120 rows)
+2026-10-18T02:05:37.500Z INFO  [loader] staged batch 315 to @RAW_STAGE/crm_customers_sync/ (1075 rows)
+2026-10-18T02:05:38.000Z INFO  [warehouse] TRANSFORM_WH credit usage 231 units this hour
+2026-10-18T02:05:38.500Z INFO  [transform] applied 256 column mappings for crm_customers
+2026-10-18T02:05:39.000Z INFO  [monitor] throughput 3564 rows/min
+2026-10-18T02:05:39.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:40.000Z INFO  [loader] staged batch 170 to @RAW_STAGE/crm_customers_sync/ (3138 rows)
+2026-10-18T02:05:40.500Z INFO  [monitor] throughput 3117 rows/min
+2026-10-18T02:05:41.000Z INFO  [loader] staged batch 273 to @RAW_STAGE/crm_customers_sync/ (4318 rows)
+2026-10-18T02:05:41.500Z INFO  [monitor] throughput 4663 rows/min
+2026-10-18T02:05:42.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:42.500Z INFO  [extract] fetched page 42 from source (1830 rows)
+2026-10-18T02:05:43.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:43.500Z INFO  [transform] applied 263 column mappings for crm_customers
+2026-10-18T02:05:44.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:44.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:45.000Z INFO  [monitor] throughput 761 rows/min
+2026-10-18T02:05:45.500Z INFO  [monitor] throughput 770 rows/min
+2026-10-18T02:05:46.000Z INFO  [transform] applied 80 column mappings for crm_customers
+2026-10-18T02:05:46.500Z INFO  [monitor] throughput 3005 rows/min
+2026-10-18T02:05:47.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:47.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 267 units this hour
+2026-10-18T02:05:48.500Z INFO  [monitor] throughput 1640 rows/min
+2026-10-18T02:05:49.000Z INFO  [transform] applied 89 column mappings for crm_customers
+2026-10-18T02:05:49.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:05:50.000Z INFO  [warehouse] TRANSFORM_WH credit usage 223 units this hour
+2026-10-18T02:05:50.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:05:51.000Z INFO  [warehouse] TRANSFORM_WH credit usage 189 units this hour
+2026-10-18T02:05:51.500Z INFO  [warehouse] TRANSFORM_WH credit usage 191 units this hour
+2026-10-18T02:05:52.000Z INFO  [loader] staged batch 134 to @RAW_STAGE/crm_customers_sync/ (4928 rows)
+2026-10-18T02:05:52.500Z INFO  [extract] fetched page 420 from source (3770 rows)
+2026-10-18T02:05:53.000Z INFO  [transform] applied 213 column mappings for crm_customers
+2026-10-18T02:05:53.500Z INFO  [transform] applied 75 column mappings for crm_customers
+2026-10-18T02:05:54.000Z INFO  [warehouse] TRANSFORM_WH credit usage 445 units this hour
+2026-10-18T02:05:54.500Z INFO  [warehouse] TRANSFORM_WH credit usage 303 units this hour
+2026-10-18T02:05:55.000Z INFO  [monitor] throughput 4200 rows/min
+2026-10-18T02:05:55.500Z INFO  [transform] applied 466 column mappings for crm_customers
+2026-10-18T02:05:56.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:56.500Z INFO  [monitor] throughput 2846 rows/min
+2026-10-18T02:05:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 360 units this hour
+2026-10-18T02:05:57.500Z INFO  [extract] fetched page 158 from source (3466 rows)
+2026-10-18T02:05:58.000Z INFO  [extract] fetched page 221 from source (2325 rows)
+2026-10-18T02:05:58.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:59.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:05:59.500Z INFO  [extract] fetched page 429 from source (1964 rows)
+2026-10-18T02:06:00.000Z INFO  [monitor] throughput 4532 rows/min
+2026-10-18T02:06:00.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:06:01.000Z INFO  [extract] fetched page 496 from source (2830 rows)
+2026-10-18T02:06:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 416 units this hour
+2026-10-18T02:06:02.000Z INFO  [extract] fetched page 332 from source (4863 rows)
+2026-10-18T02:06:02.500Z INFO  [transform] applied 361 column mappings for crm_customers
+2026-10-18T02:06:03.000Z INFO  [loader] staged batch 388 to @RAW_STAGE/crm_customers_sync/ (3694 rows)
+2026-10-18T02:06:03.500Z INFO  [monitor] throughput 3685 rows/min
+2026-10-18T02:06:04.000Z INFO  [loader] staged batch 10 to @RAW_STAGE/crm_customers_sync/ (4205 rows)
+2026-10-18T02:06:04.500Z INFO  [monitor] throughput 4134 rows/min
+2026-10-18T02:06:05.000Z INFO  [monitor] throughput 1090 rows/min
+2026-10-18T02:06:05.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:06.000Z INFO  [warehouse] TRANSFORM_WH credit usage 325 units this hour
+2026-10-18T02:06:06.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:06:07.000Z INFO  [loader] staged batch 431 to @RAW_STAGE/crm_customers_sync/ (360 rows)
+2026-10-18T02:06:07.500Z INFO  [loader] staged batch 422 to @RAW_STAGE/crm_customers_sync/ (1133 rows)
+2026-10-18T02:06:08.000Z INFO  [extract] fetched page 17 from source (3686 rows)
+2026-10-18T02:06:08.500Z INFO  [warehouse] TRANSFORM_WH credit usage 207 units this hour
+2026-10-18T02:06:09.000Z INFO  [monitor] throughput 3901 rows/min
+2026-10-18T02:06:09.500Z INFO  [extract] fetched page 391 from source (4522 rows)
+2026-10-18T02:06:10.000Z INFO  [extract] fetched page 402 from source (1308 rows)
+2026-10-18T02:06:10.500Z INFO  [loader] staged batch 436 to @RAW_STAGE/crm_customers_sync/ (3570 rows)
+2026-10-18T02:06:11.000Z INFO  [loader] staged batch 78 to @RAW_STAGE/crm_customers_sync/ (4031 rows)
+2026-10-18T02:06:11.500Z INFO  [loader] staged batch 201 to @RAW_STAGE/crm_customers_sync/ (148 rows)
+2026-10-18T02:06:12.000Z INFO  [extract] fetched page 326 from source (1785 rows)
+2026-10-18T02:06:12.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:13.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:13.500Z INFO  [monitor] throughput 3277 rows/min
+2026-10-18T02:06:14.000Z INFO  [transform] applied 89 column mappings for crm_customers
+2026-10-18T02:06:14.500Z INFO  [monitor] throughput 1132 rows/min
+2026-10-18T02:06:15.000Z INFO  [loader] staged batch 8 to @RAW_STAGE/crm_customers_sync/ (2198 rows)
+2026-10-18T02:06:15.500Z INFO  [warehouse] TRANSFORM_WH credit usage 98 units this hour
+2026-10-18T02:06:16.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 224 units this hour
+2026-10-18T02:06:17.000Z INFO  [loader] staged batch 192 to @RAW_STAGE/crm_customers_sync/ (1709 rows)
+2026-10-18T02:06:17.500Z INFO  [loader] staged batch 306 to @RAW_STAGE/crm_customers_sync/ (1252 rows)
+2026-10-18T02:06:18.000Z INFO  [transform] applied 498 column mappings for crm_customers
+2026-10-18T02:06:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 418 units this hour
+2026-10-18T02:06:19.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:19.500Z INFO  [monitor] throughput 4983 rows/min
+2026-10-18T02:06:20.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:20.500Z INFO  [extract] fetched page 78 from source (199 rows)
+2026-10-18T02:06:21.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:21.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 297 units this hour
+2026-10-18T02:06:22.500Z INFO  [loader] staged batch 270 to @RAW_STAGE/crm_customers_sync/ (3933 rows)
+2026-10-18T02:06:23.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:23.500Z INFO  [extract] fetched page 125 from source (703 rows)
+2026-10-18T02:06:24.000Z INFO  [warehouse] TRANSFORM_WH credit usage 412 units this hour
+2026-10-18T02:06:24.500Z INFO  [loader] staged batch 214 to @RAW_STAGE/crm_customers_sync/ (4265 rows)
+2026-10-18T02:06:25.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:25.500Z INFO  [monitor] throughput 197 rows/min
+2026-10-18T02:06:26.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:26.500Z INFO  [monitor] throughput 292 rows/min
+2026-10-18T02:06:27.000Z INFO  [monitor] throughput 800 rows/min
+2026-10-18T02:06:27.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:28.000Z INFO  [transform] applied 471 column mappings for crm_customers
+2026-10-18T02:06:28.500Z INFO  [extract] fetched page 446 from source (3403 rows)
+2026-10-18T02:06:29.000Z INFO  [transform] applied 54 column mappings for crm_customers
+2026-10-18T02:06:29.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:30.000Z INFO  [monitor] throughput 4087 rows/min
+2026-10-18T02:06:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 83 units this hour
+2026-10-18T02:06:31.000Z INFO  [transform] applied 229 column mappings for crm_customers
+2026-10-18T02:06:31.500Z INFO  [extract] fetched page 495 from source (1263 rows)
+2026-10-18T02:06:32.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:32.500Z INFO  [loader] staged batch 178 to @RAW_STAGE/crm_customers_sync/ (1968 rows)
+2026-10-18T02:06:33.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:33.500Z INFO  [loader] staged batch 43 to @RAW_STAGE/crm_customers_sync/ (2823 rows)
+2026-10-18T02:06:34.000Z INFO  [monitor] throughput 1050 rows/min
+2026-10-18T02:06:34.500Z INFO  [transform] applied 149 column mappings for crm_customers
+2026-10-18T02:06:35.000Z INFO  [extract] fetched page 374 from source (1639 rows)
+2026-10-18T02:06:35.500Z INFO  [monitor] throughput 2987 rows/min
+2026-10-18T02:06:36.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:36.500Z INFO  [loader] staged batch 5 to @RAW_STAGE/crm_customers_sync/ (1595 rows)
+2026-10-18T02:06:37.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:37.500Z INFO  [transform] applied 212 column mappings for crm_customers
+2026-10-18T02:06:38.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:38.500Z INFO  [extract] fetched page 273 from source (3947 rows)
+2026-10-18T02:06:39.000Z INFO  [monitor] throughput 4387 rows/min
+2026-10-18T02:06:39.500Z INFO  [loader] staged batch 437 to @RAW_STAGE/crm_customers_sync/ (2533 rows)
+2026-10-18T02:06:40.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:40.500Z INFO  [transform] applied 472 column mappings for crm_customers
+2026-10-18T02:06:41.000Z INFO  [warehouse] TRANSFORM_WH credit usage 66 units this hour
+2026-10-18T02:06:41.500Z INFO  [loader] staged batch 417 to @RAW_STAGE/crm_customers_sync/ (2040 rows)
+2026-10-18T02:06:42.000Z INFO  [loader] staged batch 405 to @RAW_STAGE/crm_customers_sync/ (164 rows)
+2026-10-18T02:06:42.500Z INFO  [warehouse] TRANSFORM_WH credit usage 471 units this hour
+2026-10-18T02:06:43.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:43.500Z INFO  [warehouse] TRANSFORM_WH credit usage 423 units this hour
+2026-10-18T02:06:44.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:44.500Z INFO  [monitor] throughput 1969 rows/min
+2026-10-18T02:06:45.000Z INFO  [transform] applied 114 column mappings for crm_customers
+2026-10-18T02:06:45.500Z INFO  [monitor] throughput 1127 rows/min
+2026-10-18T02:06:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 123 units this hour
+2026-10-18T02:06:46.500Z INFO  [transform] applied 78 column mappings for crm_customers
+2026-10-18T02:06:47.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:06:47.500Z INFO  [loader] staged batch 257 to @RAW_STAGE/crm_customers_sync/ (3925 rows)
+2026-10-18T02:06:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 371 units this hour
+2026-10-18T02:06:48.500Z INFO  [transform] applied 317 column mappings for crm_customers
+2026-10-18T02:06:49.000Z INFO  [monitor] throughput 1829 rows/min
+2026-10-18T02:06:49.500Z INFO  [loader] staged batch 46 to @RAW_STAGE/crm_customers_sync/ (1429 rows)
+2026-10-18T02:06:50.000Z INFO  [transform] applied 441 column mappings for crm_customers
+2026-10-18T02:06:50.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:51.000Z INFO  [loader] staged batch 113 to @RAW_STAGE/crm_customers_sync/ (401 rows)
+2026-10-18T02:06:51.500Z INFO  [loader] staged batch 248 to @RAW_STAGE/crm_customers_sync/ (3173 rows)
+2026-10-18T02:06:52.000Z INFO  [extract] fetched page 57 from source (2602 rows)
+2026-10-18T02:06:52.500Z INFO  [extract] fetched page 127 from source (879 rows)
+2026-10-18T02:06:53.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:53.500Z INFO  [warehouse] TRANSFORM_WH credit usage 119 units this hour
+2026-10-18T02:06:54.000Z INFO  [warehouse] TRANSFORM_WH credit usage 347 units this hour
+2026-10-18T02:06:54.500Z INFO  [extract] fetched page 64 from source (4195 rows)
+2026-10-18T02:06:55.000Z INFO  [transform] applied 4 column mappings for crm_customers
+2026-10-18T02:06:55.500Z INFO  [monitor] throughput 3047 rows/min
+2026-10-18T02:06:56.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:56.500Z INFO  [extract] fetched page 499 from source (1994 rows)
+2026-10-18T02:06:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 442 units this hour
+2026-10-18T02:06:57.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:06:58.000Z INFO  [loader] staged batch 226 to @RAW_STAGE/crm_customers_sync/ (1562 rows)
+2026-10-18T02:06:58.500Z INFO  [warehouse] TRANSFORM_WH credit usage 462 units this hour
+2026-10-18T02:06:59.000Z INFO  [monitor] throughput 3118 rows/min
+2026-10-18T02:06:59.500Z INFO  [extract] fetched page 1 from source (2288 rows)
+2026-10-18T02:07:00.000Z INFO  [extract] fetched page 254 from source (783 rows)
+2026-10-18T02:07:00.500Z INFO  [warehouse] TRANSFORM_WH credit usage 263 units this hour
+2026-10-18T02:07:01.000Z INFO  [loader] staged batch 70 to @RAW_STAGE/crm_customers_sync/ (631 rows)
+2026-10-18T02:07:01.500Z INFO  [loader] staged batch 70 to @RAW_STAGE/crm_customers_sync/ (2834 rows)
+2026-10-18T02:07:02.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:07:02.500Z INFO  [transform] applied 69 column mappings for crm_customers
+2026-10-18T02:07:03.000Z INFO  [monitor] throughput 1948 rows/min
+2026-10-18T02:07:03.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:04.000Z INFO  [warehouse] TRANSFORM_WH credit usage 98 units this hour
+2026-10-18T02:07:04.500Z INFO  [monitor] throughput 995 rows/min
+2026-10-18T02:07:05.000Z INFO  [loader] staged batch 201 to @RAW_STAGE/crm_customers_sync/ (1499 rows)
+2026-10-18T02:07:05.500Z INFO  [transform] applied 122 column mappings for crm_customers
+2026-10-18T02:07:06.000Z INFO  [warehouse] TRANSFORM_WH credit usage 42 units this hour
+2026-10-18T02:07:06.500Z INFO  [warehouse] TRANSFORM_WH credit usage 307 units this hour
+2026-10-18T02:07:07.000Z INFO  [loader] staged batch 28 to @RAW_STAGE/crm_customers_sync/ (2341 rows)
+2026-10-18T02:07:07.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:08.000Z INFO  [warehouse] TRANSFORM_WH credit usage 101 units this hour
+2026-10-18T02:07:08.500Z INFO  [extract] fetched page 472 from source (2843 rows)
+2026-10-18T02:07:09.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:09.500Z INFO  [monitor] throughput 2780 rows/min
+2026-10-18T02:07:10.000Z INFO  [loader] staged batch 149 to @RAW_STAGE/crm_customers_sync/ (4893 rows)
+2026-10-18T02:07:10.500Z INFO  [extract] fetched page 240 from source (547 rows)
+2026-10-18T02:07:11.000Z INFO  [loader] staged batch 393 to @RAW_STAGE/crm_customers_sync/ (3044 rows)
+2026-10-18T02:07:11.500Z INFO  [extract] fetched page 373 from source (4578 rows)
+2026-10-18T02:07:12.000Z INFO  [warehouse] TRANSFORM_WH credit usage 321 units this hour
+2026-10-18T02:07:12.500Z INFO  [extract] fetched page 70 from source (3475 rows)
+2026-10-18T02:07:13.000Z INFO  [monitor] throughput 3256 rows/min
+2026-10-18T02:07:13.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:14.000Z INFO  [warehouse] TRANSFORM_WH credit usage 357 units this hour
+2026-10-18T02:07:14.500Z INFO  [monitor] throughput 4381 rows/min
+2026-10-18T02:07:15.000Z INFO  [extract] fetched page 93 from source (462 rows)
+2026-10-18T02:07:15.500Z INFO  [extract] fetched page 150 from source (646 rows)
+2026-10-18T02:07:16.000Z INFO  [schema] source schema fingerprint changed: 5 columns -> 6 columns
+2026-10-18T02:07:16.500Z INFO  [loader] starting COPY INTO RAW.CRM_CUSTOMERS from @RAW_STAGE
+2026-10-18T02:07:17.000Z ERROR [loader] COPY INTO RAW.CRM_CUSTOMERS failed: column "loyalty_tier" not found in target table (source schema added loyalty_tier VARCHAR)
+2026-10-18T02:07:17.500Z INFO  [loader] staged batch 128 to @RAW_STAGE/crm_customers_sync/ (1004 rows)
+2026-10-18T02:07:18.000Z INFO  [warehouse] TRANSFORM_WH credit usage 156 units this hour
+2026-10-18T02:07:18.500Z INFO  [loader] staged batch 198 to @RAW_STAGE/crm_customers_sync/ (4811 rows)
+2026-10-18T02:07:19.000Z INFO  [transform] applied 72 column mappings for crm_customers
+2026-10-18T02:07:19.500Z INFO  [monitor] throughput 4705 rows/min
+2026-10-18T02:07:20.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:07:20.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:21.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:07:21.500Z INFO  [transform] applied 366 column mappings for crm_customers
+2026-10-18T02:07:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 136 units this hour
+2026-10-18T02:07:22.500Z INFO  [loader] staged batch 194 to @RAW_STAGE/crm_customers_sync/ (1929 rows)
+2026-10-18T02:07:23.000Z INFO  [monitor] throughput 4306 rows/min
+2026-10-18T02:07:23.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:07:24.000Z INFO  [loader] staged batch 457 to @RAW_STAGE/crm_customers_sync/ (1395 rows)
+2026-10-18T02:07:24.500Z INFO  [extract] fetched page 437 from source (597 rows)
+2026-10-18T02:07:25.000Z INFO  [transform] applied 418 column mappings for crm_customers
+2026-10-18T02:07:25.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:07:26.000Z INFO  [loader] staged batch 218 to @RAW_STAGE/crm_customers_sync/ (4896 rows)
+2026-10-18T02:07:26.500Z INFO  [warehouse] TRANSFORM_WH credit usage 10 units this hour
+2026-10-18T02:07:27.000Z INFO  [extract] fetched page 117 from source (1581 rows)
+2026-10-18T02:07:27.500Z INFO  [warehouse] TRANSFORM_WH credit usage 338 units this hour
+2026-10-18T02:07:28.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:28.500Z INFO  [warehouse] TRANSFORM_WH credit usage 3 units this hour
+2026-10-18T02:07:29.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:07:29.500Z INFO  [extract] fetched page 295 from source (2061 rows)
+2026-10-18T02:07:30.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:07:30.500Z INFO  [monitor] throughput 483 rows/min
+2026-10-18T02:07:31.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:31.500Z INFO  [loader] staged batch 356 to @RAW_STAGE/crm_customers_sync/ (4393 rows)
+2026-10-18T02:07:32.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:32.500Z INFO  [warehouse] TRANSFORM_WH credit usage 142 units this hour
+2026-10-18T02:07:33.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:33.500Z INFO  [extract] fetched page 249 from source (3532 rows)
+2026-10-18T02:07:34.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:34.500Z INFO  [transform] applied 420 column mappings for crm_customers
+2026-10-18T02:07:35.000Z INFO  [transform] applied 357 column mappings for crm_customers
+2026-10-18T02:07:35.500Z INFO  [monitor] throughput 4046 rows/min
+2026-10-18T02:07:36.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:36.500Z INFO  [monitor] throughput 1778 rows/min
+2026-10-18T02:07:37.000Z INFO  [extract] fetched page 69 from source (2808 rows)
+2026-10-18T02:07:37.500Z INFO  [transform] applied 287 column mappings for crm_customers
+2026-10-18T02:07:38.000Z INFO  [loader] staged batch 137 to @RAW_STAGE/crm_customers_sync/ (1335 rows)
+2026-10-18T02:07:38.500Z INFO  [loader] staged batch 116 to @RAW_STAGE/crm_customers_sync/ (1464 rows)
+2026-10-18T02:07:39.000Z INFO  [loader] staged batch 238 to @RAW_STAGE/crm_customers_sync/ (4756 rows)
+2026-10-18T02:07:39.500Z INFO  [extract] fetched page 170 from source (4994 rows)
+2026-10-18T02:07:40.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:40.500Z INFO  [warehouse] TRANSFORM_WH credit usage 382 units this hour
+2026-10-18T02:07:41.000Z INFO  [monitor] throughput 2982 rows/min
+2026-10-18T02:07:41.500Z INFO  [monitor] throughput 3502 rows/min
+2026-10-18T02:07:42.000Z INFO  [warehouse] TRANSFORM_WH credit usage 271 units this hour
+2026-10-18T02:07:42.500Z INFO  [extract] fetched page 153 from source (347 rows)
+2026-10-18T02:07:43.000Z INFO  [monitor] throughput 1342 rows/min
+2026-10-18T02:07:43.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:07:44.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:44.500Z INFO  [loader] staged batch 437 to @RAW_STAGE/crm_customers_sync/ (1890 rows)
+2026-10-18T02:07:45.000Z INFO  [extract] fetched page 279 from source (4335 rows)
+2026-10-18T02:07:45.500Z INFO  [warehouse] TRANSFORM_WH credit usage 386 units this hour
+2026-10-18T02:07:46.000Z INFO  [transform] applied 76 column mappings for crm_customers
+2026-10-18T02:07:46.500Z INFO  [transform] applied 407 column mappings for crm_customers
+2026-10-18T02:07:47.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:07:47.500Z INFO  [warehouse] TRANSFORM_WH credit usage 287 units this hour
+2026-10-18T02:07:48.000Z INFO  [loader] staged batch 267 to @RAW_STAGE/crm_customers_sync/ (1082 rows)
+2026-10-18T02:07:48.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:49.000Z INFO  [extract] fetched page 23 from source (3911 rows)
+2026-10-18T02:07:49.500Z INFO  [warehouse] TRANSFORM_WH credit usage 62 units this hour
+2026-10-18T02:07:50.000Z INFO  [warehouse] TRANSFORM_WH credit usage 129 units this hour
+2026-10-18T02:07:50.500Z INFO  [extract] fetched page 121 from source (2549 rows)
+2026-10-18T02:07:51.000Z INFO  [extract] fetched page 17 from source (1516 rows)
+2026-10-18T02:07:51.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:52.000Z INFO  [extract] fetched page 33 from source (230 rows)
+2026-10-18T02:07:52.500Z INFO  [extract] fetched page 421 from source (3446 rows)
+2026-10-18T02:07:53.000Z INFO  [extract] fetched page 374 from source (4088 rows)
+2026-10-18T02:07:53.500Z INFO  [warehouse] TRANSFORM_WH credit usage 390 units this hour
+2026-10-18T02:07:54.000Z INFO  [loader] staged batch 378 to @RAW_STAGE/crm_customers_sync/ (431 rows)
+2026-10-18T02:07:54.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:55.000Z INFO  [warehouse] TRANSFORM_WH credit usage 137 units this hour
+2026-10-18T02:07:55.500Z INFO  [extract] fetched page 419 from source (1082 rows)
+2026-10-18T02:07:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 201 units this hour
+2026-10-18T02:07:56.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:57.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:57.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:07:58.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:07:58.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:59.000Z INFO  [transform] applied 57 column mappings for crm_customers
+2026-10-18T02:07:59.500Z INFO  [transform] applied 238 column mappings for crm_customers
+2026-10-18T02:08:00.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:00.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:08:01.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:08:01.500Z INFO  [loader] staged batch 174 to @RAW_STAGE/crm_customers_sync/ (2097 rows)
+2026-10-18T02:08:02.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:08:02.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:03.000Z INFO  [loader] staged batch 26 to @RAW_STAGE/crm_customers_sync/ (3353 rows)
+2026-10-18T02:08:03.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:04.000Z INFO  [monitor] throughput 3144 rows/min
+2026-10-18T02:08:04.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:05.000Z INFO  [transform] applied 425 column mappings for crm_customers
+2026-10-18T02:08:05.500Z INFO  [loader] staged batch 425 to @RAW_STAGE/crm_customers_sync/ (3001 rows)
+2026-10-18T02:08:06.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:06.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:07.000Z INFO  [warehouse] TRANSFORM_WH credit usage 80 units this hour
+2026-10-18T02:08:07.500Z INFO  [monitor] throughput 4530 rows/min
+2026-10-18T02:08:08.000Z INFO  [warehouse] TRANSFORM_WH credit usage 38 units this hour
+2026-10-18T02:08:08.500Z INFO  [extract] fetched page 330 from source (286 rows)
+2026-10-18T02:08:09.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:08:09.500Z INFO  [monitor] throughput 3385 rows/min
+2026-10-18T02:08:10.000Z INFO  [warehouse] TRANSFORM_WH credit usage 419 units this hour
+2026-10-18T02:08:10.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:08:11.000Z INFO  [extract] fetched page 410 from source (3189 rows)
+2026-10-18T02:08:11.500Z INFO  [monitor] throughput 4933 rows/min
+2026-10-18T02:08:12.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:12.500Z INFO  [loader] staged batch 352 to @RAW_STAGE/crm_customers_sync/ (1530 rows)
+2026-10-18T02:08:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 426 units this hour
+2026-10-18T02:08:13.500Z INFO  [transform] applied 384 column mappings for crm_customers
+2026-10-18T02:08:14.000Z INFO  [loader] staged batch 368 to @RAW_STAGE/crm_customers_sync/ (2232 rows)
+2026-10-18T02:08:14.500Z INFO  [transform] applied 251 column mappings for crm_customers
+2026-10-18T02:08:15.000Z INFO  [monitor] throughput 2851 rows/min
+2026-10-18T02:08:15.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:16.000Z INFO  [extract] fetched page 232 from source (2750 rows)
+2026-10-18T02:08:16.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:17.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:17.500Z INFO  [monitor] throughput 1473 rows/min
+2026-10-18T02:08:18.000Z INFO  [loader] staged batch 315 to @RAW_STAGE/crm_customers_sync/ (1918 rows)
+2026-10-18T02:08:18.500Z INFO  [monitor] throughput 3790 rows/min
+2026-10-18T02:08:19.000Z INFO  [monitor] throughput 4661 rows/min
+2026-10-18T02:08:19.500Z INFO  [loader] staged batch 359 to @RAW_STAGE/crm_customers_sync/ (2917 rows)
+2026-10-18T02:08:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 325 units this hour
+2026-10-18T02:08:20.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:08:21.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:08:21.500Z INFO  [monitor] throughput 4471 rows/min
+2026-10-18T02:08:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 373 units this hour
+2026-10-18T02:08:22.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:23.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:23.500Z INFO  [transform] applied 295 column mappings for crm_customers
+2026-10-18T02:08:24.000Z INFO  [monitor] throughput 1118 rows/min
+2026-10-18T02:08:24.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:25.000Z INFO  [monitor] throughput 3080 rows/min
+2026-10-18T02:08:25.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:26.000Z INFO  [monitor] throughput 3396 rows/min
+2026-10-18T02:08:26.500Z INFO  [monitor] throughput 2294 rows/min
+2026-10-18T02:08:27.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:08:27.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:28.000Z INFO  [loader] staged batch 437 to @RAW_STAGE/crm_customers_sync/ (3268 rows)
+2026-10-18T02:08:28.500Z INFO  [loader] staged batch 188 to @RAW_STAGE/crm_customers_sync/ (3760 rows)
+2026-10-18T02:08:29.000Z INFO  [monitor] throughput 911 rows/min
+2026-10-18T02:08:29.500Z INFO  [monitor] throughput 3804 rows/min
+2026-10-18T02:08:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 79 units this hour
+2026-10-18T02:08:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 48 units this hour
+2026-10-18T02:08:31.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:31.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:08:32.000Z INFO  [extract] fetched page 151 from source (4499 rows)
+2026-10-18T02:08:32.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:08:33.000Z INFO  [monitor] throughput 1471 rows/min
+2026-10-18T02:08:33.500Z INFO  [extract] fetched page 274 from source (2359 rows)
+2026-10-18T02:08:34.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:08:34.500Z INFO  [loader] staged batch 290 to @RAW_STAGE/crm_customers_sync/ (4807 rows)
+2026-10-18T02:08:35.000Z INFO  [transform] applied 116 column mappings for crm_customers
+2026-10-18T02:08:35.500Z INFO  [monitor] throughput 163 rows/min
+2026-10-18T02:08:36.000Z INFO  [warehouse] TRANSFORM_WH credit usage 84 units this hour
+2026-10-18T02:08:36.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:37.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:08:37.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:08:38.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:38.500Z INFO  [extract] fetched page 321 from source (435 rows)
+2026-10-18T02:08:39.000Z INFO  [loader] staged batch 199 to @RAW_STAGE/crm_customers_sync/ (2416 rows)
+2026-10-18T02:08:39.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:40.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:40.500Z INFO  [monitor] throughput 4938 rows/min
+2026-10-18T02:08:41.000Z INFO  [transform] applied 330 column mappings for crm_customers
+2026-10-18T02:08:41.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:08:42.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:42.500Z INFO  [transform] applied 233 column mappings for crm_customers
+2026-10-18T02:08:43.000Z INFO  [warehouse] TRANSFORM_WH credit usage 375 units this hour
+2026-10-18T02:08:43.500Z INFO  [transform] applied 386 column mappings for crm_customers
+2026-10-18T02:08:44.000Z INFO  [extract] fetched page 61 from source (4802 rows)
+2026-10-18T02:08:44.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:45.000Z INFO  [warehouse] TRANSFORM_WH credit usage 178 units this hour
+2026-10-18T02:08:45.500Z INFO  [transform] applied 192 column mappings for crm_customers
+2026-10-18T02:08:46.000Z INFO  [loader] staged batch 303 to @RAW_STAGE/crm_customers_sync/ (2304 rows)
+2026-10-18T02:08:46.500Z INFO  [warehouse] TRANSFORM_WH credit usage 231 units this hour
+2026-10-18T02:08:47.000Z INFO  [monitor] throughput 3968 rows/min
+2026-10-18T02:08:47.500Z INFO  [extract] fetched page 186 from source (2287 rows)
+2026-10-18T02:08:48.000Z INFO  [extract] fetched page 347 from source (3056 rows)
+2026-10-18T02:08:48.500Z INFO  [extract] fetched page 126 from source (317 rows)
+2026-10-18T02:08:49.000Z INFO  [extract] fetched page 356 from source (4629 rows)
+2026-10-18T02:08:49.500Z INFO  [loader] staged batch 17 to @RAW_STAGE/crm_customers_sync/ (2199 rows)
+2026-10-18T02:08:50.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:50.500Z INFO  [loader] staged batch 322 to @RAW_STAGE/crm_customers_sync/ (3781 rows)
+2026-10-18T02:08:51.000Z INFO  [loader] staged batch 33 to @RAW_STAGE/crm_customers_sync/ (2728 rows)
+2026-10-18T02:08:51.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:08:52.000Z INFO  [transform] applied 208 column mappings for crm_customers
+2026-10-18T02:08:52.500Z INFO  [warehouse] TRANSFORM_WH credit usage 359 units this hour
+2026-10-18T02:08:53.000Z INFO  [warehouse] TRANSFORM_WH credit usage 270 units this hour
+2026-10-18T02:08:53.500Z INFO  [warehouse] TRANSFORM_WH credit usage 49 units this hour
+2026-10-18T02:08:54.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:08:54.500Z INFO  [extract] fetched page 423 from source (1829 rows)
+2026-10-18T02:08:55.000Z INFO  [monitor] throughput 4130 rows/min
+2026-10-18T02:08:55.500Z INFO  [extract] fetched page 445 from source (1711 rows)
+2026-10-18T02:08:56.000Z INFO  [transform] applied 456 column mappings for crm_customers
+2026-10-18T02:08:56.500Z INFO  [loader] staged batch 22 to @RAW_STAGE/crm_customers_sync/ (2858 rows)
+2026-10-18T02:08:57.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:57.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:08:58.000Z INFO  [loader] staged batch 228 to @RAW_STAGE/crm_customers_sync/ (4944 rows)
+2026-10-18T02:08:58.500Z INFO  [warehouse] TRANSFORM_WH credit usage 121 units this hour
+2026-10-18T02:08:59.000Z INFO  [loader] staged batch 262 to @RAW_STAGE/crm_customers_sync/ (4518 rows)
+2026-10-18T02:08:59.500Z INFO  [loader] staged batch 288 to @RAW_STAGE/crm_customers_sync/ (4629 rows)
+2026-10-18T02:09:00.000Z INFO  [transform] applied 466 column mappings for crm_customers
+2026-10-18T02:09:00.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:09:01.000Z INFO  [warehouse] TRANSFORM_WH credit usage 323 units this hour
+2026-10-18T02:09:01.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:09:02.000Z INFO  [monitor] throughput 4187 rows/min
+2026-10-18T02:09:02.500Z INFO  [warehouse] TRANSFORM_WH credit usage 459 units this hour
+2026-10-18T02:09:03.000Z INFO  [loader] staged batch 432 to @RAW_STAGE/crm_customers_sync/ (4580 rows)
+2026-10-18T02:09:03.500Z INFO  [warehouse] TRANSFORM_WH credit usage 301 units this hour
+2026-10-18T02:09:04.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:09:04.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:09:05.000Z INFO  [warehouse] TRANSFORM_WH credit usage 455 units this hour
+2026-10-18T02:09:05.500Z INFO  [transform] applied 416 column mappings for crm_customers
+2026-10-18T02:09:06.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:09:06.500Z INFO  [warehouse] TRANSFORM_WH credit usage 22 units this hour
+2026-10-18T02:09:07.000Z INFO  [warehouse] TRANSFORM_WH credit usage 33 units this hour
+2026-10-18T02:09:07.500Z INFO  [monitor] throughput 380 rows/min
+2026-10-18T02:09:08.000Z INFO  [transform] applied 45 column mappings for crm_customers
+2026-10-18T02:09:08.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:09:09.000Z INFO  [warehouse] TRANSFORM_WH credit usage 452 units this hour
+2026-10-18T02:09:09.500Z INFO  [monitor] throughput 4341 rows/min
+2026-10-18T02:09:10.000Z INFO  [extract] fetched page 490 from source (2243 rows)
+2026-10-18T02:09:10.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:09:11.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:09:11.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:12.000Z INFO  [loader] staged batch 113 to @RAW_STAGE/crm_customers_sync/ (2721 rows)
+2026-10-18T02:09:12.500Z INFO  [monitor] throughput 2509 rows/min
+2026-10-18T02:09:13.000Z INFO  [transform] applied 487 column mappings for crm_customers
+2026-10-18T02:09:13.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:14.000Z INFO  [monitor] throughput 1005 rows/min
+2026-10-18T02:09:14.500Z INFO  [monitor] throughput 3694 rows/min
+2026-10-18T02:09:15.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:09:15.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:16.000Z INFO  [loader] staged batch 140 to @RAW_STAGE/crm_customers_sync/ (134 rows)
+2026-10-18T02:09:16.500Z INFO  [extract] fetched page 299 from source (3291 rows)
+2026-10-18T02:09:17.000Z INFO  [loader] staged batch 113 to @RAW_STAGE/crm_customers_sync/ (2024 rows)
+2026-10-18T02:09:17.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:09:18.000Z INFO  [extract] fetched page 296 from source (4857 rows)
+2026-10-18T02:09:18.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:19.000Z INFO  [extract] fetched page 233 from source (1907 rows)
+2026-10-18T02:09:19.500Z INFO  [loader] staged batch 240 to @RAW_STAGE/crm_customers_sync/ (1096 rows)
+2026-10-18T02:09:20.000Z INFO  [loader] staged batch 306 to @RAW_STAGE/crm_customers_sync/ (2260 rows)
+2026-10-18T02:09:20.500Z INFO  [extract] fetched page 133 from source (4630 rows)
+2026-10-18T02:09:21.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:09:21.500Z INFO  [extract] fetched page 28 from source (1366 rows)
+2026-10-18T02:09:22.000Z INFO  [transform] applied 292 column mappings for crm_customers
+2026-10-18T02:09:22.500Z INFO  [loader] staged batch 278 to @RAW_STAGE/crm_customers_sync/ (3607 rows)
+2026-10-18T02:09:23.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:23.500Z INFO  [extract] fetched page 267 from source (3798 rows)
+2026-10-18T02:09:24.000Z INFO  [extract] fetched page 16 from source (3317 rows)
+2026-10-18T02:09:24.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:09:25.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:09:25.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:26.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:26.500Z INFO  [loader] staged batch 445 to @RAW_STAGE/crm_customers_sync/ (3422 rows)
+2026-10-18T02:09:27.000Z INFO  [transform] applied 388 column mappings for crm_customers
+2026-10-18T02:09:27.500Z INFO  [transform] applied 496 column mappings for crm_customers
+2026-10-18T02:09:28.000Z INFO  [extract] fetched page 142 from source (4487 rows)
+2026-10-18T02:09:28.500Z INFO  [transform] applied 107 column mappings for crm_customers
+2026-10-18T02:09:29.000Z INFO  [monitor] throughput 3456 rows/min
+2026-10-18T02:09:29.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 26 units this hour
+2026-10-18T02:09:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 216 units this hour
+2026-10-18T02:09:31.000Z INFO  [extract] fetched page 442 from source (4523 rows)
+2026-10-18T02:09:31.500Z INFO  [extract] fetched page 407 from source (2034 rows)
+2026-10-18T02:09:32.000Z INFO  [warehouse] TRANSFORM_WH credit usage 133 units this hour
+2026-10-18T02:09:32.500Z INFO  [transform] applied 114 column mappings for crm_customers
+2026-10-18T02:09:33.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:33.500Z INFO  [warehouse] TRANSFORM_WH credit usage 161 units this hour
+2026-10-18T02:09:34.000Z INFO  [warehouse] TRANSFORM_WH credit usage 490 units this hour
+2026-10-18T02:09:34.500Z INFO  [loader] staged batch 307 to @RAW_STAGE/crm_customers_sync/ (3740 rows)
+2026-10-18T02:09:35.000Z INFO  [warehouse] TRANSFORM_WH credit usage 488 units this hour
+2026-10-18T02:09:35.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:36.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:09:36.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:09:37.000Z INFO  [transform] applied 420 column mappings for crm_customers
+2026-10-18T02:09:37.500Z INFO  [warehouse] TRANSFORM_WH credit usage 357 units this hour
+2026-10-18T02:09:38.000Z INFO  [warehouse] TRANSFORM_WH credit usage 466 units this hour
+2026-10-18T02:09:38.500Z INFO  [transform] applied 3 column mappings for crm_customers
+2026-10-18T02:09:39.000Z INFO  [monitor] throughput 4275 rows/min
+2026-10-18T02:09:39.500Z INFO  [loader] staged batch 236 to @RAW_STAGE/crm_customers_sync/ (1399 rows)
+2026-10-18T02:09:40.000Z INFO  [monitor] throughput 3426 rows/min
+2026-10-18T02:09:40.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:41.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:09:41.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:42.000Z INFO  [warehouse] TRANSFORM_WH credit usage 424 units this hour
+2026-10-18T02:09:42.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:09:43.000Z INFO  [warehouse] TRANSFORM_WH credit usage 291 units this hour
+2026-10-18T02:09:43.500Z INFO  [loader] staged batch 253 to @RAW_STAGE/crm_customers_sync/ (3400 rows)
+2026-10-18T02:09:44.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:09:44.500Z INFO  [warehouse] TRANSFORM_WH credit usage 48 units this hour
+2026-10-18T02:09:45.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:45.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:09:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 141 units this hour
+2026-10-18T02:09:46.500Z INFO  [monitor] throughput 693 rows/min
+2026-10-18T02:09:47.000Z INFO  [extract] fetched page 87 from source (102 rows)
+2026-10-18T02:09:47.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:48.000Z INFO  [loader] staged batch 313 to @RAW_STAGE/crm_customers_sync/ (2139 rows)
+2026-10-18T02:09:48.500Z INFO  [loader] staged batch 364 to @RAW_STAGE/crm_customers_sync/ (4317 rows)
+2026-10-18T02:09:49.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:49.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:50.000Z INFO  [warehouse] TRANSFORM_WH credit usage 161 units this hour
+2026-10-18T02:09:50.500Z INFO  [loader] staged batch 199 to @RAW_STAGE/crm_customers_sync/ (3405 rows)
+2026-10-18T02:09:51.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:51.500Z INFO  [extract] fetched page 80 from source (1918 rows)
+2026-10-18T02:09:52.000Z INFO  [loader] staged batch 92 to @RAW_STAGE/crm_customers_sync/ (863 rows)
+2026-10-18T02:09:52.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:09:53.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:09:53.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:09:54.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:09:54.500Z INFO  [monitor] throughput 2174 rows/min
+2026-10-18T02:09:55.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:09:55.500Z INFO  [warehouse] TRANSFORM_WH credit usage 174 units this hour
+2026-10-18T02:09:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 71 units this hour
+2026-10-18T02:09:56.500Z INFO  [transform] applied 200 column mappings for crm_customers
+2026-10-18T02:09:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 18 units this hour
+2026-10-18T02:09:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 490 units this hour
+2026-10-18T02:09:58.000Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:58.500Z INFO  [scheduler] heartbeat ok for crm_customers_sync
+2026-10-18T02:09:59.000Z INFO  [extract] fetched page 190 from source (2661 rows)
+2026-10-18T02:09:59.500Z ERROR [scheduler] job crm_customers_sync run crm_customers_sync-0 finished with status FAILED
+2026-10-18T02:10:00.000Z INFO  [scheduler] alert dispatched to on-call rotation

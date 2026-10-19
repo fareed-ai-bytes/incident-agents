@@ -1,0 +1,9 @@
+{
+  "alert_id": "ALERT-late_data",
+  "source": "scheduler",
+  "pipeline": "events_daily_partition",
+  "severity": "high",
+  "summary": "Freshness check failed for events_daily_partition",
+  "message": "Freshness check failed: partition dt=2026-10-18 missing for events_daily",
+  "occurred_at": "2026-10-18T02:50:00Z"
+}

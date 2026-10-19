@@ -1,0 +1,9 @@
+{
+  "alert_id": "ALERT-schema_drift",
+  "source": "scheduler",
+  "pipeline": "crm_customers_sync",
+  "severity": "high",
+  "summary": "Load failed for crm_customers_sync",
+  "message": "COPY INTO RAW.CRM_CUSTOMERS failed: invalid identifier 'LOYALTY_TIER'",
+  "occurred_at": "2026-10-18T02:10:00Z"
+}

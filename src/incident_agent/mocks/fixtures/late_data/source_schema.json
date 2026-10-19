@@ -1,0 +1,21 @@
+{
+  "table": "events_daily",
+  "columns": [
+    {
+      "name": "event_id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "user_id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "event_type",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "dt",
+      "type": "DATE"
+    }
+  ]
+}

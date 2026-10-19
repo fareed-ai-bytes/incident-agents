@@ -1,0 +1,25 @@
+{
+  "table": "crm_customers",
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "email",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "loyalty_tier",
+      "type": "VARCHAR"
+    }
+  ]
+}

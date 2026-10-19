@@ -1,0 +1,21 @@
+{
+  "table": "inventory",
+  "columns": [
+    {
+      "name": "sku",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "warehouse_code",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "qty",
+      "type": "INTEGER"
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP"
+    }
+  ]
+}

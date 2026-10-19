@@ -1,0 +1,1000 @@
+2026-10-18T02:00:00.500Z INFO  [warehouse] LOAD_WH credit usage 389 units this hour
+2026-10-18T02:00:01.000Z INFO  [extract] fetched page 456 from source (1204 rows)
+2026-10-18T02:00:01.500Z INFO  [monitor] throughput 3124 rows/min
+2026-10-18T02:00:02.000Z INFO  [transform] applied 307 column mappings for orders
+2026-10-18T02:00:02.500Z INFO  [extract] fetched page 127 from source (3109 rows)
+2026-10-18T02:00:03.000Z INFO  [warehouse] LOAD_WH credit usage 321 units this hour
+2026-10-18T02:00:03.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:00:04.000Z INFO  [monitor] throughput 4380 rows/min
+2026-10-18T02:00:04.500Z INFO  [monitor] throughput 2343 rows/min
+2026-10-18T02:00:05.000Z INFO  [warehouse] LOAD_WH credit usage 420 units this hour
+2026-10-18T02:00:05.500Z INFO  [warehouse] LOAD_WH credit usage 204 units this hour
+2026-10-18T02:00:06.000Z INFO  [loader] staged batch 416 to @RAW_STAGE/orders_warehouse_load/ (1462 rows)
+2026-10-18T02:00:06.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:07.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:07.500Z INFO  [extract] fetched page 29 from source (3485 rows)
+2026-10-18T02:00:08.000Z INFO  [transform] applied 65 column mappings for orders
+2026-10-18T02:00:08.500Z INFO  [transform] applied 57 column mappings for orders
+2026-10-18T02:00:09.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:09.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:10.000Z INFO  [transform] applied 318 column mappings for orders
+2026-10-18T02:00:10.500Z INFO  [warehouse] LOAD_WH credit usage 61 units this hour
+2026-10-18T02:00:11.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:11.500Z INFO  [warehouse] LOAD_WH credit usage 167 units this hour
+2026-10-18T02:00:12.000Z INFO  [monitor] throughput 2451 rows/min
+2026-10-18T02:00:12.500Z INFO  [monitor] throughput 4342 rows/min
+2026-10-18T02:00:13.000Z INFO  [loader] staged batch 178 to @RAW_STAGE/orders_warehouse_load/ (2053 rows)
+2026-10-18T02:00:13.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:14.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:14.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:15.000Z INFO  [warehouse] LOAD_WH credit usage 15 units this hour
+2026-10-18T02:00:15.500Z INFO  [monitor] throughput 4579 rows/min
+2026-10-18T02:00:16.000Z INFO  [extract] fetched page 397 from source (2710 rows)
+2026-10-18T02:00:16.500Z INFO  [extract] fetched page 24 from source (4954 rows)
+2026-10-18T02:00:17.000Z INFO  [transform] applied 362 column mappings for orders
+2026-10-18T02:00:17.500Z INFO  [extract] fetched page 94 from source (4523 rows)
+2026-10-18T02:00:18.000Z INFO  [warehouse] LOAD_WH credit usage 462 units this hour
+2026-10-18T02:00:18.500Z INFO  [monitor] throughput 2785 rows/min
+2026-10-18T02:00:19.000Z INFO  [monitor] throughput 155 rows/min
+2026-10-18T02:00:19.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:20.000Z INFO  [warehouse] LOAD_WH credit usage 382 units this hour
+2026-10-18T02:00:20.500Z INFO  [transform] applied 363 column mappings for orders
+2026-10-18T02:00:21.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:21.500Z INFO  [extract] fetched page 192 from source (4176 rows)
+2026-10-18T02:00:22.000Z INFO  [extract] fetched page 139 from source (1092 rows)
+2026-10-18T02:00:22.500Z INFO  [warehouse] LOAD_WH credit usage 188 units this hour
+2026-10-18T02:00:23.000Z INFO  [transform] applied 265 column mappings for orders
+2026-10-18T02:00:23.500Z INFO  [transform] applied 492 column mappings for orders
+2026-10-18T02:00:24.000Z INFO  [extract] fetched page 181 from source (785 rows)
+2026-10-18T02:00:24.500Z INFO  [extract] fetched page 138 from source (2805 rows)
+2026-10-18T02:00:25.000Z INFO  [transform] applied 224 column mappings for orders
+2026-10-18T02:00:25.500Z INFO  [transform] applied 261 column mappings for orders
+2026-10-18T02:00:26.000Z INFO  [transform] applied 171 column mappings for orders
+2026-10-18T02:00:26.500Z INFO  [loader] staged batch 146 to @RAW_STAGE/orders_warehouse_load/ (3009 rows)
+2026-10-18T02:00:27.000Z INFO  [transform] applied 224 column mappings for orders
+2026-10-18T02:00:27.500Z INFO  [extract] fetched page 151 from source (2122 rows)
+2026-10-18T02:00:28.000Z INFO  [loader] staged batch 401 to @RAW_STAGE/orders_warehouse_load/ (1545 rows)
+2026-10-18T02:00:28.500Z INFO  [transform] applied 100 column mappings for orders
+2026-10-18T02:00:29.000Z INFO  [warehouse] LOAD_WH credit usage 418 units this hour
+2026-10-18T02:00:29.500Z INFO  [extract] fetched page 391 from source (4154 rows)
+2026-10-18T02:00:30.000Z INFO  [transform] applied 189 column mappings for orders
+2026-10-18T02:00:30.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:31.000Z INFO  [warehouse] LOAD_WH credit usage 47 units this hour
+2026-10-18T02:00:31.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:32.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:32.500Z INFO  [transform] applied 141 column mappings for orders
+2026-10-18T02:00:33.000Z INFO  [warehouse] LOAD_WH credit usage 427 units this hour
+2026-10-18T02:00:33.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:34.000Z INFO  [monitor] throughput 3138 rows/min
+2026-10-18T02:00:34.500Z INFO  [extract] fetched page 343 from source (4971 rows)
+2026-10-18T02:00:35.000Z INFO  [warehouse] LOAD_WH credit usage 494 units this hour
+2026-10-18T02:00:35.500Z INFO  [monitor] throughput 2887 rows/min
+2026-10-18T02:00:36.000Z INFO  [loader] staged batch 186 to @RAW_STAGE/orders_warehouse_load/ (2300 rows)
+2026-10-18T02:00:36.500Z INFO  [extract] fetched page 486 from source (599 rows)
+2026-10-18T02:00:37.000Z INFO  [warehouse] LOAD_WH credit usage 39 units this hour
+2026-10-18T02:00:37.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:00:38.000Z INFO  [transform] applied 382 column mappings for orders
+2026-10-18T02:00:38.500Z INFO  [loader] staged batch 172 to @RAW_STAGE/orders_warehouse_load/ (2564 rows)
+2026-10-18T02:00:39.000Z INFO  [monitor] throughput 4257 rows/min
+2026-10-18T02:00:39.500Z INFO  [monitor] throughput 2912 rows/min
+2026-10-18T02:00:40.000Z INFO  [loader] staged batch 62 to @RAW_STAGE/orders_warehouse_load/ (877 rows)
+2026-10-18T02:00:40.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:41.000Z INFO  [extract] fetched page 35 from source (4917 rows)
+2026-10-18T02:00:41.500Z INFO  [warehouse] LOAD_WH credit usage 254 units this hour
+2026-10-18T02:00:42.000Z INFO  [transform] applied 429 column mappings for orders
+2026-10-18T02:00:42.500Z INFO  [loader] staged batch 464 to @RAW_STAGE/orders_warehouse_load/ (3032 rows)
+2026-10-18T02:00:43.000Z INFO  [extract] fetched page 138 from source (658 rows)
+2026-10-18T02:00:43.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:00:44.000Z INFO  [monitor] throughput 3264 rows/min
+2026-10-18T02:00:44.500Z INFO  [extract] fetched page 197 from source (182 rows)
+2026-10-18T02:00:45.000Z INFO  [monitor] throughput 3255 rows/min
+2026-10-18T02:00:45.500Z INFO  [extract] fetched page 360 from source (2272 rows)
+2026-10-18T02:00:46.000Z INFO  [monitor] throughput 2753 rows/min
+2026-10-18T02:00:46.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:47.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:47.500Z INFO  [loader] staged batch 158 to @RAW_STAGE/orders_warehouse_load/ (151 rows)
+2026-10-18T02:00:48.000Z INFO  [loader] staged batch 333 to @RAW_STAGE/orders_warehouse_load/ (3841 rows)
+2026-10-18T02:00:48.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:49.000Z INFO  [extract] fetched page 211 from source (4181 rows)
+2026-10-18T02:00:49.500Z INFO  [monitor] throughput 4658 rows/min
+2026-10-18T02:00:50.000Z INFO  [extract] fetched page 393 from source (2034 rows)
+2026-10-18T02:00:50.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:51.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:51.500Z INFO  [loader] staged batch 375 to @RAW_STAGE/orders_warehouse_load/ (1834 rows)
+2026-10-18T02:00:52.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:52.500Z INFO  [loader] staged batch 112 to @RAW_STAGE/orders_warehouse_load/ (1172 rows)
+2026-10-18T02:00:53.000Z INFO  [transform] applied 20 column mappings for orders
+2026-10-18T02:00:53.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:54.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:54.500Z INFO  [monitor] throughput 1109 rows/min
+2026-10-18T02:00:55.000Z INFO  [transform] applied 172 column mappings for orders
+2026-10-18T02:00:55.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:56.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:00:56.500Z INFO  [monitor] throughput 2826 rows/min
+2026-10-18T02:00:57.000Z INFO  [monitor] throughput 3529 rows/min
+2026-10-18T02:00:57.500Z INFO  [extract] fetched page 499 from source (209 rows)
+2026-10-18T02:00:58.000Z INFO  [extract] fetched page 428 from source (3720 rows)
+2026-10-18T02:00:58.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:00:59.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:59.500Z INFO  [extract] fetched page 157 from source (3306 rows)
+2026-10-18T02:01:00.000Z INFO  [loader] staged batch 483 to @RAW_STAGE/orders_warehouse_load/ (706 rows)
+2026-10-18T02:01:00.500Z INFO  [warehouse] LOAD_WH credit usage 424 units this hour
+2026-10-18T02:01:01.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:01.500Z INFO  [loader] staged batch 1 to @RAW_STAGE/orders_warehouse_load/ (3083 rows)
+2026-10-18T02:01:02.000Z INFO  [warehouse] LOAD_WH credit usage 407 units this hour
+2026-10-18T02:01:02.500Z INFO  [transform] applied 51 column mappings for orders
+2026-10-18T02:01:03.000Z INFO  [warehouse] LOAD_WH credit usage 42 units this hour
+2026-10-18T02:01:03.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:04.000Z INFO  [loader] staged batch 230 to @RAW_STAGE/orders_warehouse_load/ (3424 rows)
+2026-10-18T02:01:04.500Z INFO  [loader] staged batch 118 to @RAW_STAGE/orders_warehouse_load/ (4354 rows)
+2026-10-18T02:01:05.000Z INFO  [transform] applied 235 column mappings for orders
+2026-10-18T02:01:05.500Z INFO  [warehouse] LOAD_WH credit usage 120 units this hour
+2026-10-18T02:01:06.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:06.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:07.000Z INFO  [extract] fetched page 67 from source (3398 rows)
+2026-10-18T02:01:07.500Z INFO  [extract] fetched page 472 from source (3653 rows)
+2026-10-18T02:01:08.000Z INFO  [warehouse] LOAD_WH credit usage 443 units this hour
+2026-10-18T02:01:08.500Z INFO  [extract] fetched page 23 from source (2759 rows)
+2026-10-18T02:01:09.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:09.500Z INFO  [extract] fetched page 390 from source (705 rows)
+2026-10-18T02:01:10.000Z INFO  [extract] fetched page 339 from source (4368 rows)
+2026-10-18T02:01:10.500Z INFO  [extract] fetched page 379 from source (2470 rows)
+2026-10-18T02:01:11.000Z INFO  [monitor] throughput 3077 rows/min
+2026-10-18T02:01:11.500Z INFO  [loader] staged batch 409 to @RAW_STAGE/orders_warehouse_load/ (2062 rows)
+2026-10-18T02:01:12.000Z INFO  [monitor] throughput 964 rows/min
+2026-10-18T02:01:12.500Z INFO  [warehouse] LOAD_WH credit usage 305 units this hour
+2026-10-18T02:01:13.000Z INFO  [transform] applied 348 column mappings for orders
+2026-10-18T02:01:13.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:14.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:14.500Z INFO  [monitor] throughput 3153 rows/min
+2026-10-18T02:01:15.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:15.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:16.000Z INFO  [warehouse] LOAD_WH credit usage 478 units this hour
+2026-10-18T02:01:16.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:17.000Z INFO  [monitor] throughput 689 rows/min
+2026-10-18T02:01:17.500Z INFO  [transform] applied 336 column mappings for orders
+2026-10-18T02:01:18.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:18.500Z INFO  [warehouse] LOAD_WH credit usage 438 units this hour
+2026-10-18T02:01:19.000Z INFO  [monitor] throughput 1096 rows/min
+2026-10-18T02:01:19.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:20.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:20.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:21.000Z INFO  [extract] fetched page 242 from source (3674 rows)
+2026-10-18T02:01:21.500Z INFO  [loader] staged batch 14 to @RAW_STAGE/orders_warehouse_load/ (570 rows)
+2026-10-18T02:01:22.000Z INFO  [loader] staged batch 252 to @RAW_STAGE/orders_warehouse_load/ (1081 rows)
+2026-10-18T02:01:22.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:23.000Z INFO  [transform] applied 99 column mappings for orders
+2026-10-18T02:01:23.500Z INFO  [loader] staged batch 307 to @RAW_STAGE/orders_warehouse_load/ (4536 rows)
+2026-10-18T02:01:24.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:24.500Z INFO  [extract] fetched page 358 from source (3968 rows)
+2026-10-18T02:01:25.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:25.500Z INFO  [warehouse] LOAD_WH credit usage 405 units this hour
+2026-10-18T02:01:26.000Z INFO  [warehouse] LOAD_WH credit usage 182 units this hour
+2026-10-18T02:01:26.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:27.000Z INFO  [transform] applied 485 column mappings for orders
+2026-10-18T02:01:27.500Z INFO  [loader] staged batch 427 to @RAW_STAGE/orders_warehouse_load/ (4335 rows)
+2026-10-18T02:01:28.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:28.500Z INFO  [monitor] throughput 4987 rows/min
+2026-10-18T02:01:29.000Z INFO  [warehouse] LOAD_WH credit usage 440 units this hour
+2026-10-18T02:01:29.500Z INFO  [loader] staged batch 167 to @RAW_STAGE/orders_warehouse_load/ (4612 rows)
+2026-10-18T02:01:30.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:30.500Z INFO  [loader] staged batch 227 to @RAW_STAGE/orders_warehouse_load/ (2787 rows)
+2026-10-18T02:01:31.000Z INFO  [loader] staged batch 475 to @RAW_STAGE/orders_warehouse_load/ (1234 rows)
+2026-10-18T02:01:31.500Z INFO  [warehouse] LOAD_WH credit usage 292 units this hour
+2026-10-18T02:01:32.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:32.500Z INFO  [extract] fetched page 405 from source (4609 rows)
+2026-10-18T02:01:33.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:33.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:34.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:34.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:35.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:35.500Z INFO  [loader] staged batch 137 to @RAW_STAGE/orders_warehouse_load/ (2287 rows)
+2026-10-18T02:01:36.000Z INFO  [monitor] throughput 765 rows/min
+2026-10-18T02:01:36.500Z INFO  [monitor] throughput 4813 rows/min
+2026-10-18T02:01:37.000Z INFO  [transform] applied 399 column mappings for orders
+2026-10-18T02:01:37.500Z INFO  [transform] applied 109 column mappings for orders
+2026-10-18T02:01:38.000Z INFO  [loader] staged batch 264 to @RAW_STAGE/orders_warehouse_load/ (1620 rows)
+2026-10-18T02:01:38.500Z INFO  [warehouse] LOAD_WH credit usage 259 units this hour
+2026-10-18T02:01:39.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:39.500Z INFO  [extract] fetched page 500 from source (3973 rows)
+2026-10-18T02:01:40.000Z INFO  [monitor] throughput 1280 rows/min
+2026-10-18T02:01:40.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:41.000Z INFO  [warehouse] LOAD_WH credit usage 293 units this hour
+2026-10-18T02:01:41.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:42.000Z INFO  [monitor] throughput 2614 rows/min
+2026-10-18T02:01:42.500Z INFO  [transform] applied 212 column mappings for orders
+2026-10-18T02:01:43.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:43.500Z INFO  [monitor] throughput 3483 rows/min
+2026-10-18T02:01:44.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:44.500Z INFO  [loader] staged batch 133 to @RAW_STAGE/orders_warehouse_load/ (1815 rows)
+2026-10-18T02:01:45.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:45.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:46.000Z INFO  [loader] staged batch 203 to @RAW_STAGE/orders_warehouse_load/ (1039 rows)
+2026-10-18T02:01:46.500Z INFO  [warehouse] LOAD_WH credit usage 454 units this hour
+2026-10-18T02:01:47.000Z INFO  [loader] staged batch 462 to @RAW_STAGE/orders_warehouse_load/ (2831 rows)
+2026-10-18T02:01:47.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:48.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:48.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:01:49.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:49.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:50.000Z INFO  [monitor] throughput 785 rows/min
+2026-10-18T02:01:50.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:51.000Z INFO  [transform] applied 279 column mappings for orders
+2026-10-18T02:01:51.500Z INFO  [extract] fetched page 438 from source (1266 rows)
+2026-10-18T02:01:52.000Z WARN  [extract] source returned HTTP 429, backing off 1s (recovered)
+2026-10-18T02:01:52.500Z INFO  [monitor] throughput 4962 rows/min
+2026-10-18T02:01:53.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:53.500Z INFO  [loader] staged batch 222 to @RAW_STAGE/orders_warehouse_load/ (3231 rows)
+2026-10-18T02:01:54.000Z INFO  [warehouse] LOAD_WH credit usage 223 units this hour
+2026-10-18T02:01:54.500Z INFO  [extract] fetched page 428 from source (3554 rows)
+2026-10-18T02:01:55.000Z INFO  [monitor] throughput 1628 rows/min
+2026-10-18T02:01:55.500Z INFO  [warehouse] LOAD_WH credit usage 299 units this hour
+2026-10-18T02:01:56.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:56.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:01:57.000Z INFO  [warehouse] LOAD_WH credit usage 406 units this hour
+2026-10-18T02:01:57.500Z INFO  [monitor] throughput 1797 rows/min
+2026-10-18T02:01:58.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:01:58.500Z INFO  [monitor] throughput 4967 rows/min
+2026-10-18T02:01:59.000Z INFO  [extract] fetched page 486 from source (4277 rows)
+2026-10-18T02:01:59.500Z INFO  [warehouse] LOAD_WH credit usage 347 units this hour
+2026-10-18T02:02:00.000Z INFO  [transform] applied 366 column mappings for orders
+2026-10-18T02:02:00.500Z INFO  [loader] staged batch 397 to @RAW_STAGE/orders_warehouse_load/ (2503 rows)
+2026-10-18T02:02:01.000Z INFO  [warehouse] LOAD_WH credit usage 271 units this hour
+2026-10-18T02:02:01.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:02.000Z INFO  [extract] fetched page 498 from source (2732 rows)
+2026-10-18T02:02:02.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:03.000Z INFO  [monitor] throughput 4731 rows/min
+2026-10-18T02:02:03.500Z INFO  [monitor] throughput 3740 rows/min
+2026-10-18T02:02:04.000Z INFO  [transform] applied 10 column mappings for orders
+2026-10-18T02:02:04.500Z INFO  [warehouse] LOAD_WH credit usage 298 units this hour
+2026-10-18T02:02:05.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:05.500Z INFO  [loader] staged batch 442 to @RAW_STAGE/orders_warehouse_load/ (4886 rows)
+2026-10-18T02:02:06.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:06.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:07.000Z INFO  [transform] applied 305 column mappings for orders
+2026-10-18T02:02:07.500Z INFO  [monitor] throughput 2525 rows/min
+2026-10-18T02:02:08.000Z INFO  [warehouse] LOAD_WH credit usage 224 units this hour
+2026-10-18T02:02:08.500Z INFO  [transform] applied 87 column mappings for orders
+2026-10-18T02:02:09.000Z INFO  [transform] applied 238 column mappings for orders
+2026-10-18T02:02:09.500Z INFO  [monitor] throughput 269 rows/min
+2026-10-18T02:02:10.000Z INFO  [extract] fetched page 487 from source (239 rows)
+2026-10-18T02:02:10.500Z INFO  [transform] applied 371 column mappings for orders
+2026-10-18T02:02:11.000Z INFO  [monitor] throughput 687 rows/min
+2026-10-18T02:02:11.500Z INFO  [transform] applied 414 column mappings for orders
+2026-10-18T02:02:12.000Z INFO  [warehouse] LOAD_WH credit usage 296 units this hour
+2026-10-18T02:02:12.500Z INFO  [warehouse] LOAD_WH credit usage 376 units this hour
+2026-10-18T02:02:13.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:13.500Z INFO  [monitor] throughput 1915 rows/min
+2026-10-18T02:02:14.000Z INFO  [warehouse] LOAD_WH credit usage 291 units this hour
+2026-10-18T02:02:14.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:15.000Z INFO  [monitor] throughput 1887 rows/min
+2026-10-18T02:02:15.500Z INFO  [monitor] throughput 1106 rows/min
+2026-10-18T02:02:16.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:16.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:17.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:17.500Z INFO  [monitor] throughput 344 rows/min
+2026-10-18T02:02:18.000Z INFO  [loader] staged batch 412 to @RAW_STAGE/orders_warehouse_load/ (3428 rows)
+2026-10-18T02:02:18.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:19.000Z INFO  [monitor] throughput 2701 rows/min
+2026-10-18T02:02:19.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:20.000Z INFO  [extract] fetched page 297 from source (1516 rows)
+2026-10-18T02:02:20.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:21.000Z INFO  [monitor] throughput 1929 rows/min
+2026-10-18T02:02:21.500Z INFO  [monitor] throughput 2517 rows/min
+2026-10-18T02:02:22.000Z INFO  [loader] staged batch 13 to @RAW_STAGE/orders_warehouse_load/ (4143 rows)
+2026-10-18T02:02:22.500Z INFO  [monitor] throughput 945 rows/min
+2026-10-18T02:02:23.000Z INFO  [transform] applied 314 column mappings for orders
+2026-10-18T02:02:23.500Z INFO  [loader] staged batch 398 to @RAW_STAGE/orders_warehouse_load/ (3505 rows)
+2026-10-18T02:02:24.000Z INFO  [warehouse] LOAD_WH credit usage 194 units this hour
+2026-10-18T02:02:24.500Z INFO  [warehouse] LOAD_WH credit usage 390 units this hour
+2026-10-18T02:02:25.000Z INFO  [extract] fetched page 365 from source (331 rows)
+2026-10-18T02:02:25.500Z INFO  [extract] fetched page 195 from source (3349 rows)
+2026-10-18T02:02:26.000Z INFO  [extract] fetched page 78 from source (2400 rows)
+2026-10-18T02:02:26.500Z INFO  [extract] fetched page 113 from source (4580 rows)
+2026-10-18T02:02:27.000Z INFO  [transform] applied 327 column mappings for orders
+2026-10-18T02:02:27.500Z INFO  [transform] applied 68 column mappings for orders
+2026-10-18T02:02:28.000Z INFO  [transform] applied 264 column mappings for orders
+2026-10-18T02:02:28.500Z INFO  [extract] fetched page 494 from source (4754 rows)
+2026-10-18T02:02:29.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:29.500Z INFO  [transform] applied 292 column mappings for orders
+2026-10-18T02:02:30.000Z INFO  [warehouse] LOAD_WH credit usage 326 units this hour
+2026-10-18T02:02:30.500Z INFO  [warehouse] LOAD_WH credit usage 111 units this hour
+2026-10-18T02:02:31.000Z INFO  [loader] staged batch 382 to @RAW_STAGE/orders_warehouse_load/ (4720 rows)
+2026-10-18T02:02:31.500Z INFO  [loader] staged batch 306 to @RAW_STAGE/orders_warehouse_load/ (1202 rows)
+2026-10-18T02:02:32.000Z INFO  [loader] staged batch 295 to @RAW_STAGE/orders_warehouse_load/ (3338 rows)
+2026-10-18T02:02:32.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:33.000Z INFO  [warehouse] LOAD_WH credit usage 171 units this hour
+2026-10-18T02:02:33.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:34.000Z INFO  [transform] applied 285 column mappings for orders
+2026-10-18T02:02:34.500Z INFO  [warehouse] LOAD_WH credit usage 74 units this hour
+2026-10-18T02:02:35.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:35.500Z INFO  [warehouse] LOAD_WH credit usage 124 units this hour
+2026-10-18T02:02:36.000Z WARN  [monitor] query queue latency 2.3s above 2.0s target
+2026-10-18T02:02:36.500Z INFO  [transform] applied 358 column mappings for orders
+2026-10-18T02:02:37.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:37.500Z INFO  [extract] fetched page 48 from source (1909 rows)
+2026-10-18T02:02:38.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:38.500Z INFO  [loader] staged batch 17 to @RAW_STAGE/orders_warehouse_load/ (3623 rows)
+2026-10-18T02:02:39.000Z INFO  [warehouse] LOAD_WH credit usage 138 units this hour
+2026-10-18T02:02:39.500Z INFO  [transform] applied 362 column mappings for orders
+2026-10-18T02:02:40.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:40.500Z INFO  [loader] staged batch 220 to @RAW_STAGE/orders_warehouse_load/ (1589 rows)
+2026-10-18T02:02:41.000Z INFO  [loader] staged batch 436 to @RAW_STAGE/orders_warehouse_load/ (1029 rows)
+2026-10-18T02:02:41.500Z INFO  [extract] fetched page 482 from source (290 rows)
+2026-10-18T02:02:42.000Z INFO  [warehouse] LOAD_WH credit usage 9 units this hour
+2026-10-18T02:02:42.500Z INFO  [loader] staged batch 341 to @RAW_STAGE/orders_warehouse_load/ (3425 rows)
+2026-10-18T02:02:43.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:43.500Z INFO  [loader] staged batch 181 to @RAW_STAGE/orders_warehouse_load/ (3154 rows)
+2026-10-18T02:02:44.000Z INFO  [loader] staged batch 174 to @RAW_STAGE/orders_warehouse_load/ (3109 rows)
+2026-10-18T02:02:44.500Z INFO  [transform] applied 120 column mappings for orders
+2026-10-18T02:02:45.000Z INFO  [monitor] throughput 2142 rows/min
+2026-10-18T02:02:45.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:02:46.000Z INFO  [extract] fetched page 109 from source (4322 rows)
+2026-10-18T02:02:46.500Z INFO  [extract] fetched page 80 from source (2552 rows)
+2026-10-18T02:02:47.000Z INFO  [warehouse] LOAD_WH credit usage 494 units this hour
+2026-10-18T02:02:47.500Z INFO  [extract] fetched page 374 from source (2834 rows)
+2026-10-18T02:02:48.000Z INFO  [warehouse] LOAD_WH credit usage 459 units this hour
+2026-10-18T02:02:48.500Z INFO  [loader] staged batch 88 to @RAW_STAGE/orders_warehouse_load/ (3418 rows)
+2026-10-18T02:02:49.000Z INFO  [transform] applied 400 column mappings for orders
+2026-10-18T02:02:49.500Z INFO  [transform] applied 313 column mappings for orders
+2026-10-18T02:02:50.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:50.500Z INFO  [transform] applied 286 column mappings for orders
+2026-10-18T02:02:51.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:51.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:52.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:52.500Z INFO  [warehouse] LOAD_WH credit usage 436 units this hour
+2026-10-18T02:02:53.000Z INFO  [transform] applied 180 column mappings for orders
+2026-10-18T02:02:53.500Z INFO  [warehouse] LOAD_WH credit usage 260 units this hour
+2026-10-18T02:02:54.000Z INFO  [extract] fetched page 365 from source (522 rows)
+2026-10-18T02:02:54.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:02:55.000Z INFO  [extract] fetched page 251 from source (3631 rows)
+2026-10-18T02:02:55.500Z INFO  [transform] applied 156 column mappings for orders
+2026-10-18T02:02:56.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:56.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:57.000Z INFO  [transform] applied 191 column mappings for orders
+2026-10-18T02:02:57.500Z INFO  [warehouse] LOAD_WH credit usage 252 units this hour
+2026-10-18T02:02:58.000Z INFO  [loader] staged batch 67 to @RAW_STAGE/orders_warehouse_load/ (3306 rows)
+2026-10-18T02:02:58.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:59.000Z INFO  [transform] applied 97 column mappings for orders
+2026-10-18T02:02:59.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:00.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:00.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:01.000Z INFO  [loader] staged batch 243 to @RAW_STAGE/orders_warehouse_load/ (1729 rows)
+2026-10-18T02:03:01.500Z INFO  [warehouse] LOAD_WH credit usage 203 units this hour
+2026-10-18T02:03:02.000Z INFO  [monitor] throughput 3935 rows/min
+2026-10-18T02:03:02.500Z INFO  [extract] fetched page 468 from source (3052 rows)
+2026-10-18T02:03:03.000Z INFO  [extract] fetched page 55 from source (1544 rows)
+2026-10-18T02:03:03.500Z INFO  [monitor] throughput 1309 rows/min
+2026-10-18T02:03:04.000Z INFO  [transform] applied 345 column mappings for orders
+2026-10-18T02:03:04.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:05.000Z INFO  [extract] fetched page 68 from source (1530 rows)
+2026-10-18T02:03:05.500Z INFO  [monitor] throughput 192 rows/min
+2026-10-18T02:03:06.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:06.500Z INFO  [extract] fetched page 390 from source (841 rows)
+2026-10-18T02:03:07.000Z INFO  [extract] fetched page 131 from source (4011 rows)
+2026-10-18T02:03:07.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:03:08.000Z INFO  [transform] applied 206 column mappings for orders
+2026-10-18T02:03:08.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:09.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:09.500Z INFO  [warehouse] LOAD_WH credit usage 273 units this hour
+2026-10-18T02:03:10.000Z INFO  [monitor] throughput 4418 rows/min
+2026-10-18T02:03:10.500Z INFO  [loader] staged batch 136 to @RAW_STAGE/orders_warehouse_load/ (1110 rows)
+2026-10-18T02:03:11.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:11.500Z INFO  [transform] applied 163 column mappings for orders
+2026-10-18T02:03:12.000Z INFO  [monitor] throughput 3979 rows/min
+2026-10-18T02:03:12.500Z INFO  [warehouse] LOAD_WH credit usage 136 units this hour
+2026-10-18T02:03:13.000Z INFO  [extract] fetched page 26 from source (3508 rows)
+2026-10-18T02:03:13.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:14.000Z INFO  [warehouse] LOAD_WH credit usage 280 units this hour
+2026-10-18T02:03:14.500Z INFO  [extract] fetched page 45 from source (2565 rows)
+2026-10-18T02:03:15.000Z INFO  [extract] fetched page 129 from source (813 rows)
+2026-10-18T02:03:15.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:16.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:16.500Z INFO  [loader] staged batch 427 to @RAW_STAGE/orders_warehouse_load/ (954 rows)
+2026-10-18T02:03:17.000Z INFO  [monitor] throughput 3691 rows/min
+2026-10-18T02:03:17.500Z INFO  [warehouse] LOAD_WH credit usage 442 units this hour
+2026-10-18T02:03:18.000Z INFO  [extract] fetched page 102 from source (620 rows)
+2026-10-18T02:03:18.500Z INFO  [extract] fetched page 179 from source (4720 rows)
+2026-10-18T02:03:19.000Z INFO  [warehouse] LOAD_WH credit usage 11 units this hour
+2026-10-18T02:03:19.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:03:20.000Z INFO  [extract] fetched page 33 from source (2732 rows)
+2026-10-18T02:03:20.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:21.000Z INFO  [extract] fetched page 335 from source (3977 rows)
+2026-10-18T02:03:21.500Z INFO  [monitor] throughput 1534 rows/min
+2026-10-18T02:03:22.000Z INFO  [warehouse] LOAD_WH credit usage 434 units this hour
+2026-10-18T02:03:22.500Z INFO  [extract] fetched page 358 from source (4336 rows)
+2026-10-18T02:03:23.000Z INFO  [loader] staged batch 500 to @RAW_STAGE/orders_warehouse_load/ (4129 rows)
+2026-10-18T02:03:23.500Z INFO  [transform] applied 169 column mappings for orders
+2026-10-18T02:03:24.000Z INFO  [monitor] throughput 1320 rows/min
+2026-10-18T02:03:24.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:25.000Z ERROR [metrics] failed to push metrics to statsd:8125 (ignored, non-fatal)
+2026-10-18T02:03:25.500Z INFO  [extract] fetched page 201 from source (1997 rows)
+2026-10-18T02:03:26.000Z INFO  [monitor] throughput 4092 rows/min
+2026-10-18T02:03:26.500Z INFO  [extract] fetched page 202 from source (2555 rows)
+2026-10-18T02:03:27.000Z INFO  [transform] applied 6 column mappings for orders
+2026-10-18T02:03:27.500Z INFO  [loader] staged batch 253 to @RAW_STAGE/orders_warehouse_load/ (4746 rows)
+2026-10-18T02:03:28.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:28.500Z INFO  [monitor] throughput 702 rows/min
+2026-10-18T02:03:29.000Z INFO  [loader] staged batch 175 to @RAW_STAGE/orders_warehouse_load/ (1496 rows)
+2026-10-18T02:03:29.500Z INFO  [extract] fetched page 278 from source (1214 rows)
+2026-10-18T02:03:30.000Z INFO  [monitor] throughput 2173 rows/min
+2026-10-18T02:03:30.500Z INFO  [loader] staged batch 148 to @RAW_STAGE/orders_warehouse_load/ (4549 rows)
+2026-10-18T02:03:31.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:03:31.500Z INFO  [monitor] throughput 4005 rows/min
+2026-10-18T02:03:32.000Z INFO  [loader] staged batch 402 to @RAW_STAGE/orders_warehouse_load/ (2712 rows)
+2026-10-18T02:03:32.500Z INFO  [loader] staged batch 352 to @RAW_STAGE/orders_warehouse_load/ (4986 rows)
+2026-10-18T02:03:33.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:33.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:34.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:34.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:35.000Z INFO  [extract] fetched page 86 from source (4960 rows)
+2026-10-18T02:03:35.500Z INFO  [monitor] throughput 2954 rows/min
+2026-10-18T02:03:36.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:36.500Z INFO  [loader] staged batch 152 to @RAW_STAGE/orders_warehouse_load/ (2994 rows)
+2026-10-18T02:03:37.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:37.500Z INFO  [monitor] throughput 4868 rows/min
+2026-10-18T02:03:38.000Z INFO  [warehouse] LOAD_WH credit usage 234 units this hour
+2026-10-18T02:03:38.500Z INFO  [loader] staged batch 127 to @RAW_STAGE/orders_warehouse_load/ (3568 rows)
+2026-10-18T02:03:39.000Z INFO  [extract] fetched page 296 from source (1418 rows)
+2026-10-18T02:03:39.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:40.000Z INFO  [warehouse] LOAD_WH credit usage 72 units this hour
+2026-10-18T02:03:40.500Z INFO  [loader] staged batch 495 to @RAW_STAGE/orders_warehouse_load/ (2941 rows)
+2026-10-18T02:03:41.000Z INFO  [warehouse] LOAD_WH credit usage 150 units this hour
+2026-10-18T02:03:41.500Z INFO  [extract] fetched page 282 from source (1901 rows)
+2026-10-18T02:03:42.000Z INFO  [transform] applied 390 column mappings for orders
+2026-10-18T02:03:42.500Z INFO  [monitor] throughput 778 rows/min
+2026-10-18T02:03:43.000Z INFO  [extract] fetched page 201 from source (782 rows)
+2026-10-18T02:03:43.500Z INFO  [loader] staged batch 467 to @RAW_STAGE/orders_warehouse_load/ (2580 rows)
+2026-10-18T02:03:44.000Z INFO  [monitor] throughput 149 rows/min
+2026-10-18T02:03:44.500Z INFO  [extract] fetched page 26 from source (973 rows)
+2026-10-18T02:03:45.000Z INFO  [extract] fetched page 234 from source (3532 rows)
+2026-10-18T02:03:45.500Z INFO  [transform] applied 52 column mappings for orders
+2026-10-18T02:03:46.000Z INFO  [transform] applied 340 column mappings for orders
+2026-10-18T02:03:46.500Z INFO  [transform] applied 196 column mappings for orders
+2026-10-18T02:03:47.000Z INFO  [extract] fetched page 390 from source (2282 rows)
+2026-10-18T02:03:47.500Z INFO  [warehouse] LOAD_WH credit usage 364 units this hour
+2026-10-18T02:03:48.000Z INFO  [warehouse] LOAD_WH credit usage 287 units this hour
+2026-10-18T02:03:48.500Z INFO  [warehouse] LOAD_WH credit usage 142 units this hour
+2026-10-18T02:03:49.000Z INFO  [warehouse] LOAD_WH credit usage 368 units this hour
+2026-10-18T02:03:49.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:03:50.000Z INFO  [warehouse] LOAD_WH credit usage 243 units this hour
+2026-10-18T02:03:50.500Z INFO  [transform] applied 130 column mappings for orders
+2026-10-18T02:03:51.000Z INFO  [extract] fetched page 392 from source (4018 rows)
+2026-10-18T02:03:51.500Z INFO  [monitor] throughput 4023 rows/min
+2026-10-18T02:03:52.000Z INFO  [transform] applied 382 column mappings for orders
+2026-10-18T02:03:52.500Z INFO  [extract] fetched page 90 from source (707 rows)
+2026-10-18T02:03:53.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:53.500Z INFO  [monitor] throughput 4950 rows/min
+2026-10-18T02:03:54.000Z INFO  [monitor] throughput 3568 rows/min
+2026-10-18T02:03:54.500Z INFO  [extract] fetched page 295 from source (3784 rows)
+2026-10-18T02:03:55.000Z INFO  [warehouse] LOAD_WH credit usage 242 units this hour
+2026-10-18T02:03:55.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:56.000Z INFO  [warehouse] LOAD_WH credit usage 22 units this hour
+2026-10-18T02:03:56.500Z INFO  [extract] fetched page 218 from source (4274 rows)
+2026-10-18T02:03:57.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:03:57.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:03:58.000Z INFO  [monitor] throughput 1982 rows/min
+2026-10-18T02:03:58.500Z INFO  [loader] staged batch 428 to @RAW_STAGE/orders_warehouse_load/ (4216 rows)
+2026-10-18T02:03:59.000Z INFO  [extract] fetched page 344 from source (2542 rows)
+2026-10-18T02:03:59.500Z INFO  [loader] staged batch 364 to @RAW_STAGE/orders_warehouse_load/ (4544 rows)
+2026-10-18T02:04:00.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:04:00.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:01.000Z INFO  [extract] fetched page 453 from source (1965 rows)
+2026-10-18T02:04:01.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:02.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:04:02.500Z INFO  [loader] staged batch 21 to @RAW_STAGE/orders_warehouse_load/ (4784 rows)
+2026-10-18T02:04:03.000Z INFO  [extract] fetched page 278 from source (3272 rows)
+2026-10-18T02:04:03.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:04.000Z INFO  [monitor] throughput 4090 rows/min
+2026-10-18T02:04:04.500Z INFO  [warehouse] LOAD_WH credit usage 134 units this hour
+2026-10-18T02:04:05.000Z INFO  [loader] staged batch 380 to @RAW_STAGE/orders_warehouse_load/ (4412 rows)
+2026-10-18T02:04:05.500Z INFO  [loader] staged batch 37 to @RAW_STAGE/orders_warehouse_load/ (2895 rows)
+2026-10-18T02:04:06.000Z INFO  [monitor] throughput 4593 rows/min
+2026-10-18T02:04:06.500Z INFO  [monitor] throughput 3624 rows/min
+2026-10-18T02:04:07.000Z INFO  [extract] fetched page 423 from source (4962 rows)
+2026-10-18T02:04:07.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:08.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:08.500Z INFO  [extract] fetched page 100 from source (1163 rows)
+2026-10-18T02:04:09.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:09.500Z INFO  [loader] staged batch 207 to @RAW_STAGE/orders_warehouse_load/ (454 rows)
+2026-10-18T02:04:10.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:04:10.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:11.000Z INFO  [monitor] throughput 4996 rows/min
+2026-10-18T02:04:11.500Z INFO  [extract] fetched page 354 from source (3982 rows)
+2026-10-18T02:04:12.000Z INFO  [extract] fetched page 282 from source (4261 rows)
+2026-10-18T02:04:12.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:13.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:13.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:14.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:14.500Z INFO  [monitor] throughput 2423 rows/min
+2026-10-18T02:04:15.000Z INFO  [extract] fetched page 312 from source (4788 rows)
+2026-10-18T02:04:15.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:16.000Z INFO  [monitor] throughput 3698 rows/min
+2026-10-18T02:04:16.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:17.000Z INFO  [transform] applied 293 column mappings for orders
+2026-10-18T02:04:17.500Z INFO  [warehouse] LOAD_WH credit usage 391 units this hour
+2026-10-18T02:04:18.000Z INFO  [extract] fetched page 243 from source (2941 rows)
+2026-10-18T02:04:18.500Z INFO  [extract] fetched page 318 from source (2163 rows)
+2026-10-18T02:04:19.000Z INFO  [warehouse] LOAD_WH credit usage 377 units this hour
+2026-10-18T02:04:19.500Z INFO  [loader] staged batch 229 to @RAW_STAGE/orders_warehouse_load/ (4184 rows)
+2026-10-18T02:04:20.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:20.500Z INFO  [extract] fetched page 27 from source (1597 rows)
+2026-10-18T02:04:21.000Z INFO  [warehouse] LOAD_WH credit usage 418 units this hour
+2026-10-18T02:04:21.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:22.000Z INFO  [warehouse] LOAD_WH credit usage 475 units this hour
+2026-10-18T02:04:22.500Z INFO  [warehouse] LOAD_WH credit usage 343 units this hour
+2026-10-18T02:04:23.000Z INFO  [warehouse] LOAD_WH credit usage 42 units this hour
+2026-10-18T02:04:23.500Z INFO  [warehouse] LOAD_WH credit usage 122 units this hour
+2026-10-18T02:04:24.000Z INFO  [monitor] throughput 470 rows/min
+2026-10-18T02:04:24.500Z INFO  [transform] applied 207 column mappings for orders
+2026-10-18T02:04:25.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:25.500Z INFO  [extract] fetched page 198 from source (1474 rows)
+2026-10-18T02:04:26.000Z INFO  [warehouse] LOAD_WH credit usage 160 units this hour
+2026-10-18T02:04:26.500Z INFO  [monitor] throughput 2179 rows/min
+2026-10-18T02:04:27.000Z INFO  [warehouse] LOAD_WH credit usage 176 units this hour
+2026-10-18T02:04:27.500Z INFO  [transform] applied 350 column mappings for orders
+2026-10-18T02:04:28.000Z INFO  [monitor] throughput 2071 rows/min
+2026-10-18T02:04:28.500Z INFO  [loader] staged batch 243 to @RAW_STAGE/orders_warehouse_load/ (2981 rows)
+2026-10-18T02:04:29.000Z INFO  [warehouse] LOAD_WH credit usage 35 units this hour
+2026-10-18T02:04:29.500Z INFO  [warehouse] LOAD_WH credit usage 323 units this hour
+2026-10-18T02:04:30.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:30.500Z INFO  [transform] applied 310 column mappings for orders
+2026-10-18T02:04:31.000Z INFO  [monitor] throughput 3992 rows/min
+2026-10-18T02:04:31.500Z INFO  [extract] fetched page 267 from source (4218 rows)
+2026-10-18T02:04:32.000Z INFO  [warehouse] LOAD_WH credit usage 334 units this hour
+2026-10-18T02:04:32.500Z INFO  [extract] fetched page 177 from source (4709 rows)
+2026-10-18T02:04:33.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:04:33.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:34.000Z INFO  [warehouse] LOAD_WH credit usage 396 units this hour
+2026-10-18T02:04:34.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:35.000Z INFO  [transform] applied 74 column mappings for orders
+2026-10-18T02:04:35.500Z INFO  [loader] staged batch 154 to @RAW_STAGE/orders_warehouse_load/ (1599 rows)
+2026-10-18T02:04:36.000Z INFO  [loader] staged batch 195 to @RAW_STAGE/orders_warehouse_load/ (557 rows)
+2026-10-18T02:04:36.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:37.000Z INFO  [loader] staged batch 353 to @RAW_STAGE/orders_warehouse_load/ (2461 rows)
+2026-10-18T02:04:37.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:38.000Z INFO  [loader] staged batch 430 to @RAW_STAGE/orders_warehouse_load/ (4737 rows)
+2026-10-18T02:04:38.500Z INFO  [transform] applied 95 column mappings for orders
+2026-10-18T02:04:39.000Z INFO  [extract] fetched page 179 from source (2392 rows)
+2026-10-18T02:04:39.500Z INFO  [warehouse] LOAD_WH credit usage 160 units this hour
+2026-10-18T02:04:40.000Z INFO  [transform] applied 375 column mappings for orders
+2026-10-18T02:04:40.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:41.000Z INFO  [warehouse] LOAD_WH credit usage 60 units this hour
+2026-10-18T02:04:41.500Z INFO  [extract] fetched page 425 from source (2618 rows)
+2026-10-18T02:04:42.000Z INFO  [transform] applied 336 column mappings for orders
+2026-10-18T02:04:42.500Z INFO  [transform] applied 415 column mappings for orders
+2026-10-18T02:04:43.000Z INFO  [extract] fetched page 63 from source (2907 rows)
+2026-10-18T02:04:43.500Z INFO  [monitor] throughput 666 rows/min
+2026-10-18T02:04:44.000Z INFO  [warehouse] LOAD_WH credit usage 112 units this hour
+2026-10-18T02:04:44.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:45.000Z INFO  [warehouse] LOAD_WH credit usage 86 units this hour
+2026-10-18T02:04:45.500Z INFO  [warehouse] LOAD_WH credit usage 53 units this hour
+2026-10-18T02:04:46.000Z INFO  [loader] staged batch 247 to @RAW_STAGE/orders_warehouse_load/ (4950 rows)
+2026-10-18T02:04:46.500Z INFO  [warehouse] LOAD_WH credit usage 326 units this hour
+2026-10-18T02:04:47.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:47.500Z INFO  [extract] fetched page 169 from source (1890 rows)
+2026-10-18T02:04:48.000Z INFO  [transform] applied 357 column mappings for orders
+2026-10-18T02:04:48.500Z INFO  [extract] fetched page 357 from source (3643 rows)
+2026-10-18T02:04:49.000Z INFO  [warehouse] LOAD_WH credit usage 152 units this hour
+2026-10-18T02:04:49.500Z INFO  [extract] fetched page 308 from source (4721 rows)
+2026-10-18T02:04:50.000Z INFO  [loader] staged batch 429 to @RAW_STAGE/orders_warehouse_load/ (1255 rows)
+2026-10-18T02:04:50.500Z INFO  [monitor] throughput 1553 rows/min
+2026-10-18T02:04:51.000Z INFO  [loader] staged batch 410 to @RAW_STAGE/orders_warehouse_load/ (1347 rows)
+2026-10-18T02:04:51.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:52.000Z INFO  [monitor] throughput 4797 rows/min
+2026-10-18T02:04:52.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:04:53.000Z INFO  [warehouse] LOAD_WH credit usage 495 units this hour
+2026-10-18T02:04:53.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:54.000Z INFO  [loader] staged batch 197 to @RAW_STAGE/orders_warehouse_load/ (2602 rows)
+2026-10-18T02:04:54.500Z INFO  [monitor] throughput 3939 rows/min
+2026-10-18T02:04:55.000Z INFO  [warehouse] LOAD_WH credit usage 69 units this hour
+2026-10-18T02:04:55.500Z INFO  [transform] applied 31 column mappings for orders
+2026-10-18T02:04:56.000Z INFO  [transform] applied 159 column mappings for orders
+2026-10-18T02:04:56.500Z INFO  [loader] staged batch 473 to @RAW_STAGE/orders_warehouse_load/ (4789 rows)
+2026-10-18T02:04:57.000Z INFO  [loader] staged batch 484 to @RAW_STAGE/orders_warehouse_load/ (4757 rows)
+2026-10-18T02:04:57.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:58.000Z INFO  [transform] applied 59 column mappings for orders
+2026-10-18T02:04:58.500Z INFO  [extract] fetched page 135 from source (1012 rows)
+2026-10-18T02:04:59.000Z INFO  [warehouse] LOAD_WH credit usage 500 units this hour
+2026-10-18T02:04:59.500Z INFO  [transform] applied 18 column mappings for orders
+2026-10-18T02:05:00.000Z INFO  [monitor] throughput 3684 rows/min
+2026-10-18T02:05:00.500Z INFO  [extract] fetched page 244 from source (2293 rows)
+2026-10-18T02:05:01.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:05:01.500Z INFO  [warehouse] LOAD_WH credit usage 429 units this hour
+2026-10-18T02:05:02.000Z INFO  [warehouse] LOAD_WH credit usage 79 units this hour
+2026-10-18T02:05:02.500Z INFO  [monitor] throughput 4985 rows/min
+2026-10-18T02:05:03.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:03.500Z INFO  [loader] staged batch 255 to @RAW_STAGE/orders_warehouse_load/ (4858 rows)
+2026-10-18T02:05:04.000Z INFO  [warehouse] LOAD_WH credit usage 80 units this hour
+2026-10-18T02:05:04.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:05.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:05.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:06.000Z INFO  [monitor] throughput 2204 rows/min
+2026-10-18T02:05:06.500Z INFO  [transform] applied 260 column mappings for orders
+2026-10-18T02:05:07.000Z INFO  [monitor] throughput 1642 rows/min
+2026-10-18T02:05:07.500Z INFO  [monitor] throughput 3282 rows/min
+2026-10-18T02:05:08.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:08.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:09.000Z INFO  [loader] staged batch 481 to @RAW_STAGE/orders_warehouse_load/ (1512 rows)
+2026-10-18T02:05:09.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:10.000Z INFO  [monitor] throughput 3058 rows/min
+2026-10-18T02:05:10.500Z INFO  [loader] staged batch 483 to @RAW_STAGE/orders_warehouse_load/ (4994 rows)
+2026-10-18T02:05:11.000Z INFO  [monitor] throughput 457 rows/min
+2026-10-18T02:05:11.500Z INFO  [transform] applied 269 column mappings for orders
+2026-10-18T02:05:12.000Z INFO  [transform] applied 77 column mappings for orders
+2026-10-18T02:05:12.500Z INFO  [loader] staged batch 275 to @RAW_STAGE/orders_warehouse_load/ (3996 rows)
+2026-10-18T02:05:13.000Z INFO  [extract] fetched page 96 from source (2348 rows)
+2026-10-18T02:05:13.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:14.000Z INFO  [transform] applied 12 column mappings for orders
+2026-10-18T02:05:14.500Z INFO  [monitor] throughput 1741 rows/min
+2026-10-18T02:05:15.000Z INFO  [extract] fetched page 167 from source (692 rows)
+2026-10-18T02:05:15.500Z INFO  [monitor] throughput 4226 rows/min
+2026-10-18T02:05:16.000Z INFO  [loader] staged batch 390 to @RAW_STAGE/orders_warehouse_load/ (971 rows)
+2026-10-18T02:05:16.500Z INFO  [warehouse] LOAD_WH credit usage 488 units this hour
+2026-10-18T02:05:17.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:17.500Z INFO  [loader] staged batch 405 to @RAW_STAGE/orders_warehouse_load/ (2875 rows)
+2026-10-18T02:05:18.000Z INFO  [monitor] throughput 1915 rows/min
+2026-10-18T02:05:18.500Z INFO  [extract] fetched page 99 from source (1553 rows)
+2026-10-18T02:05:19.000Z INFO  [monitor] throughput 1255 rows/min
+2026-10-18T02:05:19.500Z INFO  [loader] staged batch 232 to @RAW_STAGE/orders_warehouse_load/ (158 rows)
+2026-10-18T02:05:20.000Z INFO  [warehouse] LOAD_WH credit usage 229 units this hour
+2026-10-18T02:05:20.500Z INFO  [monitor] throughput 3673 rows/min
+2026-10-18T02:05:21.000Z INFO  [warehouse] LOAD_WH credit usage 314 units this hour
+2026-10-18T02:05:21.500Z INFO  [monitor] throughput 1706 rows/min
+2026-10-18T02:05:22.000Z INFO  [transform] applied 195 column mappings for orders
+2026-10-18T02:05:22.500Z INFO  [warehouse] LOAD_WH credit usage 143 units this hour
+2026-10-18T02:05:23.000Z INFO  [warehouse] LOAD_WH credit usage 264 units this hour
+2026-10-18T02:05:23.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:24.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:24.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:25.000Z INFO  [transform] applied 351 column mappings for orders
+2026-10-18T02:05:25.500Z INFO  [warehouse] LOAD_WH credit usage 466 units this hour
+2026-10-18T02:05:26.000Z INFO  [loader] staged batch 481 to @RAW_STAGE/orders_warehouse_load/ (2901 rows)
+2026-10-18T02:05:26.500Z INFO  [extract] fetched page 490 from source (1476 rows)
+2026-10-18T02:05:27.000Z INFO  [transform] applied 21 column mappings for orders
+2026-10-18T02:05:27.500Z INFO  [extract] fetched page 223 from source (4559 rows)
+2026-10-18T02:05:28.000Z INFO  [loader] staged batch 185 to @RAW_STAGE/orders_warehouse_load/ (3729 rows)
+2026-10-18T02:05:28.500Z INFO  [monitor] throughput 4208 rows/min
+2026-10-18T02:05:29.000Z INFO  [loader] staged batch 500 to @RAW_STAGE/orders_warehouse_load/ (3760 rows)
+2026-10-18T02:05:29.500Z INFO  [transform] applied 61 column mappings for orders
+2026-10-18T02:05:30.000Z INFO  [transform] applied 148 column mappings for orders
+2026-10-18T02:05:30.500Z INFO  [warehouse] LOAD_WH credit usage 479 units this hour
+2026-10-18T02:05:31.000Z INFO  [loader] staged batch 130 to @RAW_STAGE/orders_warehouse_load/ (2767 rows)
+2026-10-18T02:05:31.500Z INFO  [warehouse] LOAD_WH credit usage 487 units this hour
+2026-10-18T02:05:32.000Z INFO  [extract] fetched page 177 from source (468 rows)
+2026-10-18T02:05:32.500Z INFO  [transform] applied 90 column mappings for orders
+2026-10-18T02:05:33.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:05:33.500Z INFO  [extract] fetched page 228 from source (4931 rows)
+2026-10-18T02:05:34.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:34.500Z INFO  [monitor] throughput 2876 rows/min
+2026-10-18T02:05:35.000Z INFO  [transform] applied 222 column mappings for orders
+2026-10-18T02:05:35.500Z INFO  [transform] applied 190 column mappings for orders
+2026-10-18T02:05:36.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:05:36.500Z INFO  [extract] fetched page 163 from source (4428 rows)
+2026-10-18T02:05:37.000Z INFO  [transform] applied 297 column mappings for orders
+2026-10-18T02:05:37.500Z INFO  [transform] applied 326 column mappings for orders
+2026-10-18T02:05:38.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:38.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:39.000Z INFO  [loader] staged batch 262 to @RAW_STAGE/orders_warehouse_load/ (2599 rows)
+2026-10-18T02:05:39.500Z INFO  [transform] applied 45 column mappings for orders
+2026-10-18T02:05:40.000Z INFO  [monitor] throughput 2388 rows/min
+2026-10-18T02:05:40.500Z INFO  [monitor] throughput 2388 rows/min
+2026-10-18T02:05:41.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:41.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:42.000Z INFO  [loader] staged batch 129 to @RAW_STAGE/orders_warehouse_load/ (211 rows)
+2026-10-18T02:05:42.500Z INFO  [extract] fetched page 294 from source (2954 rows)
+2026-10-18T02:05:43.000Z INFO  [transform] applied 156 column mappings for orders
+2026-10-18T02:05:43.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:44.000Z INFO  [monitor] throughput 105 rows/min
+2026-10-18T02:05:44.500Z INFO  [monitor] throughput 637 rows/min
+2026-10-18T02:05:45.000Z INFO  [monitor] throughput 1366 rows/min
+2026-10-18T02:05:45.500Z INFO  [monitor] throughput 3352 rows/min
+2026-10-18T02:05:46.000Z INFO  [monitor] throughput 1302 rows/min
+2026-10-18T02:05:46.500Z INFO  [transform] applied 250 column mappings for orders
+2026-10-18T02:05:47.000Z INFO  [loader] staged batch 73 to @RAW_STAGE/orders_warehouse_load/ (459 rows)
+2026-10-18T02:05:47.500Z INFO  [extract] fetched page 276 from source (4494 rows)
+2026-10-18T02:05:48.000Z INFO  [monitor] throughput 1853 rows/min
+2026-10-18T02:05:48.500Z INFO  [transform] applied 395 column mappings for orders
+2026-10-18T02:05:49.000Z INFO  [loader] staged batch 424 to @RAW_STAGE/orders_warehouse_load/ (3582 rows)
+2026-10-18T02:05:49.500Z INFO  [extract] fetched page 82 from source (3320 rows)
+2026-10-18T02:05:50.000Z INFO  [warehouse] requesting LOAD_WH for COPY INTO RAW.ORDERS
+2026-10-18T02:05:50.500Z WARN  [warehouse] LOAD_WH did not respond to resume request
+2026-10-18T02:05:51.000Z ERROR [warehouse] Warehouse LOAD_WH is suspended and auto_resume is disabled (code 000606)
+2026-10-18T02:05:51.500Z INFO  [loader] staged batch 431 to @RAW_STAGE/orders_warehouse_load/ (541 rows)
+2026-10-18T02:05:52.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:52.500Z INFO  [extract] fetched page 89 from source (625 rows)
+2026-10-18T02:05:53.000Z INFO  [transform] applied 281 column mappings for orders
+2026-10-18T02:05:53.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:54.000Z INFO  [extract] fetched page 410 from source (662 rows)
+2026-10-18T02:05:54.500Z INFO  [warehouse] LOAD_WH credit usage 266 units this hour
+2026-10-18T02:05:55.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:55.500Z INFO  [warehouse] LOAD_WH credit usage 84 units this hour
+2026-10-18T02:05:56.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:56.500Z INFO  [warehouse] LOAD_WH credit usage 18 units this hour
+2026-10-18T02:05:57.000Z INFO  [extract] fetched page 471 from source (3733 rows)
+2026-10-18T02:05:57.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:58.000Z INFO  [extract] fetched page 431 from source (1615 rows)
+2026-10-18T02:05:58.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:05:59.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:59.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:00.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:00.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:01.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:06:01.500Z INFO  [loader] staged batch 297 to @RAW_STAGE/orders_warehouse_load/ (3308 rows)
+2026-10-18T02:06:02.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:02.500Z INFO  [warehouse] LOAD_WH credit usage 164 units this hour
+2026-10-18T02:06:03.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:06:03.500Z INFO  [warehouse] LOAD_WH credit usage 361 units this hour
+2026-10-18T02:06:04.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:04.500Z INFO  [loader] staged batch 313 to @RAW_STAGE/orders_warehouse_load/ (838 rows)
+2026-10-18T02:06:05.000Z INFO  [transform] applied 95 column mappings for orders
+2026-10-18T02:06:05.500Z INFO  [extract] fetched page 472 from source (4256 rows)
+2026-10-18T02:06:06.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:06.500Z INFO  [extract] fetched page 129 from source (2350 rows)
+2026-10-18T02:06:07.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:07.500Z INFO  [monitor] throughput 3841 rows/min
+2026-10-18T02:06:08.000Z INFO  [extract] fetched page 475 from source (4037 rows)
+2026-10-18T02:06:08.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:09.000Z INFO  [warehouse] LOAD_WH credit usage 417 units this hour
+2026-10-18T02:06:09.500Z INFO  [transform] applied 169 column mappings for orders
+2026-10-18T02:06:10.000Z INFO  [monitor] throughput 1305 rows/min
+2026-10-18T02:06:10.500Z INFO  [loader] staged batch 13 to @RAW_STAGE/orders_warehouse_load/ (1818 rows)
+2026-10-18T02:06:11.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:11.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:12.000Z INFO  [loader] staged batch 326 to @RAW_STAGE/orders_warehouse_load/ (3701 rows)
+2026-10-18T02:06:12.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:13.000Z INFO  [monitor] throughput 990 rows/min
+2026-10-18T02:06:13.500Z INFO  [warehouse] LOAD_WH credit usage 337 units this hour
+2026-10-18T02:06:14.000Z INFO  [warehouse] LOAD_WH credit usage 326 units this hour
+2026-10-18T02:06:14.500Z INFO  [warehouse] LOAD_WH credit usage 261 units this hour
+2026-10-18T02:06:15.000Z INFO  [extract] fetched page 426 from source (2094 rows)
+2026-10-18T02:06:15.500Z INFO  [extract] fetched page 455 from source (3270 rows)
+2026-10-18T02:06:16.000Z INFO  [monitor] throughput 207 rows/min
+2026-10-18T02:06:16.500Z INFO  [warehouse] LOAD_WH credit usage 18 units this hour
+2026-10-18T02:06:17.000Z INFO  [extract] fetched page 149 from source (683 rows)
+2026-10-18T02:06:17.500Z INFO  [extract] fetched page 58 from source (812 rows)
+2026-10-18T02:06:18.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:18.500Z INFO  [extract] fetched page 457 from source (365 rows)
+2026-10-18T02:06:19.000Z INFO  [loader] staged batch 498 to @RAW_STAGE/orders_warehouse_load/ (662 rows)
+2026-10-18T02:06:19.500Z INFO  [warehouse] LOAD_WH credit usage 171 units this hour
+2026-10-18T02:06:20.000Z INFO  [warehouse] LOAD_WH credit usage 485 units this hour
+2026-10-18T02:06:20.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:21.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:21.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:22.000Z INFO  [transform] applied 233 column mappings for orders
+2026-10-18T02:06:22.500Z INFO  [extract] fetched page 139 from source (2452 rows)
+2026-10-18T02:06:23.000Z INFO  [warehouse] LOAD_WH credit usage 198 units this hour
+2026-10-18T02:06:23.500Z INFO  [transform] applied 91 column mappings for orders
+2026-10-18T02:06:24.000Z INFO  [monitor] throughput 2744 rows/min
+2026-10-18T02:06:24.500Z INFO  [monitor] throughput 3182 rows/min
+2026-10-18T02:06:25.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:25.500Z INFO  [loader] staged batch 196 to @RAW_STAGE/orders_warehouse_load/ (2595 rows)
+2026-10-18T02:06:26.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:26.500Z INFO  [warehouse] LOAD_WH credit usage 430 units this hour
+2026-10-18T02:06:27.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:27.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:28.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:28.500Z INFO  [transform] applied 428 column mappings for orders
+2026-10-18T02:06:29.000Z INFO  [transform] applied 323 column mappings for orders
+2026-10-18T02:06:29.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:30.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:30.500Z INFO  [warehouse] LOAD_WH credit usage 288 units this hour
+2026-10-18T02:06:31.000Z INFO  [monitor] throughput 4545 rows/min
+2026-10-18T02:06:31.500Z INFO  [loader] staged batch 2 to @RAW_STAGE/orders_warehouse_load/ (1822 rows)
+2026-10-18T02:06:32.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:32.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:33.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:33.500Z INFO  [warehouse] LOAD_WH credit usage 151 units this hour
+2026-10-18T02:06:34.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:34.500Z INFO  [monitor] throughput 890 rows/min
+2026-10-18T02:06:35.000Z INFO  [extract] fetched page 131 from source (1620 rows)
+2026-10-18T02:06:35.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:36.000Z INFO  [extract] fetched page 249 from source (4445 rows)
+2026-10-18T02:06:36.500Z INFO  [monitor] throughput 2267 rows/min
+2026-10-18T02:06:37.000Z INFO  [monitor] throughput 3136 rows/min
+2026-10-18T02:06:37.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:38.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:38.500Z INFO  [transform] applied 212 column mappings for orders
+2026-10-18T02:06:39.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:39.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:40.000Z INFO  [monitor] throughput 4998 rows/min
+2026-10-18T02:06:40.500Z INFO  [extract] fetched page 136 from source (2902 rows)
+2026-10-18T02:06:41.000Z INFO  [warehouse] LOAD_WH credit usage 22 units this hour
+2026-10-18T02:06:41.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:42.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:42.500Z INFO  [monitor] throughput 648 rows/min
+2026-10-18T02:06:43.000Z INFO  [transform] applied 5 column mappings for orders
+2026-10-18T02:06:43.500Z INFO  [monitor] throughput 2304 rows/min
+2026-10-18T02:06:44.000Z INFO  [extract] fetched page 198 from source (2769 rows)
+2026-10-18T02:06:44.500Z INFO  [monitor] throughput 4940 rows/min
+2026-10-18T02:06:45.000Z INFO  [warehouse] LOAD_WH credit usage 122 units this hour
+2026-10-18T02:06:45.500Z INFO  [warehouse] LOAD_WH credit usage 37 units this hour
+2026-10-18T02:06:46.000Z INFO  [extract] fetched page 492 from source (133 rows)
+2026-10-18T02:06:46.500Z INFO  [transform] applied 122 column mappings for orders
+2026-10-18T02:06:47.000Z INFO  [warehouse] LOAD_WH credit usage 146 units this hour
+2026-10-18T02:06:47.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:48.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:48.500Z INFO  [warehouse] LOAD_WH credit usage 210 units this hour
+2026-10-18T02:06:49.000Z INFO  [loader] staged batch 187 to @RAW_STAGE/orders_warehouse_load/ (1662 rows)
+2026-10-18T02:06:49.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:50.000Z INFO  [loader] staged batch 184 to @RAW_STAGE/orders_warehouse_load/ (3221 rows)
+2026-10-18T02:06:50.500Z INFO  [transform] applied 31 column mappings for orders
+2026-10-18T02:06:51.000Z INFO  [monitor] throughput 4922 rows/min
+2026-10-18T02:06:51.500Z INFO  [extract] fetched page 456 from source (3235 rows)
+2026-10-18T02:06:52.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:52.500Z INFO  [monitor] throughput 2053 rows/min
+2026-10-18T02:06:53.000Z INFO  [warehouse] LOAD_WH credit usage 30 units this hour
+2026-10-18T02:06:53.500Z INFO  [monitor] throughput 3728 rows/min
+2026-10-18T02:06:54.000Z INFO  [transform] applied 68 column mappings for orders
+2026-10-18T02:06:54.500Z INFO  [transform] applied 188 column mappings for orders
+2026-10-18T02:06:55.000Z INFO  [loader] staged batch 345 to @RAW_STAGE/orders_warehouse_load/ (3505 rows)
+2026-10-18T02:06:55.500Z INFO  [transform] applied 32 column mappings for orders
+2026-10-18T02:06:56.000Z INFO  [loader] staged batch 300 to @RAW_STAGE/orders_warehouse_load/ (2311 rows)
+2026-10-18T02:06:56.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:06:57.000Z INFO  [monitor] throughput 3528 rows/min
+2026-10-18T02:06:57.500Z INFO  [monitor] throughput 992 rows/min
+2026-10-18T02:06:58.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:58.500Z INFO  [loader] staged batch 352 to @RAW_STAGE/orders_warehouse_load/ (2793 rows)
+2026-10-18T02:06:59.000Z INFO  [monitor] throughput 3392 rows/min
+2026-10-18T02:06:59.500Z INFO  [extract] fetched page 7 from source (2118 rows)
+2026-10-18T02:07:00.000Z INFO  [warehouse] LOAD_WH credit usage 27 units this hour
+2026-10-18T02:07:00.500Z INFO  [extract] fetched page 147 from source (3956 rows)
+2026-10-18T02:07:01.000Z INFO  [loader] staged batch 248 to @RAW_STAGE/orders_warehouse_load/ (2877 rows)
+2026-10-18T02:07:01.500Z INFO  [loader] staged batch 331 to @RAW_STAGE/orders_warehouse_load/ (4863 rows)
+2026-10-18T02:07:02.000Z INFO  [loader] staged batch 466 to @RAW_STAGE/orders_warehouse_load/ (2521 rows)
+2026-10-18T02:07:02.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:03.000Z INFO  [warehouse] LOAD_WH credit usage 144 units this hour
+2026-10-18T02:07:03.500Z INFO  [extract] fetched page 50 from source (2852 rows)
+2026-10-18T02:07:04.000Z INFO  [loader] staged batch 113 to @RAW_STAGE/orders_warehouse_load/ (303 rows)
+2026-10-18T02:07:04.500Z INFO  [monitor] throughput 501 rows/min
+2026-10-18T02:07:05.000Z INFO  [warehouse] LOAD_WH credit usage 262 units this hour
+2026-10-18T02:07:05.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:07:06.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:06.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:07.000Z INFO  [loader] staged batch 282 to @RAW_STAGE/orders_warehouse_load/ (860 rows)
+2026-10-18T02:07:07.500Z INFO  [warehouse] LOAD_WH credit usage 311 units this hour
+2026-10-18T02:07:08.000Z INFO  [monitor] throughput 144 rows/min
+2026-10-18T02:07:08.500Z INFO  [extract] fetched page 11 from source (1514 rows)
+2026-10-18T02:07:09.000Z INFO  [transform] applied 201 column mappings for orders
+2026-10-18T02:07:09.500Z INFO  [loader] staged batch 184 to @RAW_STAGE/orders_warehouse_load/ (3878 rows)
+2026-10-18T02:07:10.000Z INFO  [extract] fetched page 50 from source (4197 rows)
+2026-10-18T02:07:10.500Z INFO  [monitor] throughput 2541 rows/min
+2026-10-18T02:07:11.000Z INFO  [transform] applied 44 column mappings for orders
+2026-10-18T02:07:11.500Z INFO  [extract] fetched page 265 from source (1480 rows)
+2026-10-18T02:07:12.000Z INFO  [transform] applied 288 column mappings for orders
+2026-10-18T02:07:12.500Z INFO  [warehouse] LOAD_WH credit usage 232 units this hour
+2026-10-18T02:07:13.000Z INFO  [warehouse] LOAD_WH credit usage 412 units this hour
+2026-10-18T02:07:13.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:14.000Z INFO  [monitor] throughput 400 rows/min
+2026-10-18T02:07:14.500Z INFO  [warehouse] LOAD_WH credit usage 469 units this hour
+2026-10-18T02:07:15.000Z INFO  [warehouse] LOAD_WH credit usage 277 units this hour
+2026-10-18T02:07:15.500Z INFO  [transform] applied 287 column mappings for orders
+2026-10-18T02:07:16.000Z INFO  [transform] applied 291 column mappings for orders
+2026-10-18T02:07:16.500Z INFO  [monitor] throughput 4126 rows/min
+2026-10-18T02:07:17.000Z INFO  [loader] staged batch 237 to @RAW_STAGE/orders_warehouse_load/ (1714 rows)
+2026-10-18T02:07:17.500Z INFO  [extract] fetched page 274 from source (4695 rows)
+2026-10-18T02:07:18.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:18.500Z INFO  [warehouse] LOAD_WH credit usage 87 units this hour
+2026-10-18T02:07:19.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:07:19.500Z INFO  [loader] staged batch 155 to @RAW_STAGE/orders_warehouse_load/ (4133 rows)
+2026-10-18T02:07:20.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:20.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:21.000Z INFO  [transform] applied 165 column mappings for orders
+2026-10-18T02:07:21.500Z INFO  [transform] applied 386 column mappings for orders
+2026-10-18T02:07:22.000Z INFO  [transform] applied 393 column mappings for orders
+2026-10-18T02:07:22.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:07:23.000Z INFO  [monitor] throughput 4422 rows/min
+2026-10-18T02:07:23.500Z INFO  [extract] fetched page 475 from source (1818 rows)
+2026-10-18T02:07:24.000Z INFO  [loader] staged batch 226 to @RAW_STAGE/orders_warehouse_load/ (1289 rows)
+2026-10-18T02:07:24.500Z INFO  [monitor] throughput 2697 rows/min
+2026-10-18T02:07:25.000Z INFO  [extract] fetched page 276 from source (3018 rows)
+2026-10-18T02:07:25.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:26.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:26.500Z INFO  [loader] staged batch 338 to @RAW_STAGE/orders_warehouse_load/ (4944 rows)
+2026-10-18T02:07:27.000Z INFO  [transform] applied 398 column mappings for orders
+2026-10-18T02:07:27.500Z INFO  [monitor] throughput 730 rows/min
+2026-10-18T02:07:28.000Z INFO  [transform] applied 1 column mappings for orders
+2026-10-18T02:07:28.500Z INFO  [monitor] throughput 1418 rows/min
+2026-10-18T02:07:29.000Z INFO  [extract] fetched page 176 from source (2689 rows)
+2026-10-18T02:07:29.500Z INFO  [loader] staged batch 457 to @RAW_STAGE/orders_warehouse_load/ (4162 rows)
+2026-10-18T02:07:30.000Z INFO  [monitor] throughput 3034 rows/min
+2026-10-18T02:07:30.500Z INFO  [loader] staged batch 133 to @RAW_STAGE/orders_warehouse_load/ (3906 rows)
+2026-10-18T02:07:31.000Z INFO  [extract] fetched page 52 from source (2347 rows)
+2026-10-18T02:07:31.500Z INFO  [warehouse] LOAD_WH credit usage 368 units this hour
+2026-10-18T02:07:32.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:32.500Z INFO  [loader] staged batch 73 to @RAW_STAGE/orders_warehouse_load/ (1799 rows)
+2026-10-18T02:07:33.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:33.500Z INFO  [extract] fetched page 91 from source (539 rows)
+2026-10-18T02:07:34.000Z INFO  [warehouse] LOAD_WH credit usage 472 units this hour
+2026-10-18T02:07:34.500Z INFO  [warehouse] LOAD_WH credit usage 89 units this hour
+2026-10-18T02:07:35.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:07:35.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:36.000Z INFO  [warehouse] LOAD_WH credit usage 156 units this hour
+2026-10-18T02:07:36.500Z INFO  [warehouse] LOAD_WH credit usage 332 units this hour
+2026-10-18T02:07:37.000Z INFO  [warehouse] LOAD_WH credit usage 24 units this hour
+2026-10-18T02:07:37.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:38.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:38.500Z INFO  [monitor] throughput 2237 rows/min
+2026-10-18T02:07:39.000Z INFO  [extract] fetched page 81 from source (2684 rows)
+2026-10-18T02:07:39.500Z INFO  [extract] fetched page 35 from source (3788 rows)
+2026-10-18T02:07:40.000Z INFO  [monitor] throughput 3911 rows/min
+2026-10-18T02:07:40.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:07:41.000Z INFO  [warehouse] LOAD_WH credit usage 6 units this hour
+2026-10-18T02:07:41.500Z INFO  [extract] fetched page 199 from source (1206 rows)
+2026-10-18T02:07:42.000Z INFO  [loader] staged batch 297 to @RAW_STAGE/orders_warehouse_load/ (3454 rows)
+2026-10-18T02:07:42.500Z INFO  [warehouse] LOAD_WH credit usage 144 units this hour
+2026-10-18T02:07:43.000Z INFO  [extract] fetched page 229 from source (2463 rows)
+2026-10-18T02:07:43.500Z INFO  [warehouse] LOAD_WH credit usage 394 units this hour
+2026-10-18T02:07:44.000Z INFO  [transform] applied 6 column mappings for orders
+2026-10-18T02:07:44.500Z INFO  [transform] applied 462 column mappings for orders
+2026-10-18T02:07:45.000Z INFO  [warehouse] LOAD_WH credit usage 412 units this hour
+2026-10-18T02:07:45.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:07:46.000Z INFO  [extract] fetched page 417 from source (740 rows)
+2026-10-18T02:07:46.500Z INFO  [warehouse] LOAD_WH credit usage 328 units this hour
+2026-10-18T02:07:47.000Z INFO  [warehouse] LOAD_WH credit usage 443 units this hour
+2026-10-18T02:07:47.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:48.000Z INFO  [extract] fetched page 197 from source (3660 rows)
+2026-10-18T02:07:48.500Z INFO  [loader] staged batch 35 to @RAW_STAGE/orders_warehouse_load/ (2718 rows)
+2026-10-18T02:07:49.000Z INFO  [transform] applied 30 column mappings for orders
+2026-10-18T02:07:49.500Z INFO  [loader] staged batch 70 to @RAW_STAGE/orders_warehouse_load/ (225 rows)
+2026-10-18T02:07:50.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:50.500Z INFO  [extract] fetched page 329 from source (562 rows)
+2026-10-18T02:07:51.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:07:51.500Z INFO  [extract] fetched page 206 from source (3203 rows)
+2026-10-18T02:07:52.000Z INFO  [monitor] throughput 3395 rows/min
+2026-10-18T02:07:52.500Z INFO  [monitor] throughput 2791 rows/min
+2026-10-18T02:07:53.000Z INFO  [transform] applied 290 column mappings for orders
+2026-10-18T02:07:53.500Z INFO  [extract] fetched page 169 from source (2097 rows)
+2026-10-18T02:07:54.000Z INFO  [warehouse] LOAD_WH credit usage 492 units this hour
+2026-10-18T02:07:54.500Z INFO  [transform] applied 137 column mappings for orders
+2026-10-18T02:07:55.000Z INFO  [transform] applied 31 column mappings for orders
+2026-10-18T02:07:55.500Z INFO  [extract] fetched page 27 from source (3108 rows)
+2026-10-18T02:07:56.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:56.500Z INFO  [extract] fetched page 151 from source (3273 rows)
+2026-10-18T02:07:57.000Z INFO  [monitor] throughput 851 rows/min
+2026-10-18T02:07:57.500Z INFO  [transform] applied 452 column mappings for orders
+2026-10-18T02:07:58.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:07:58.500Z INFO  [monitor] throughput 1995 rows/min
+2026-10-18T02:07:59.000Z INFO  [monitor] throughput 4102 rows/min
+2026-10-18T02:07:59.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:00.000Z INFO  [warehouse] LOAD_WH credit usage 102 units this hour
+2026-10-18T02:08:00.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:08:01.000Z INFO  [extract] fetched page 224 from source (3137 rows)
+2026-10-18T02:08:01.500Z INFO  [transform] applied 279 column mappings for orders
+2026-10-18T02:08:02.000Z INFO  [loader] staged batch 412 to @RAW_STAGE/orders_warehouse_load/ (1512 rows)
+2026-10-18T02:08:02.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:08:03.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:08:03.500Z INFO  [transform] applied 379 column mappings for orders
+2026-10-18T02:08:04.000Z INFO  [loader] staged batch 126 to @RAW_STAGE/orders_warehouse_load/ (3909 rows)
+2026-10-18T02:08:04.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:05.000Z INFO  [loader] staged batch 425 to @RAW_STAGE/orders_warehouse_load/ (1083 rows)
+2026-10-18T02:08:05.500Z INFO  [monitor] throughput 4759 rows/min
+2026-10-18T02:08:06.000Z INFO  [warehouse] LOAD_WH credit usage 229 units this hour
+2026-10-18T02:08:06.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:08:07.000Z INFO  [loader] staged batch 329 to @RAW_STAGE/orders_warehouse_load/ (3548 rows)
+2026-10-18T02:08:07.500Z INFO  [transform] applied 285 column mappings for orders
+2026-10-18T02:08:08.000Z INFO  [loader] staged batch 100 to @RAW_STAGE/orders_warehouse_load/ (3991 rows)
+2026-10-18T02:08:08.500Z INFO  [monitor] throughput 3370 rows/min
+2026-10-18T02:08:09.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:08:09.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:08:10.000Z INFO  [extract] fetched page 334 from source (1227 rows)
+2026-10-18T02:08:10.500Z INFO  [loader] staged batch 237 to @RAW_STAGE/orders_warehouse_load/ (1441 rows)
+2026-10-18T02:08:11.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:11.500Z INFO  [monitor] throughput 2337 rows/min
+2026-10-18T02:08:12.000Z INFO  [extract] fetched page 124 from source (2124 rows)
+2026-10-18T02:08:12.500Z INFO  [warehouse] LOAD_WH credit usage 315 units this hour
+2026-10-18T02:08:13.000Z INFO  [loader] staged batch 57 to @RAW_STAGE/orders_warehouse_load/ (1101 rows)
+2026-10-18T02:08:13.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:14.000Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:14.500Z INFO  [transform] applied 331 column mappings for orders
+2026-10-18T02:08:15.000Z INFO  [extract] fetched page 357 from source (3075 rows)
+2026-10-18T02:08:15.500Z INFO  [warehouse] LOAD_WH credit usage 309 units this hour
+2026-10-18T02:08:16.000Z INFO  [transform] applied 259 column mappings for orders
+2026-10-18T02:08:16.500Z INFO  [warehouse] LOAD_WH credit usage 492 units this hour
+2026-10-18T02:08:17.000Z INFO  [extract] fetched page 134 from source (1157 rows)
+2026-10-18T02:08:17.500Z INFO  [scheduler] heartbeat ok for orders_warehouse_load
+2026-10-18T02:08:18.000Z INFO  [warehouse] LOAD_WH credit usage 26 units this hour
+2026-10-18T02:08:18.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:08:19.000Z INFO  [monitor] throughput 2244 rows/min
+2026-10-18T02:08:19.500Z ERROR [scheduler] job orders_warehouse_load run orders_warehouse_load-0 finished with status FAILED
+2026-10-18T02:08:20.000Z INFO  [scheduler] alert dispatched to on-call rotation

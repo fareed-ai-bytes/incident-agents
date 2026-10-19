@@ -1,0 +1,900 @@
+2026-10-18T02:00:00.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:01.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:01.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:02.000Z INFO  [loader] staged batch 306 to @RAW_STAGE/payments_fivetran_sync/ (2328 rows)
+2026-10-18T02:00:02.500Z INFO  [extract] fetched page 92 from source (4543 rows)
+2026-10-18T02:00:03.000Z INFO  [monitor] throughput 3404 rows/min
+2026-10-18T02:00:03.500Z INFO  [extract] fetched page 16 from source (3562 rows)
+2026-10-18T02:00:04.000Z INFO  [transform] applied 237 column mappings for payments
+2026-10-18T02:00:04.500Z INFO  [extract] fetched page 10 from source (600 rows)
+2026-10-18T02:00:05.000Z INFO  [loader] staged batch 416 to @RAW_STAGE/payments_fivetran_sync/ (4353 rows)
+2026-10-18T02:00:05.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:06.000Z INFO  [monitor] throughput 628 rows/min
+2026-10-18T02:00:06.500Z INFO  [loader] staged batch 488 to @RAW_STAGE/payments_fivetran_sync/ (1030 rows)
+2026-10-18T02:00:07.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:00:07.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:08.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:08.500Z INFO  [monitor] throughput 3837 rows/min
+2026-10-18T02:00:09.000Z INFO  [transform] applied 356 column mappings for payments
+2026-10-18T02:00:09.500Z INFO  [extract] fetched page 203 from source (2133 rows)
+2026-10-18T02:00:10.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:10.500Z INFO  [transform] applied 331 column mappings for payments
+2026-10-18T02:00:11.000Z INFO  [monitor] throughput 348 rows/min
+2026-10-18T02:00:11.500Z INFO  [monitor] throughput 1129 rows/min
+2026-10-18T02:00:12.000Z INFO  [warehouse] TRANSFORM_WH credit usage 249 units this hour
+2026-10-18T02:00:12.500Z INFO  [transform] applied 324 column mappings for payments
+2026-10-18T02:00:13.000Z INFO  [extract] fetched page 35 from source (2793 rows)
+2026-10-18T02:00:13.500Z INFO  [loader] staged batch 178 to @RAW_STAGE/payments_fivetran_sync/ (3376 rows)
+2026-10-18T02:00:14.000Z INFO  [extract] fetched page 357 from source (3421 rows)
+2026-10-18T02:00:14.500Z INFO  [warehouse] TRANSFORM_WH credit usage 43 units this hour
+2026-10-18T02:00:15.000Z INFO  [loader] staged batch 17 to @RAW_STAGE/payments_fivetran_sync/ (4236 rows)
+2026-10-18T02:00:15.500Z INFO  [extract] fetched page 89 from source (4586 rows)
+2026-10-18T02:00:16.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:16.500Z INFO  [extract] fetched page 204 from source (4010 rows)
+2026-10-18T02:00:17.000Z INFO  [monitor] throughput 3987 rows/min
+2026-10-18T02:00:17.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:00:18.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:18.500Z INFO  [monitor] throughput 125 rows/min
+2026-10-18T02:00:19.000Z INFO  [monitor] throughput 3263 rows/min
+2026-10-18T02:00:19.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 162 units this hour
+2026-10-18T02:00:20.500Z INFO  [transform] applied 76 column mappings for payments
+2026-10-18T02:00:21.000Z INFO  [monitor] throughput 2947 rows/min
+2026-10-18T02:00:21.500Z INFO  [loader] staged batch 427 to @RAW_STAGE/payments_fivetran_sync/ (1326 rows)
+2026-10-18T02:00:22.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:22.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:00:23.000Z INFO  [monitor] throughput 1569 rows/min
+2026-10-18T02:00:23.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:00:24.000Z INFO  [monitor] throughput 4327 rows/min
+2026-10-18T02:00:24.500Z INFO  [warehouse] TRANSFORM_WH credit usage 350 units this hour
+2026-10-18T02:00:25.000Z INFO  [extract] fetched page 360 from source (1849 rows)
+2026-10-18T02:00:25.500Z INFO  [transform] applied 181 column mappings for payments
+2026-10-18T02:00:26.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:26.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:27.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:27.500Z INFO  [warehouse] TRANSFORM_WH credit usage 21 units this hour
+2026-10-18T02:00:28.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:28.500Z INFO  [transform] applied 394 column mappings for payments
+2026-10-18T02:00:29.000Z INFO  [monitor] throughput 677 rows/min
+2026-10-18T02:00:29.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 37 units this hour
+2026-10-18T02:00:30.500Z INFO  [transform] applied 461 column mappings for payments
+2026-10-18T02:00:31.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:31.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:32.000Z INFO  [extract] fetched page 201 from source (2158 rows)
+2026-10-18T02:00:32.500Z INFO  [extract] fetched page 57 from source (444 rows)
+2026-10-18T02:00:33.000Z INFO  [loader] staged batch 477 to @RAW_STAGE/payments_fivetran_sync/ (2138 rows)
+2026-10-18T02:00:33.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:34.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:34.500Z INFO  [monitor] throughput 4759 rows/min
+2026-10-18T02:00:35.000Z INFO  [extract] fetched page 391 from source (2350 rows)
+2026-10-18T02:00:35.500Z INFO  [transform] applied 266 column mappings for payments
+2026-10-18T02:00:36.000Z INFO  [monitor] throughput 1376 rows/min
+2026-10-18T02:00:36.500Z INFO  [transform] applied 186 column mappings for payments
+2026-10-18T02:00:37.000Z INFO  [monitor] throughput 2689 rows/min
+2026-10-18T02:00:37.500Z INFO  [monitor] throughput 1702 rows/min
+2026-10-18T02:00:38.000Z INFO  [transform] applied 72 column mappings for payments
+2026-10-18T02:00:38.500Z INFO  [warehouse] TRANSFORM_WH credit usage 270 units this hour
+2026-10-18T02:00:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 12 units this hour
+2026-10-18T02:00:39.500Z INFO  [transform] applied 394 column mappings for payments
+2026-10-18T02:00:40.000Z INFO  [monitor] throughput 4896 rows/min
+2026-10-18T02:00:40.500Z INFO  [extract] fetched page 384 from source (4206 rows)
+2026-10-18T02:00:41.000Z INFO  [transform] applied 458 column mappings for payments
+2026-10-18T02:00:41.500Z INFO  [warehouse] TRANSFORM_WH credit usage 357 units this hour
+2026-10-18T02:00:42.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:42.500Z INFO  [extract] fetched page 494 from source (3498 rows)
+2026-10-18T02:00:43.000Z INFO  [monitor] throughput 3403 rows/min
+2026-10-18T02:00:43.500Z INFO  [loader] staged batch 60 to @RAW_STAGE/payments_fivetran_sync/ (1630 rows)
+2026-10-18T02:00:44.000Z INFO  [extract] fetched page 267 from source (3077 rows)
+2026-10-18T02:00:44.500Z INFO  [warehouse] TRANSFORM_WH credit usage 259 units this hour
+2026-10-18T02:00:45.000Z INFO  [loader] staged batch 298 to @RAW_STAGE/payments_fivetran_sync/ (2350 rows)
+2026-10-18T02:00:45.500Z INFO  [warehouse] TRANSFORM_WH credit usage 362 units this hour
+2026-10-18T02:00:46.000Z INFO  [extract] fetched page 401 from source (1899 rows)
+2026-10-18T02:00:46.500Z INFO  [extract] fetched page 201 from source (2793 rows)
+2026-10-18T02:00:47.000Z INFO  [loader] staged batch 230 to @RAW_STAGE/payments_fivetran_sync/ (2705 rows)
+2026-10-18T02:00:47.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 380 units this hour
+2026-10-18T02:00:48.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 331 units this hour
+2026-10-18T02:00:49.500Z INFO  [warehouse] TRANSFORM_WH credit usage 474 units this hour
+2026-10-18T02:00:50.000Z INFO  [transform] applied 67 column mappings for payments
+2026-10-18T02:00:50.500Z INFO  [extract] fetched page 288 from source (2613 rows)
+2026-10-18T02:00:51.000Z INFO  [warehouse] TRANSFORM_WH credit usage 267 units this hour
+2026-10-18T02:00:51.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:52.000Z INFO  [transform] applied 485 column mappings for payments
+2026-10-18T02:00:52.500Z INFO  [loader] staged batch 123 to @RAW_STAGE/payments_fivetran_sync/ (1266 rows)
+2026-10-18T02:00:53.000Z INFO  [warehouse] TRANSFORM_WH credit usage 476 units this hour
+2026-10-18T02:00:53.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:54.000Z INFO  [loader] staged batch 452 to @RAW_STAGE/payments_fivetran_sync/ (1709 rows)
+2026-10-18T02:00:54.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:00:55.000Z INFO  [extract] fetched page 489 from source (4896 rows)
+2026-10-18T02:00:55.500Z INFO  [monitor] throughput 3070 rows/min
+2026-10-18T02:00:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 401 units this hour
+2026-10-18T02:00:56.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:57.000Z INFO  [monitor] throughput 1889 rows/min
+2026-10-18T02:00:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 224 units this hour
+2026-10-18T02:00:58.000Z INFO  [warehouse] TRANSFORM_WH credit usage 308 units this hour
+2026-10-18T02:00:58.500Z INFO  [loader] staged batch 90 to @RAW_STAGE/payments_fivetran_sync/ (3763 rows)
+2026-10-18T02:00:59.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:59.500Z INFO  [extract] fetched page 402 from source (1222 rows)
+2026-10-18T02:01:00.000Z INFO  [transform] applied 420 column mappings for payments
+2026-10-18T02:01:00.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:01.000Z INFO  [loader] staged batch 145 to @RAW_STAGE/payments_fivetran_sync/ (3999 rows)
+2026-10-18T02:01:01.500Z INFO  [loader] staged batch 123 to @RAW_STAGE/payments_fivetran_sync/ (4865 rows)
+2026-10-18T02:01:02.000Z INFO  [transform] applied 130 column mappings for payments
+2026-10-18T02:01:02.500Z INFO  [warehouse] TRANSFORM_WH credit usage 243 units this hour
+2026-10-18T02:01:03.000Z INFO  [loader] staged batch 121 to @RAW_STAGE/payments_fivetran_sync/ (4981 rows)
+2026-10-18T02:01:03.500Z INFO  [warehouse] TRANSFORM_WH credit usage 14 units this hour
+2026-10-18T02:01:04.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:04.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:05.000Z INFO  [transform] applied 145 column mappings for payments
+2026-10-18T02:01:05.500Z INFO  [extract] fetched page 414 from source (659 rows)
+2026-10-18T02:01:06.000Z INFO  [extract] fetched page 360 from source (1992 rows)
+2026-10-18T02:01:06.500Z INFO  [transform] applied 434 column mappings for payments
+2026-10-18T02:01:07.000Z INFO  [monitor] throughput 1871 rows/min
+2026-10-18T02:01:07.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:08.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:08.500Z INFO  [transform] applied 340 column mappings for payments
+2026-10-18T02:01:09.000Z INFO  [loader] staged batch 490 to @RAW_STAGE/payments_fivetran_sync/ (1039 rows)
+2026-10-18T02:01:09.500Z INFO  [warehouse] TRANSFORM_WH credit usage 85 units this hour
+2026-10-18T02:01:10.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:10.500Z INFO  [monitor] throughput 1475 rows/min
+2026-10-18T02:01:11.000Z INFO  [warehouse] TRANSFORM_WH credit usage 198 units this hour
+2026-10-18T02:01:11.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:12.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:12.500Z INFO  [warehouse] TRANSFORM_WH credit usage 107 units this hour
+2026-10-18T02:01:13.000Z INFO  [extract] fetched page 193 from source (4442 rows)
+2026-10-18T02:01:13.500Z INFO  [transform] applied 12 column mappings for payments
+2026-10-18T02:01:14.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:14.500Z INFO  [monitor] throughput 4497 rows/min
+2026-10-18T02:01:15.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:15.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:16.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 42 units this hour
+2026-10-18T02:01:17.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:17.500Z INFO  [warehouse] TRANSFORM_WH credit usage 1 units this hour
+2026-10-18T02:01:18.000Z INFO  [warehouse] TRANSFORM_WH credit usage 41 units this hour
+2026-10-18T02:01:18.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:19.000Z INFO  [extract] fetched page 434 from source (1513 rows)
+2026-10-18T02:01:19.500Z INFO  [extract] fetched page 196 from source (619 rows)
+2026-10-18T02:01:20.000Z INFO  [monitor] throughput 4747 rows/min
+2026-10-18T02:01:20.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 226 units this hour
+2026-10-18T02:01:21.500Z INFO  [transform] applied 26 column mappings for payments
+2026-10-18T02:01:22.000Z INFO  [monitor] throughput 1021 rows/min
+2026-10-18T02:01:22.500Z WARN  [extract] source returned HTTP 429, backing off 1s (recovered)
+2026-10-18T02:01:23.000Z INFO  [transform] applied 31 column mappings for payments
+2026-10-18T02:01:23.500Z INFO  [monitor] throughput 3334 rows/min
+2026-10-18T02:01:24.000Z INFO  [extract] fetched page 361 from source (3826 rows)
+2026-10-18T02:01:24.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:25.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:25.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:26.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:26.500Z INFO  [monitor] throughput 3718 rows/min
+2026-10-18T02:01:27.000Z INFO  [monitor] throughput 3377 rows/min
+2026-10-18T02:01:27.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:28.000Z INFO  [warehouse] TRANSFORM_WH credit usage 214 units this hour
+2026-10-18T02:01:28.500Z INFO  [extract] fetched page 95 from source (4102 rows)
+2026-10-18T02:01:29.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:01:29.500Z INFO  [warehouse] TRANSFORM_WH credit usage 470 units this hour
+2026-10-18T02:01:30.000Z INFO  [transform] applied 206 column mappings for payments
+2026-10-18T02:01:30.500Z INFO  [transform] applied 455 column mappings for payments
+2026-10-18T02:01:31.000Z INFO  [loader] staged batch 151 to @RAW_STAGE/payments_fivetran_sync/ (3382 rows)
+2026-10-18T02:01:31.500Z INFO  [monitor] throughput 3938 rows/min
+2026-10-18T02:01:32.000Z INFO  [monitor] throughput 4704 rows/min
+2026-10-18T02:01:32.500Z INFO  [monitor] throughput 3759 rows/min
+2026-10-18T02:01:33.000Z INFO  [loader] staged batch 264 to @RAW_STAGE/payments_fivetran_sync/ (1114 rows)
+2026-10-18T02:01:33.500Z INFO  [loader] staged batch 249 to @RAW_STAGE/payments_fivetran_sync/ (4535 rows)
+2026-10-18T02:01:34.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:34.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:35.000Z INFO  [transform] applied 231 column mappings for payments
+2026-10-18T02:01:35.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:36.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:36.500Z INFO  [transform] applied 215 column mappings for payments
+2026-10-18T02:01:37.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:37.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:38.000Z INFO  [transform] applied 256 column mappings for payments
+2026-10-18T02:01:38.500Z INFO  [warehouse] TRANSFORM_WH credit usage 138 units this hour
+2026-10-18T02:01:39.000Z INFO  [monitor] throughput 4032 rows/min
+2026-10-18T02:01:39.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:40.000Z INFO  [extract] fetched page 211 from source (4345 rows)
+2026-10-18T02:01:40.500Z INFO  [extract] fetched page 65 from source (112 rows)
+2026-10-18T02:01:41.000Z INFO  [transform] applied 56 column mappings for payments
+2026-10-18T02:01:41.500Z INFO  [transform] applied 68 column mappings for payments
+2026-10-18T02:01:42.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:42.500Z INFO  [extract] fetched page 78 from source (1225 rows)
+2026-10-18T02:01:43.000Z INFO  [loader] staged batch 171 to @RAW_STAGE/payments_fivetran_sync/ (4407 rows)
+2026-10-18T02:01:43.500Z INFO  [loader] staged batch 133 to @RAW_STAGE/payments_fivetran_sync/ (3650 rows)
+2026-10-18T02:01:44.000Z INFO  [extract] fetched page 496 from source (4116 rows)
+2026-10-18T02:01:44.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:45.000Z INFO  [loader] staged batch 422 to @RAW_STAGE/payments_fivetran_sync/ (4596 rows)
+2026-10-18T02:01:45.500Z INFO  [transform] applied 472 column mappings for payments
+2026-10-18T02:01:46.000Z INFO  [monitor] throughput 3907 rows/min
+2026-10-18T02:01:46.500Z INFO  [transform] applied 2 column mappings for payments
+2026-10-18T02:01:47.000Z INFO  [monitor] throughput 3752 rows/min
+2026-10-18T02:01:47.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:48.000Z INFO  [extract] fetched page 134 from source (533 rows)
+2026-10-18T02:01:48.500Z INFO  [monitor] throughput 3812 rows/min
+2026-10-18T02:01:49.000Z INFO  [monitor] throughput 591 rows/min
+2026-10-18T02:01:49.500Z INFO  [extract] fetched page 142 from source (3833 rows)
+2026-10-18T02:01:50.000Z INFO  [loader] staged batch 135 to @RAW_STAGE/payments_fivetran_sync/ (2196 rows)
+2026-10-18T02:01:50.500Z INFO  [monitor] throughput 2575 rows/min
+2026-10-18T02:01:51.000Z INFO  [loader] staged batch 258 to @RAW_STAGE/payments_fivetran_sync/ (2430 rows)
+2026-10-18T02:01:51.500Z INFO  [warehouse] TRANSFORM_WH credit usage 383 units this hour
+2026-10-18T02:01:52.000Z INFO  [monitor] throughput 4184 rows/min
+2026-10-18T02:01:52.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:01:53.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:53.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:54.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:54.500Z INFO  [warehouse] TRANSFORM_WH credit usage 290 units this hour
+2026-10-18T02:01:55.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:01:55.500Z INFO  [transform] applied 329 column mappings for payments
+2026-10-18T02:01:56.000Z INFO  [monitor] throughput 1901 rows/min
+2026-10-18T02:01:56.500Z INFO  [warehouse] TRANSFORM_WH credit usage 284 units this hour
+2026-10-18T02:01:57.000Z INFO  [warehouse] TRANSFORM_WH credit usage 226 units this hour
+2026-10-18T02:01:57.500Z INFO  [loader] staged batch 178 to @RAW_STAGE/payments_fivetran_sync/ (1425 rows)
+2026-10-18T02:01:58.000Z INFO  [monitor] throughput 338 rows/min
+2026-10-18T02:01:58.500Z INFO  [extract] fetched page 395 from source (160 rows)
+2026-10-18T02:01:59.000Z INFO  [transform] applied 260 column mappings for payments
+2026-10-18T02:01:59.500Z INFO  [loader] staged batch 339 to @RAW_STAGE/payments_fivetran_sync/ (1327 rows)
+2026-10-18T02:02:00.000Z INFO  [warehouse] TRANSFORM_WH credit usage 305 units this hour
+2026-10-18T02:02:00.500Z INFO  [transform] applied 375 column mappings for payments
+2026-10-18T02:02:01.000Z INFO  [monitor] throughput 4890 rows/min
+2026-10-18T02:02:01.500Z INFO  [transform] applied 105 column mappings for payments
+2026-10-18T02:02:02.000Z INFO  [warehouse] TRANSFORM_WH credit usage 376 units this hour
+2026-10-18T02:02:02.500Z INFO  [monitor] throughput 3058 rows/min
+2026-10-18T02:02:03.000Z INFO  [extract] fetched page 323 from source (2689 rows)
+2026-10-18T02:02:03.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:04.000Z INFO  [transform] applied 318 column mappings for payments
+2026-10-18T02:02:04.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:05.000Z INFO  [transform] applied 264 column mappings for payments
+2026-10-18T02:02:05.500Z INFO  [warehouse] TRANSFORM_WH credit usage 266 units this hour
+2026-10-18T02:02:06.000Z INFO  [extract] fetched page 192 from source (3373 rows)
+2026-10-18T02:02:06.500Z INFO  [loader] staged batch 261 to @RAW_STAGE/payments_fivetran_sync/ (1216 rows)
+2026-10-18T02:02:07.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:07.500Z INFO  [warehouse] TRANSFORM_WH credit usage 57 units this hour
+2026-10-18T02:02:08.000Z INFO  [extract] fetched page 113 from source (2316 rows)
+2026-10-18T02:02:08.500Z INFO  [warehouse] TRANSFORM_WH credit usage 117 units this hour
+2026-10-18T02:02:09.000Z INFO  [monitor] throughput 4117 rows/min
+2026-10-18T02:02:09.500Z INFO  [transform] applied 308 column mappings for payments
+2026-10-18T02:02:10.000Z INFO  [transform] applied 63 column mappings for payments
+2026-10-18T02:02:10.500Z INFO  [warehouse] TRANSFORM_WH credit usage 492 units this hour
+2026-10-18T02:02:11.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:11.500Z INFO  [extract] fetched page 171 from source (1961 rows)
+2026-10-18T02:02:12.000Z INFO  [transform] applied 401 column mappings for payments
+2026-10-18T02:02:12.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:13.000Z INFO  [loader] staged batch 266 to @RAW_STAGE/payments_fivetran_sync/ (1353 rows)
+2026-10-18T02:02:13.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:14.000Z INFO  [loader] staged batch 264 to @RAW_STAGE/payments_fivetran_sync/ (1818 rows)
+2026-10-18T02:02:14.500Z INFO  [monitor] throughput 4174 rows/min
+2026-10-18T02:02:15.000Z INFO  [warehouse] TRANSFORM_WH credit usage 106 units this hour
+2026-10-18T02:02:15.500Z INFO  [monitor] throughput 3647 rows/min
+2026-10-18T02:02:16.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 302 units this hour
+2026-10-18T02:02:17.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:17.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:18.000Z INFO  [loader] staged batch 31 to @RAW_STAGE/payments_fivetran_sync/ (1417 rows)
+2026-10-18T02:02:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 489 units this hour
+2026-10-18T02:02:19.000Z INFO  [extract] fetched page 271 from source (2361 rows)
+2026-10-18T02:02:19.500Z INFO  [monitor] throughput 1807 rows/min
+2026-10-18T02:02:20.000Z INFO  [loader] staged batch 245 to @RAW_STAGE/payments_fivetran_sync/ (2682 rows)
+2026-10-18T02:02:20.500Z INFO  [monitor] throughput 1761 rows/min
+2026-10-18T02:02:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 312 units this hour
+2026-10-18T02:02:21.500Z INFO  [monitor] throughput 1733 rows/min
+2026-10-18T02:02:22.000Z INFO  [transform] applied 474 column mappings for payments
+2026-10-18T02:02:22.500Z INFO  [extract] fetched page 160 from source (1963 rows)
+2026-10-18T02:02:23.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:23.500Z INFO  [transform] applied 170 column mappings for payments
+2026-10-18T02:02:24.000Z INFO  [warehouse] TRANSFORM_WH credit usage 32 units this hour
+2026-10-18T02:02:24.500Z INFO  [extract] fetched page 60 from source (392 rows)
+2026-10-18T02:02:25.000Z INFO  [loader] staged batch 150 to @RAW_STAGE/payments_fivetran_sync/ (3336 rows)
+2026-10-18T02:02:25.500Z INFO  [warehouse] TRANSFORM_WH credit usage 54 units this hour
+2026-10-18T02:02:26.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:26.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:27.000Z INFO  [extract] fetched page 156 from source (3473 rows)
+2026-10-18T02:02:27.500Z INFO  [extract] fetched page 231 from source (1110 rows)
+2026-10-18T02:02:28.000Z INFO  [loader] staged batch 149 to @RAW_STAGE/payments_fivetran_sync/ (859 rows)
+2026-10-18T02:02:28.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:29.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:29.500Z INFO  [extract] fetched page 108 from source (430 rows)
+2026-10-18T02:02:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 209 units this hour
+2026-10-18T02:02:30.500Z INFO  [monitor] throughput 1829 rows/min
+2026-10-18T02:02:31.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:31.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:32.000Z INFO  [loader] staged batch 252 to @RAW_STAGE/payments_fivetran_sync/ (4259 rows)
+2026-10-18T02:02:32.500Z INFO  [monitor] throughput 2644 rows/min
+2026-10-18T02:02:33.000Z INFO  [monitor] throughput 4303 rows/min
+2026-10-18T02:02:33.500Z INFO  [monitor] throughput 4035 rows/min
+2026-10-18T02:02:34.000Z INFO  [warehouse] TRANSFORM_WH credit usage 135 units this hour
+2026-10-18T02:02:34.500Z INFO  [transform] applied 84 column mappings for payments
+2026-10-18T02:02:35.000Z INFO  [warehouse] TRANSFORM_WH credit usage 65 units this hour
+2026-10-18T02:02:35.500Z INFO  [loader] staged batch 261 to @RAW_STAGE/payments_fivetran_sync/ (4794 rows)
+2026-10-18T02:02:36.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:36.500Z INFO  [monitor] throughput 153 rows/min
+2026-10-18T02:02:37.000Z INFO  [loader] staged batch 123 to @RAW_STAGE/payments_fivetran_sync/ (1107 rows)
+2026-10-18T02:02:37.500Z INFO  [loader] staged batch 404 to @RAW_STAGE/payments_fivetran_sync/ (4521 rows)
+2026-10-18T02:02:38.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:38.500Z INFO  [warehouse] TRANSFORM_WH credit usage 327 units this hour
+2026-10-18T02:02:39.000Z INFO  [extract] fetched page 373 from source (3089 rows)
+2026-10-18T02:02:39.500Z INFO  [monitor] throughput 1468 rows/min
+2026-10-18T02:02:40.000Z INFO  [loader] staged batch 308 to @RAW_STAGE/payments_fivetran_sync/ (4837 rows)
+2026-10-18T02:02:40.500Z INFO  [monitor] throughput 680 rows/min
+2026-10-18T02:02:41.000Z INFO  [extract] fetched page 371 from source (1012 rows)
+2026-10-18T02:02:41.500Z INFO  [transform] applied 428 column mappings for payments
+2026-10-18T02:02:42.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:42.500Z INFO  [warehouse] TRANSFORM_WH credit usage 172 units this hour
+2026-10-18T02:02:43.000Z INFO  [monitor] throughput 3934 rows/min
+2026-10-18T02:02:43.500Z INFO  [warehouse] TRANSFORM_WH credit usage 2 units this hour
+2026-10-18T02:02:44.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:44.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:02:45.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:45.500Z INFO  [loader] staged batch 369 to @RAW_STAGE/payments_fivetran_sync/ (3053 rows)
+2026-10-18T02:02:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 113 units this hour
+2026-10-18T02:02:46.500Z INFO  [extract] fetched page 453 from source (3966 rows)
+2026-10-18T02:02:47.000Z INFO  [loader] staged batch 150 to @RAW_STAGE/payments_fivetran_sync/ (2451 rows)
+2026-10-18T02:02:47.500Z INFO  [extract] fetched page 51 from source (4231 rows)
+2026-10-18T02:02:48.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:48.500Z INFO  [loader] staged batch 327 to @RAW_STAGE/payments_fivetran_sync/ (4128 rows)
+2026-10-18T02:02:49.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:49.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:50.000Z INFO  [transform] applied 323 column mappings for payments
+2026-10-18T02:02:50.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:51.000Z INFO  [extract] fetched page 281 from source (3544 rows)
+2026-10-18T02:02:51.500Z INFO  [transform] applied 368 column mappings for payments
+2026-10-18T02:02:52.000Z INFO  [extract] fetched page 43 from source (2710 rows)
+2026-10-18T02:02:52.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:53.000Z INFO  [extract] fetched page 61 from source (1040 rows)
+2026-10-18T02:02:53.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:54.000Z INFO  [extract] fetched page 51 from source (2260 rows)
+2026-10-18T02:02:54.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:55.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:02:55.500Z INFO  [extract] fetched page 250 from source (2813 rows)
+2026-10-18T02:02:56.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:02:56.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:57.000Z INFO  [extract] fetched page 39 from source (2772 rows)
+2026-10-18T02:02:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 175 units this hour
+2026-10-18T02:02:58.000Z INFO  [monitor] throughput 378 rows/min
+2026-10-18T02:02:58.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:59.000Z INFO  [loader] staged batch 264 to @RAW_STAGE/payments_fivetran_sync/ (2523 rows)
+2026-10-18T02:02:59.500Z INFO  [extract] fetched page 424 from source (1051 rows)
+2026-10-18T02:03:00.000Z ERROR [metrics] failed to push metrics to statsd:8125 (ignored, non-fatal)
+2026-10-18T02:03:00.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:01.000Z INFO  [extract] fetched page 484 from source (4439 rows)
+2026-10-18T02:03:01.500Z INFO  [loader] staged batch 466 to @RAW_STAGE/payments_fivetran_sync/ (845 rows)
+2026-10-18T02:03:02.000Z INFO  [transform] applied 449 column mappings for payments
+2026-10-18T02:03:02.500Z INFO  [warehouse] TRANSFORM_WH credit usage 220 units this hour
+2026-10-18T02:03:03.000Z INFO  [extract] fetched page 51 from source (1384 rows)
+2026-10-18T02:03:03.500Z INFO  [monitor] throughput 3064 rows/min
+2026-10-18T02:03:04.000Z INFO  [monitor] throughput 1252 rows/min
+2026-10-18T02:03:04.500Z INFO  [transform] applied 411 column mappings for payments
+2026-10-18T02:03:05.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:03:05.500Z INFO  [warehouse] TRANSFORM_WH credit usage 195 units this hour
+2026-10-18T02:03:06.000Z INFO  [warehouse] TRANSFORM_WH credit usage 397 units this hour
+2026-10-18T02:03:06.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:07.000Z INFO  [loader] staged batch 235 to @RAW_STAGE/payments_fivetran_sync/ (2393 rows)
+2026-10-18T02:03:07.500Z INFO  [transform] applied 345 column mappings for payments
+2026-10-18T02:03:08.000Z INFO  [warehouse] TRANSFORM_WH credit usage 184 units this hour
+2026-10-18T02:03:08.500Z INFO  [monitor] throughput 4859 rows/min
+2026-10-18T02:03:09.000Z INFO  [monitor] throughput 3951 rows/min
+2026-10-18T02:03:09.500Z INFO  [extract] fetched page 84 from source (744 rows)
+2026-10-18T02:03:10.000Z INFO  [transform] applied 413 column mappings for payments
+2026-10-18T02:03:10.500Z INFO  [loader] staged batch 160 to @RAW_STAGE/payments_fivetran_sync/ (1174 rows)
+2026-10-18T02:03:11.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:11.500Z INFO  [loader] staged batch 154 to @RAW_STAGE/payments_fivetran_sync/ (4581 rows)
+2026-10-18T02:03:12.000Z INFO  [loader] staged batch 200 to @RAW_STAGE/payments_fivetran_sync/ (2784 rows)
+2026-10-18T02:03:12.500Z INFO  [monitor] throughput 337 rows/min
+2026-10-18T02:03:13.000Z INFO  [monitor] throughput 480 rows/min
+2026-10-18T02:03:13.500Z INFO  [monitor] throughput 1097 rows/min
+2026-10-18T02:03:14.000Z INFO  [loader] staged batch 160 to @RAW_STAGE/payments_fivetran_sync/ (3009 rows)
+2026-10-18T02:03:14.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:15.000Z INFO  [transform] applied 497 column mappings for payments
+2026-10-18T02:03:15.500Z INFO  [warehouse] TRANSFORM_WH credit usage 429 units this hour
+2026-10-18T02:03:16.000Z INFO  [monitor] throughput 2140 rows/min
+2026-10-18T02:03:16.500Z INFO  [monitor] throughput 3451 rows/min
+2026-10-18T02:03:17.000Z INFO  [monitor] throughput 1096 rows/min
+2026-10-18T02:03:17.500Z INFO  [transform] applied 439 column mappings for payments
+2026-10-18T02:03:18.000Z INFO  [loader] staged batch 463 to @RAW_STAGE/payments_fivetran_sync/ (3096 rows)
+2026-10-18T02:03:18.500Z INFO  [loader] staged batch 361 to @RAW_STAGE/payments_fivetran_sync/ (2476 rows)
+2026-10-18T02:03:19.000Z INFO  [loader] staged batch 473 to @RAW_STAGE/payments_fivetran_sync/ (2879 rows)
+2026-10-18T02:03:19.500Z INFO  [extract] fetched page 402 from source (3567 rows)
+2026-10-18T02:03:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 461 units this hour
+2026-10-18T02:03:20.500Z INFO  [monitor] throughput 2799 rows/min
+2026-10-18T02:03:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 232 units this hour
+2026-10-18T02:03:21.500Z INFO  [warehouse] TRANSFORM_WH credit usage 219 units this hour
+2026-10-18T02:03:22.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:03:22.500Z INFO  [transform] applied 369 column mappings for payments
+2026-10-18T02:03:23.000Z INFO  [extract] fetched page 350 from source (3497 rows)
+2026-10-18T02:03:23.500Z INFO  [extract] fetched page 69 from source (4175 rows)
+2026-10-18T02:03:24.000Z INFO  [transform] applied 146 column mappings for payments
+2026-10-18T02:03:24.500Z INFO  [monitor] throughput 186 rows/min
+2026-10-18T02:03:25.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:03:25.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:03:26.000Z INFO  [monitor] throughput 3628 rows/min
+2026-10-18T02:03:26.500Z INFO  [transform] applied 402 column mappings for payments
+2026-10-18T02:03:27.000Z INFO  [monitor] throughput 3008 rows/min
+2026-10-18T02:03:27.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:28.000Z INFO  [extract] fetched page 412 from source (2904 rows)
+2026-10-18T02:03:28.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:29.000Z INFO  [warehouse] TRANSFORM_WH credit usage 378 units this hour
+2026-10-18T02:03:29.500Z INFO  [extract] fetched page 303 from source (3240 rows)
+2026-10-18T02:03:30.000Z INFO  [warehouse] TRANSFORM_WH credit usage 166 units this hour
+2026-10-18T02:03:30.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:31.000Z INFO  [extract] fetched page 1 from source (4493 rows)
+2026-10-18T02:03:31.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:32.000Z INFO  [warehouse] TRANSFORM_WH credit usage 123 units this hour
+2026-10-18T02:03:32.500Z INFO  [transform] applied 407 column mappings for payments
+2026-10-18T02:03:33.000Z INFO  [transform] applied 431 column mappings for payments
+2026-10-18T02:03:33.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:03:34.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:34.500Z INFO  [warehouse] TRANSFORM_WH credit usage 352 units this hour
+2026-10-18T02:03:35.000Z INFO  [loader] staged batch 301 to @RAW_STAGE/payments_fivetran_sync/ (2684 rows)
+2026-10-18T02:03:35.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:36.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:03:36.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:37.000Z INFO  [monitor] throughput 2694 rows/min
+2026-10-18T02:03:37.500Z INFO  [transform] applied 424 column mappings for payments
+2026-10-18T02:03:38.000Z INFO  [loader] staged batch 65 to @RAW_STAGE/payments_fivetran_sync/ (159 rows)
+2026-10-18T02:03:38.500Z INFO  [warehouse] TRANSFORM_WH credit usage 384 units this hour
+2026-10-18T02:03:39.000Z INFO  [monitor] throughput 2863 rows/min
+2026-10-18T02:03:39.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:03:40.000Z INFO  [loader] staged batch 251 to @RAW_STAGE/payments_fivetran_sync/ (1557 rows)
+2026-10-18T02:03:40.500Z INFO  [extract] fetched page 389 from source (4791 rows)
+2026-10-18T02:03:41.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:41.500Z INFO  [monitor] throughput 4215 rows/min
+2026-10-18T02:03:42.000Z INFO  [extract] fetched page 293 from source (4056 rows)
+2026-10-18T02:03:42.500Z INFO  [transform] applied 110 column mappings for payments
+2026-10-18T02:03:43.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:43.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:44.000Z INFO  [transform] applied 162 column mappings for payments
+2026-10-18T02:03:44.500Z INFO  [extract] fetched page 468 from source (4305 rows)
+2026-10-18T02:03:45.000Z INFO  [loader] staged batch 149 to @RAW_STAGE/payments_fivetran_sync/ (4502 rows)
+2026-10-18T02:03:45.500Z INFO  [transform] applied 483 column mappings for payments
+2026-10-18T02:03:46.000Z INFO  [loader] staged batch 24 to @RAW_STAGE/payments_fivetran_sync/ (4002 rows)
+2026-10-18T02:03:46.500Z INFO  [extract] fetched page 26 from source (888 rows)
+2026-10-18T02:03:47.000Z INFO  [transform] applied 347 column mappings for payments
+2026-10-18T02:03:47.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:48.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:03:48.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 12 units this hour
+2026-10-18T02:03:49.500Z INFO  [loader] staged batch 160 to @RAW_STAGE/payments_fivetran_sync/ (3518 rows)
+2026-10-18T02:03:50.000Z INFO  [transform] applied 492 column mappings for payments
+2026-10-18T02:03:50.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:03:51.000Z INFO  [warehouse] TRANSFORM_WH credit usage 150 units this hour
+2026-10-18T02:03:51.500Z INFO  [extract] fetched page 471 from source (3755 rows)
+2026-10-18T02:03:52.000Z INFO  [warehouse] TRANSFORM_WH credit usage 76 units this hour
+2026-10-18T02:03:52.500Z INFO  [loader] staged batch 214 to @RAW_STAGE/payments_fivetran_sync/ (4240 rows)
+2026-10-18T02:03:53.000Z INFO  [extract] fetched page 190 from source (515 rows)
+2026-10-18T02:03:53.500Z INFO  [extract] fetched page 197 from source (3723 rows)
+2026-10-18T02:03:54.000Z INFO  [warehouse] TRANSFORM_WH credit usage 478 units this hour
+2026-10-18T02:03:54.500Z INFO  [warehouse] TRANSFORM_WH credit usage 186 units this hour
+2026-10-18T02:03:55.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:03:55.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:03:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 389 units this hour
+2026-10-18T02:03:56.500Z INFO  [monitor] throughput 1603 rows/min
+2026-10-18T02:03:57.000Z INFO  [monitor] throughput 1437 rows/min
+2026-10-18T02:03:57.500Z INFO  [warehouse] TRANSFORM_WH credit usage 271 units this hour
+2026-10-18T02:03:58.000Z INFO  [extract] fetched page 424 from source (4051 rows)
+2026-10-18T02:03:58.500Z INFO  [extract] fetched page 418 from source (885 rows)
+2026-10-18T02:03:59.000Z INFO  [warehouse] TRANSFORM_WH credit usage 18 units this hour
+2026-10-18T02:03:59.500Z INFO  [monitor] throughput 1520 rows/min
+2026-10-18T02:04:00.000Z INFO  [extract] fetched page 91 from source (4486 rows)
+2026-10-18T02:04:00.500Z INFO  [warehouse] TRANSFORM_WH credit usage 336 units this hour
+2026-10-18T02:04:01.000Z INFO  [monitor] throughput 2251 rows/min
+2026-10-18T02:04:01.500Z INFO  [transform] applied 92 column mappings for payments
+2026-10-18T02:04:02.000Z INFO  [warehouse] TRANSFORM_WH credit usage 255 units this hour
+2026-10-18T02:04:02.500Z INFO  [monitor] throughput 171 rows/min
+2026-10-18T02:04:03.000Z INFO  [loader] staged batch 295 to @RAW_STAGE/payments_fivetran_sync/ (977 rows)
+2026-10-18T02:04:03.500Z INFO  [extract] fetched page 283 from source (2812 rows)
+2026-10-18T02:04:04.000Z INFO  [loader] staged batch 39 to @RAW_STAGE/payments_fivetran_sync/ (695 rows)
+2026-10-18T02:04:04.500Z INFO  [transform] applied 418 column mappings for payments
+2026-10-18T02:04:05.000Z INFO  [monitor] throughput 2617 rows/min
+2026-10-18T02:04:05.500Z INFO  [loader] staged batch 355 to @RAW_STAGE/payments_fivetran_sync/ (2745 rows)
+2026-10-18T02:04:06.000Z INFO  [monitor] throughput 3766 rows/min
+2026-10-18T02:04:06.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:07.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:07.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:08.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:08.500Z INFO  [transform] applied 167 column mappings for payments
+2026-10-18T02:04:09.000Z INFO  [loader] staged batch 41 to @RAW_STAGE/payments_fivetran_sync/ (4490 rows)
+2026-10-18T02:04:09.500Z INFO  [transform] applied 218 column mappings for payments
+2026-10-18T02:04:10.000Z INFO  [loader] staged batch 145 to @RAW_STAGE/payments_fivetran_sync/ (4013 rows)
+2026-10-18T02:04:10.500Z INFO  [loader] staged batch 295 to @RAW_STAGE/payments_fivetran_sync/ (1131 rows)
+2026-10-18T02:04:11.000Z INFO  [extract] fetched page 43 from source (3758 rows)
+2026-10-18T02:04:11.500Z INFO  [loader] staged batch 136 to @RAW_STAGE/payments_fivetran_sync/ (3093 rows)
+2026-10-18T02:04:12.000Z INFO  [warehouse] TRANSFORM_WH credit usage 126 units this hour
+2026-10-18T02:04:12.500Z INFO  [extract] fetched page 265 from source (811 rows)
+2026-10-18T02:04:13.000Z INFO  [monitor] throughput 364 rows/min
+2026-10-18T02:04:13.500Z INFO  [warehouse] TRANSFORM_WH credit usage 62 units this hour
+2026-10-18T02:04:14.000Z INFO  [warehouse] TRANSFORM_WH credit usage 478 units this hour
+2026-10-18T02:04:14.500Z INFO  [extract] fetched page 344 from source (4037 rows)
+2026-10-18T02:04:15.000Z INFO  [transform] applied 238 column mappings for payments
+2026-10-18T02:04:15.500Z INFO  [warehouse] TRANSFORM_WH credit usage 324 units this hour
+2026-10-18T02:04:16.000Z INFO  [transform] applied 478 column mappings for payments
+2026-10-18T02:04:16.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:17.000Z INFO  [loader] staged batch 456 to @RAW_STAGE/payments_fivetran_sync/ (1619 rows)
+2026-10-18T02:04:17.500Z INFO  [transform] applied 3 column mappings for payments
+2026-10-18T02:04:18.000Z INFO  [monitor] throughput 127 rows/min
+2026-10-18T02:04:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 121 units this hour
+2026-10-18T02:04:19.000Z INFO  [monitor] throughput 2893 rows/min
+2026-10-18T02:04:19.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:20.000Z INFO  [loader] staged batch 264 to @RAW_STAGE/payments_fivetran_sync/ (2908 rows)
+2026-10-18T02:04:20.500Z INFO  [transform] applied 260 column mappings for payments
+2026-10-18T02:04:21.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:21.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:22.000Z INFO  [transform] applied 395 column mappings for payments
+2026-10-18T02:04:22.500Z INFO  [extract] fetched page 253 from source (2233 rows)
+2026-10-18T02:04:23.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:23.500Z INFO  [warehouse] TRANSFORM_WH credit usage 383 units this hour
+2026-10-18T02:04:24.000Z INFO  [transform] applied 296 column mappings for payments
+2026-10-18T02:04:24.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:25.000Z INFO  [transform] applied 401 column mappings for payments
+2026-10-18T02:04:25.500Z INFO  [monitor] throughput 2948 rows/min
+2026-10-18T02:04:26.000Z INFO  [warehouse] TRANSFORM_WH credit usage 457 units this hour
+2026-10-18T02:04:26.500Z INFO  [warehouse] TRANSFORM_WH credit usage 216 units this hour
+2026-10-18T02:04:27.000Z INFO  [transform] applied 56 column mappings for payments
+2026-10-18T02:04:27.500Z INFO  [extract] fetched page 201 from source (810 rows)
+2026-10-18T02:04:28.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:28.500Z INFO  [transform] applied 445 column mappings for payments
+2026-10-18T02:04:29.000Z INFO  [loader] staged batch 485 to @RAW_STAGE/payments_fivetran_sync/ (3845 rows)
+2026-10-18T02:04:29.500Z INFO  [extract] fetched page 477 from source (2186 rows)
+2026-10-18T02:04:30.000Z WARN  [monitor] query queue latency 2.3s above 2.0s target
+2026-10-18T02:04:30.500Z INFO  [monitor] throughput 1099 rows/min
+2026-10-18T02:04:31.000Z INFO  [warehouse] TRANSFORM_WH credit usage 303 units this hour
+2026-10-18T02:04:31.500Z INFO  [monitor] throughput 665 rows/min
+2026-10-18T02:04:32.000Z INFO  [warehouse] TRANSFORM_WH credit usage 214 units this hour
+2026-10-18T02:04:32.500Z INFO  [warehouse] TRANSFORM_WH credit usage 117 units this hour
+2026-10-18T02:04:33.000Z INFO  [loader] staged batch 82 to @RAW_STAGE/payments_fivetran_sync/ (4602 rows)
+2026-10-18T02:04:33.500Z INFO  [warehouse] TRANSFORM_WH credit usage 400 units this hour
+2026-10-18T02:04:34.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:34.500Z INFO  [monitor] throughput 2154 rows/min
+2026-10-18T02:04:35.000Z INFO  [loader] staged batch 48 to @RAW_STAGE/payments_fivetran_sync/ (2136 rows)
+2026-10-18T02:04:35.500Z INFO  [monitor] throughput 4134 rows/min
+2026-10-18T02:04:36.000Z INFO  [monitor] throughput 2751 rows/min
+2026-10-18T02:04:36.500Z INFO  [extract] fetched page 436 from source (4770 rows)
+2026-10-18T02:04:37.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:37.500Z INFO  [extract] fetched page 331 from source (1405 rows)
+2026-10-18T02:04:38.000Z INFO  [loader] staged batch 81 to @RAW_STAGE/payments_fivetran_sync/ (3824 rows)
+2026-10-18T02:04:38.500Z INFO  [extract] fetched page 175 from source (565 rows)
+2026-10-18T02:04:39.000Z INFO  [extract] fetched page 465 from source (4937 rows)
+2026-10-18T02:04:39.500Z INFO  [transform] applied 276 column mappings for payments
+2026-10-18T02:04:40.000Z INFO  [loader] staged batch 354 to @RAW_STAGE/payments_fivetran_sync/ (900 rows)
+2026-10-18T02:04:40.500Z INFO  [monitor] throughput 2597 rows/min
+2026-10-18T02:04:41.000Z INFO  [loader] staged batch 453 to @RAW_STAGE/payments_fivetran_sync/ (407 rows)
+2026-10-18T02:04:41.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:04:42.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:42.500Z INFO  [transform] applied 240 column mappings for payments
+2026-10-18T02:04:43.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:43.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:44.000Z INFO  [transform] applied 125 column mappings for payments
+2026-10-18T02:04:44.500Z INFO  [extract] fetched page 185 from source (3777 rows)
+2026-10-18T02:04:45.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:45.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:46.000Z INFO  [loader] staged batch 466 to @RAW_STAGE/payments_fivetran_sync/ (2590 rows)
+2026-10-18T02:04:46.500Z INFO  [warehouse] TRANSFORM_WH credit usage 106 units this hour
+2026-10-18T02:04:47.000Z INFO  [monitor] throughput 1525 rows/min
+2026-10-18T02:04:47.500Z INFO  [transform] applied 423 column mappings for payments
+2026-10-18T02:04:48.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:48.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:49.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:49.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:50.000Z INFO  [transform] applied 147 column mappings for payments
+2026-10-18T02:04:50.500Z INFO  [monitor] throughput 3725 rows/min
+2026-10-18T02:04:51.000Z INFO  [warehouse] TRANSFORM_WH credit usage 337 units this hour
+2026-10-18T02:04:51.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:04:52.000Z INFO  [extract] fetched page 96 from source (3645 rows)
+2026-10-18T02:04:52.500Z INFO  [transform] applied 34 column mappings for payments
+2026-10-18T02:04:53.000Z INFO  [loader] staged batch 484 to @RAW_STAGE/payments_fivetran_sync/ (1950 rows)
+2026-10-18T02:04:53.500Z INFO  [extract] fetched page 242 from source (4798 rows)
+2026-10-18T02:04:54.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:54.500Z INFO  [extract] fetched page 61 from source (4481 rows)
+2026-10-18T02:04:55.000Z INFO  [transform] applied 132 column mappings for payments
+2026-10-18T02:04:55.500Z INFO  [monitor] throughput 4689 rows/min
+2026-10-18T02:04:56.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:56.500Z INFO  [transform] applied 434 column mappings for payments
+2026-10-18T02:04:57.000Z INFO  [transform] applied 473 column mappings for payments
+2026-10-18T02:04:57.500Z INFO  [monitor] throughput 3767 rows/min
+2026-10-18T02:04:58.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:58.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:59.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:04:59.500Z INFO  [extract] fetched page 191 from source (1298 rows)
+2026-10-18T02:05:00.000Z INFO  [transform] applied 102 column mappings for payments
+2026-10-18T02:05:00.500Z INFO  [transform] applied 214 column mappings for payments
+2026-10-18T02:05:01.000Z INFO  [transform] applied 96 column mappings for payments
+2026-10-18T02:05:01.500Z INFO  [extract] fetched page 364 from source (4819 rows)
+2026-10-18T02:05:02.000Z INFO  [monitor] throughput 4881 rows/min
+2026-10-18T02:05:02.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:03.000Z INFO  [loader] staged batch 64 to @RAW_STAGE/payments_fivetran_sync/ (3971 rows)
+2026-10-18T02:05:03.500Z INFO  [loader] staged batch 3 to @RAW_STAGE/payments_fivetran_sync/ (3527 rows)
+2026-10-18T02:05:04.000Z INFO  [loader] staged batch 102 to @RAW_STAGE/payments_fivetran_sync/ (2400 rows)
+2026-10-18T02:05:04.500Z INFO  [connector] refreshing session for user SVC_FIVETRAN
+2026-10-18T02:05:05.000Z WARN  [connector] login attempt 1 for SVC_FIVETRAN rejected
+2026-10-18T02:05:05.500Z ERROR [connector] authentication failed for user SVC_FIVETRAN: password expired (code 390106)
+2026-10-18T02:05:06.000Z INFO  [extract] fetched page 395 from source (4765 rows)
+2026-10-18T02:05:06.500Z INFO  [transform] applied 348 column mappings for payments
+2026-10-18T02:05:07.000Z INFO  [warehouse] TRANSFORM_WH credit usage 470 units this hour
+2026-10-18T02:05:07.500Z INFO  [transform] applied 150 column mappings for payments
+2026-10-18T02:05:08.000Z INFO  [extract] fetched page 65 from source (433 rows)
+2026-10-18T02:05:08.500Z INFO  [warehouse] TRANSFORM_WH credit usage 446 units this hour
+2026-10-18T02:05:09.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:09.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:10.000Z INFO  [loader] staged batch 463 to @RAW_STAGE/payments_fivetran_sync/ (4788 rows)
+2026-10-18T02:05:10.500Z INFO  [transform] applied 68 column mappings for payments
+2026-10-18T02:05:11.000Z INFO  [extract] fetched page 275 from source (3694 rows)
+2026-10-18T02:05:11.500Z INFO  [extract] fetched page 270 from source (157 rows)
+2026-10-18T02:05:12.000Z INFO  [monitor] throughput 903 rows/min
+2026-10-18T02:05:12.500Z INFO  [monitor] throughput 2982 rows/min
+2026-10-18T02:05:13.000Z INFO  [monitor] throughput 1270 rows/min
+2026-10-18T02:05:13.500Z INFO  [loader] staged batch 54 to @RAW_STAGE/payments_fivetran_sync/ (3285 rows)
+2026-10-18T02:05:14.000Z INFO  [extract] fetched page 176 from source (2954 rows)
+2026-10-18T02:05:14.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:15.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:15.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:16.000Z INFO  [monitor] throughput 4292 rows/min
+2026-10-18T02:05:16.500Z INFO  [extract] fetched page 13 from source (896 rows)
+2026-10-18T02:05:17.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:17.500Z INFO  [warehouse] TRANSFORM_WH credit usage 266 units this hour
+2026-10-18T02:05:18.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:18.500Z INFO  [loader] staged batch 53 to @RAW_STAGE/payments_fivetran_sync/ (4253 rows)
+2026-10-18T02:05:19.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:19.500Z INFO  [warehouse] TRANSFORM_WH credit usage 450 units this hour
+2026-10-18T02:05:20.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:20.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:21.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:05:21.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:22.000Z INFO  [monitor] throughput 4525 rows/min
+2026-10-18T02:05:22.500Z INFO  [monitor] throughput 1267 rows/min
+2026-10-18T02:05:23.000Z INFO  [monitor] throughput 4772 rows/min
+2026-10-18T02:05:23.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:24.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:24.500Z INFO  [loader] staged batch 363 to @RAW_STAGE/payments_fivetran_sync/ (4034 rows)
+2026-10-18T02:05:25.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:25.500Z INFO  [monitor] throughput 3715 rows/min
+2026-10-18T02:05:26.000Z INFO  [transform] applied 367 column mappings for payments
+2026-10-18T02:05:26.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:27.000Z INFO  [transform] applied 328 column mappings for payments
+2026-10-18T02:05:27.500Z INFO  [warehouse] TRANSFORM_WH credit usage 439 units this hour
+2026-10-18T02:05:28.000Z INFO  [warehouse] TRANSFORM_WH credit usage 82 units this hour
+2026-10-18T02:05:28.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:29.000Z INFO  [loader] staged batch 340 to @RAW_STAGE/payments_fivetran_sync/ (1399 rows)
+2026-10-18T02:05:29.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:05:30.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 457 units this hour
+2026-10-18T02:05:31.000Z INFO  [warehouse] TRANSFORM_WH credit usage 334 units this hour
+2026-10-18T02:05:31.500Z INFO  [loader] staged batch 384 to @RAW_STAGE/payments_fivetran_sync/ (4521 rows)
+2026-10-18T02:05:32.000Z INFO  [warehouse] TRANSFORM_WH credit usage 331 units this hour
+2026-10-18T02:05:32.500Z INFO  [loader] staged batch 272 to @RAW_STAGE/payments_fivetran_sync/ (1939 rows)
+2026-10-18T02:05:33.000Z INFO  [warehouse] TRANSFORM_WH credit usage 277 units this hour
+2026-10-18T02:05:33.500Z INFO  [transform] applied 267 column mappings for payments
+2026-10-18T02:05:34.000Z INFO  [transform] applied 290 column mappings for payments
+2026-10-18T02:05:34.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:35.000Z INFO  [monitor] throughput 234 rows/min
+2026-10-18T02:05:35.500Z INFO  [transform] applied 440 column mappings for payments
+2026-10-18T02:05:36.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:36.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:37.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:37.500Z INFO  [loader] staged batch 102 to @RAW_STAGE/payments_fivetran_sync/ (1903 rows)
+2026-10-18T02:05:38.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:38.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 459 units this hour
+2026-10-18T02:05:39.500Z INFO  [extract] fetched page 446 from source (696 rows)
+2026-10-18T02:05:40.000Z INFO  [extract] fetched page 409 from source (4975 rows)
+2026-10-18T02:05:40.500Z INFO  [monitor] throughput 1868 rows/min
+2026-10-18T02:05:41.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:41.500Z INFO  [extract] fetched page 247 from source (1124 rows)
+2026-10-18T02:05:42.000Z INFO  [warehouse] TRANSFORM_WH credit usage 399 units this hour
+2026-10-18T02:05:42.500Z INFO  [monitor] throughput 1342 rows/min
+2026-10-18T02:05:43.000Z INFO  [loader] staged batch 104 to @RAW_STAGE/payments_fivetran_sync/ (178 rows)
+2026-10-18T02:05:43.500Z INFO  [extract] fetched page 192 from source (494 rows)
+2026-10-18T02:05:44.000Z INFO  [loader] staged batch 443 to @RAW_STAGE/payments_fivetran_sync/ (199 rows)
+2026-10-18T02:05:44.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:45.000Z INFO  [loader] staged batch 323 to @RAW_STAGE/payments_fivetran_sync/ (4868 rows)
+2026-10-18T02:05:45.500Z INFO  [monitor] throughput 4545 rows/min
+2026-10-18T02:05:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 260 units this hour
+2026-10-18T02:05:46.500Z INFO  [monitor] throughput 2753 rows/min
+2026-10-18T02:05:47.000Z INFO  [loader] staged batch 204 to @RAW_STAGE/payments_fivetran_sync/ (790 rows)
+2026-10-18T02:05:47.500Z INFO  [warehouse] TRANSFORM_WH credit usage 297 units this hour
+2026-10-18T02:05:48.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:48.500Z INFO  [loader] staged batch 123 to @RAW_STAGE/payments_fivetran_sync/ (1578 rows)
+2026-10-18T02:05:49.000Z INFO  [warehouse] TRANSFORM_WH credit usage 37 units this hour
+2026-10-18T02:05:49.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:50.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:50.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:51.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:51.500Z INFO  [monitor] throughput 2478 rows/min
+2026-10-18T02:05:52.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:52.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:05:53.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:53.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:54.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:54.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:55.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:55.500Z INFO  [extract] fetched page 351 from source (106 rows)
+2026-10-18T02:05:56.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:56.500Z INFO  [warehouse] TRANSFORM_WH credit usage 368 units this hour
+2026-10-18T02:05:57.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:57.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:58.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:58.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:05:59.000Z INFO  [extract] fetched page 359 from source (509 rows)
+2026-10-18T02:05:59.500Z INFO  [transform] applied 191 column mappings for payments
+2026-10-18T02:06:00.000Z INFO  [loader] staged batch 307 to @RAW_STAGE/payments_fivetran_sync/ (2125 rows)
+2026-10-18T02:06:00.500Z INFO  [monitor] throughput 4549 rows/min
+2026-10-18T02:06:01.000Z INFO  [transform] applied 179 column mappings for payments
+2026-10-18T02:06:01.500Z INFO  [transform] applied 442 column mappings for payments
+2026-10-18T02:06:02.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:02.500Z INFO  [transform] applied 230 column mappings for payments
+2026-10-18T02:06:03.000Z INFO  [monitor] throughput 625 rows/min
+2026-10-18T02:06:03.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:04.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:06:04.500Z INFO  [warehouse] TRANSFORM_WH credit usage 481 units this hour
+2026-10-18T02:06:05.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:05.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:06.000Z INFO  [transform] applied 104 column mappings for payments
+2026-10-18T02:06:06.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:07.000Z INFO  [loader] staged batch 261 to @RAW_STAGE/payments_fivetran_sync/ (809 rows)
+2026-10-18T02:06:07.500Z INFO  [warehouse] TRANSFORM_WH credit usage 14 units this hour
+2026-10-18T02:06:08.000Z INFO  [loader] staged batch 177 to @RAW_STAGE/payments_fivetran_sync/ (3370 rows)
+2026-10-18T02:06:08.500Z INFO  [monitor] throughput 2659 rows/min
+2026-10-18T02:06:09.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:06:09.500Z INFO  [monitor] throughput 2466 rows/min
+2026-10-18T02:06:10.000Z INFO  [monitor] throughput 4300 rows/min
+2026-10-18T02:06:10.500Z INFO  [loader] staged batch 220 to @RAW_STAGE/payments_fivetran_sync/ (1488 rows)
+2026-10-18T02:06:11.000Z INFO  [warehouse] TRANSFORM_WH credit usage 493 units this hour
+2026-10-18T02:06:11.500Z INFO  [warehouse] TRANSFORM_WH credit usage 294 units this hour
+2026-10-18T02:06:12.000Z INFO  [transform] applied 402 column mappings for payments
+2026-10-18T02:06:12.500Z INFO  [warehouse] TRANSFORM_WH credit usage 143 units this hour
+2026-10-18T02:06:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 483 units this hour
+2026-10-18T02:06:13.500Z INFO  [transform] applied 437 column mappings for payments
+2026-10-18T02:06:14.000Z INFO  [transform] applied 234 column mappings for payments
+2026-10-18T02:06:14.500Z INFO  [transform] applied 288 column mappings for payments
+2026-10-18T02:06:15.000Z INFO  [transform] applied 157 column mappings for payments
+2026-10-18T02:06:15.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:16.000Z INFO  [warehouse] TRANSFORM_WH credit usage 500 units this hour
+2026-10-18T02:06:16.500Z INFO  [transform] applied 453 column mappings for payments
+2026-10-18T02:06:17.000Z INFO  [extract] fetched page 449 from source (2203 rows)
+2026-10-18T02:06:17.500Z INFO  [extract] fetched page 246 from source (2756 rows)
+2026-10-18T02:06:18.000Z INFO  [monitor] throughput 4507 rows/min
+2026-10-18T02:06:18.500Z INFO  [monitor] throughput 1916 rows/min
+2026-10-18T02:06:19.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:19.500Z INFO  [transform] applied 268 column mappings for payments
+2026-10-18T02:06:20.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:20.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:21.000Z INFO  [transform] applied 105 column mappings for payments
+2026-10-18T02:06:21.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:22.000Z INFO  [loader] staged batch 375 to @RAW_STAGE/payments_fivetran_sync/ (3691 rows)
+2026-10-18T02:06:22.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:23.000Z INFO  [monitor] throughput 3159 rows/min
+2026-10-18T02:06:23.500Z INFO  [monitor] throughput 127 rows/min
+2026-10-18T02:06:24.000Z INFO  [loader] staged batch 225 to @RAW_STAGE/payments_fivetran_sync/ (4988 rows)
+2026-10-18T02:06:24.500Z INFO  [transform] applied 244 column mappings for payments
+2026-10-18T02:06:25.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:25.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:06:26.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:06:26.500Z INFO  [loader] staged batch 76 to @RAW_STAGE/payments_fivetran_sync/ (4105 rows)
+2026-10-18T02:06:27.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:27.500Z INFO  [extract] fetched page 484 from source (3778 rows)
+2026-10-18T02:06:28.000Z INFO  [warehouse] TRANSFORM_WH credit usage 402 units this hour
+2026-10-18T02:06:28.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:29.000Z INFO  [loader] staged batch 464 to @RAW_STAGE/payments_fivetran_sync/ (4494 rows)
+2026-10-18T02:06:29.500Z INFO  [monitor] throughput 1437 rows/min
+2026-10-18T02:06:30.000Z INFO  [loader] staged batch 129 to @RAW_STAGE/payments_fivetran_sync/ (2470 rows)
+2026-10-18T02:06:30.500Z INFO  [extract] fetched page 286 from source (4757 rows)
+2026-10-18T02:06:31.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:31.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:32.000Z INFO  [monitor] throughput 936 rows/min
+2026-10-18T02:06:32.500Z INFO  [monitor] throughput 1370 rows/min
+2026-10-18T02:06:33.000Z INFO  [warehouse] TRANSFORM_WH credit usage 290 units this hour
+2026-10-18T02:06:33.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:34.000Z INFO  [warehouse] TRANSFORM_WH credit usage 475 units this hour
+2026-10-18T02:06:34.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:06:35.000Z INFO  [transform] applied 423 column mappings for payments
+2026-10-18T02:06:35.500Z INFO  [extract] fetched page 157 from source (3168 rows)
+2026-10-18T02:06:36.000Z INFO  [transform] applied 42 column mappings for payments
+2026-10-18T02:06:36.500Z INFO  [extract] fetched page 332 from source (2916 rows)
+2026-10-18T02:06:37.000Z INFO  [extract] fetched page 471 from source (3554 rows)
+2026-10-18T02:06:37.500Z INFO  [warehouse] TRANSFORM_WH credit usage 380 units this hour
+2026-10-18T02:06:38.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:38.500Z INFO  [extract] fetched page 66 from source (4744 rows)
+2026-10-18T02:06:39.000Z INFO  [transform] applied 21 column mappings for payments
+2026-10-18T02:06:39.500Z INFO  [loader] staged batch 214 to @RAW_STAGE/payments_fivetran_sync/ (4692 rows)
+2026-10-18T02:06:40.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:40.500Z INFO  [transform] applied 189 column mappings for payments
+2026-10-18T02:06:41.000Z INFO  [loader] staged batch 39 to @RAW_STAGE/payments_fivetran_sync/ (267 rows)
+2026-10-18T02:06:41.500Z INFO  [transform] applied 356 column mappings for payments
+2026-10-18T02:06:42.000Z INFO  [extract] fetched page 437 from source (900 rows)
+2026-10-18T02:06:42.500Z INFO  [warehouse] TRANSFORM_WH credit usage 161 units this hour
+2026-10-18T02:06:43.000Z INFO  [extract] fetched page 265 from source (4599 rows)
+2026-10-18T02:06:43.500Z INFO  [warehouse] TRANSFORM_WH credit usage 202 units this hour
+2026-10-18T02:06:44.000Z INFO  [extract] fetched page 92 from source (3298 rows)
+2026-10-18T02:06:44.500Z INFO  [monitor] throughput 3230 rows/min
+2026-10-18T02:06:45.000Z INFO  [warehouse] TRANSFORM_WH credit usage 377 units this hour
+2026-10-18T02:06:45.500Z INFO  [extract] fetched page 468 from source (1105 rows)
+2026-10-18T02:06:46.000Z INFO  [transform] applied 194 column mappings for payments
+2026-10-18T02:06:46.500Z INFO  [transform] applied 447 column mappings for payments
+2026-10-18T02:06:47.000Z INFO  [extract] fetched page 61 from source (699 rows)
+2026-10-18T02:06:47.500Z INFO  [monitor] throughput 335 rows/min
+2026-10-18T02:06:48.000Z INFO  [loader] staged batch 413 to @RAW_STAGE/payments_fivetran_sync/ (3765 rows)
+2026-10-18T02:06:48.500Z INFO  [loader] staged batch 207 to @RAW_STAGE/payments_fivetran_sync/ (2145 rows)
+2026-10-18T02:06:49.000Z INFO  [extract] fetched page 274 from source (3180 rows)
+2026-10-18T02:06:49.500Z INFO  [loader] staged batch 440 to @RAW_STAGE/payments_fivetran_sync/ (2637 rows)
+2026-10-18T02:06:50.000Z INFO  [loader] staged batch 314 to @RAW_STAGE/payments_fivetran_sync/ (811 rows)
+2026-10-18T02:06:50.500Z INFO  [loader] staged batch 147 to @RAW_STAGE/payments_fivetran_sync/ (2085 rows)
+2026-10-18T02:06:51.000Z INFO  [extract] fetched page 201 from source (4429 rows)
+2026-10-18T02:06:51.500Z INFO  [monitor] throughput 2361 rows/min
+2026-10-18T02:06:52.000Z INFO  [loader] staged batch 426 to @RAW_STAGE/payments_fivetran_sync/ (3170 rows)
+2026-10-18T02:06:52.500Z INFO  [extract] fetched page 456 from source (1782 rows)
+2026-10-18T02:06:53.000Z INFO  [extract] fetched page 169 from source (1361 rows)
+2026-10-18T02:06:53.500Z INFO  [extract] fetched page 79 from source (2269 rows)
+2026-10-18T02:06:54.000Z INFO  [warehouse] TRANSFORM_WH credit usage 225 units this hour
+2026-10-18T02:06:54.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:55.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:55.500Z INFO  [loader] staged batch 374 to @RAW_STAGE/payments_fivetran_sync/ (4598 rows)
+2026-10-18T02:06:56.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:56.500Z INFO  [monitor] throughput 4780 rows/min
+2026-10-18T02:06:57.000Z INFO  [transform] applied 2 column mappings for payments
+2026-10-18T02:06:57.500Z INFO  [loader] staged batch 268 to @RAW_STAGE/payments_fivetran_sync/ (1443 rows)
+2026-10-18T02:06:58.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:06:58.500Z INFO  [monitor] throughput 547 rows/min
+2026-10-18T02:06:59.000Z INFO  [monitor] throughput 4879 rows/min
+2026-10-18T02:06:59.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:00.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:00.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:07:01.000Z INFO  [loader] staged batch 163 to @RAW_STAGE/payments_fivetran_sync/ (1674 rows)
+2026-10-18T02:07:01.500Z INFO  [warehouse] TRANSFORM_WH credit usage 221 units this hour
+2026-10-18T02:07:02.000Z INFO  [warehouse] TRANSFORM_WH credit usage 166 units this hour
+2026-10-18T02:07:02.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:07:03.000Z INFO  [monitor] throughput 4986 rows/min
+2026-10-18T02:07:03.500Z INFO  [transform] applied 50 column mappings for payments
+2026-10-18T02:07:04.000Z INFO  [extract] fetched page 301 from source (3362 rows)
+2026-10-18T02:07:04.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:05.000Z INFO  [monitor] throughput 3077 rows/min
+2026-10-18T02:07:05.500Z INFO  [monitor] throughput 1413 rows/min
+2026-10-18T02:07:06.000Z INFO  [monitor] throughput 3760 rows/min
+2026-10-18T02:07:06.500Z INFO  [extract] fetched page 321 from source (2560 rows)
+2026-10-18T02:07:07.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:07:07.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:07:08.000Z INFO  [extract] fetched page 385 from source (4766 rows)
+2026-10-18T02:07:08.500Z INFO  [warehouse] TRANSFORM_WH credit usage 1 units this hour
+2026-10-18T02:07:09.000Z INFO  [transform] applied 386 column mappings for payments
+2026-10-18T02:07:09.500Z INFO  [warehouse] TRANSFORM_WH credit usage 390 units this hour
+2026-10-18T02:07:10.000Z INFO  [extract] fetched page 111 from source (4213 rows)
+2026-10-18T02:07:10.500Z INFO  [loader] staged batch 304 to @RAW_STAGE/payments_fivetran_sync/ (2820 rows)
+2026-10-18T02:07:11.000Z INFO  [transform] applied 47 column mappings for payments
+2026-10-18T02:07:11.500Z INFO  [extract] fetched page 182 from source (771 rows)
+2026-10-18T02:07:12.000Z INFO  [monitor] throughput 4148 rows/min
+2026-10-18T02:07:12.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:07:13.000Z INFO  [monitor] throughput 2227 rows/min
+2026-10-18T02:07:13.500Z INFO  [extract] fetched page 364 from source (1715 rows)
+2026-10-18T02:07:14.000Z INFO  [extract] fetched page 499 from source (4873 rows)
+2026-10-18T02:07:14.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:07:15.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:07:15.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:16.000Z INFO  [loader] staged batch 41 to @RAW_STAGE/payments_fivetran_sync/ (1845 rows)
+2026-10-18T02:07:16.500Z INFO  [monitor] throughput 287 rows/min
+2026-10-18T02:07:17.000Z INFO  [transform] applied 400 column mappings for payments
+2026-10-18T02:07:17.500Z INFO  [extract] fetched page 431 from source (3432 rows)
+2026-10-18T02:07:18.000Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 431 units this hour
+2026-10-18T02:07:19.000Z INFO  [monitor] throughput 4801 rows/min
+2026-10-18T02:07:19.500Z INFO  [transform] applied 167 column mappings for payments
+2026-10-18T02:07:20.000Z INFO  [monitor] throughput 768 rows/min
+2026-10-18T02:07:20.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:21.000Z INFO  [loader] staged batch 488 to @RAW_STAGE/payments_fivetran_sync/ (1469 rows)
+2026-10-18T02:07:21.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 65 units this hour
+2026-10-18T02:07:22.500Z INFO  [extract] fetched page 425 from source (2771 rows)
+2026-10-18T02:07:23.000Z INFO  [loader] staged batch 206 to @RAW_STAGE/payments_fivetran_sync/ (2923 rows)
+2026-10-18T02:07:23.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:24.000Z INFO  [loader] staged batch 96 to @RAW_STAGE/payments_fivetran_sync/ (2398 rows)
+2026-10-18T02:07:24.500Z INFO  [scheduler] heartbeat ok for payments_fivetran_sync
+2026-10-18T02:07:25.000Z INFO  [loader] staged batch 8 to @RAW_STAGE/payments_fivetran_sync/ (3835 rows)
+2026-10-18T02:07:25.500Z INFO  [warehouse] TRANSFORM_WH credit usage 355 units this hour
+2026-10-18T02:07:26.000Z INFO  [extract] fetched page 73 from source (1651 rows)
+2026-10-18T02:07:26.500Z INFO  [loader] staged batch 178 to @RAW_STAGE/payments_fivetran_sync/ (2840 rows)
+2026-10-18T02:07:27.000Z INFO  [transform] applied 129 column mappings for payments
+2026-10-18T02:07:27.500Z INFO  [monitor] throughput 1127 rows/min
+2026-10-18T02:07:28.000Z INFO  [transform] applied 149 column mappings for payments
+2026-10-18T02:07:28.500Z INFO  [transform] applied 133 column mappings for payments
+2026-10-18T02:07:29.000Z INFO  [warehouse] TRANSFORM_WH credit usage 232 units this hour
+2026-10-18T02:07:29.500Z ERROR [scheduler] job payments_fivetran_sync run payments_fivetran_sync-0 finished with status FAILED
+2026-10-18T02:07:30.000Z INFO  [scheduler] alert dispatched to on-call rotation

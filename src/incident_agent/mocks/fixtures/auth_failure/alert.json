@@ -1,0 +1,9 @@
+{
+  "alert_id": "ALERT-auth_failure",
+  "source": "scheduler",
+  "pipeline": "payments_fivetran_sync",
+  "severity": "high",
+  "summary": "Connector sync failed for payments_fivetran_sync",
+  "message": "Connector sync failed: authentication error for service user",
+  "occurred_at": "2026-10-18T02:07:30Z"
+}

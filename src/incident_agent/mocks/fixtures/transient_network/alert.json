@@ -1,0 +1,9 @@
+{
+  "alert_id": "ALERT-transient_network",
+  "source": "scheduler",
+  "pipeline": "inventory_glue_job",
+  "severity": "high",
+  "summary": "Job failed for inventory_glue_job",
+  "message": "Job attempt failed: connection reset by peer (inventory-api)",
+  "occurred_at": "2026-10-18T02:06:40Z"
+}

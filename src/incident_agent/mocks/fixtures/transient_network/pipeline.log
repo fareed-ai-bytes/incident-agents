@@ -1,0 +1,800 @@
+2026-10-18T02:00:00.500Z INFO  [loader] staged batch 177 to @RAW_STAGE/inventory_glue_job/ (2427 rows)
+2026-10-18T02:00:01.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:00:01.500Z INFO  [extract] fetched page 97 from source (4406 rows)
+2026-10-18T02:00:02.000Z INFO  [monitor] throughput 4576 rows/min
+2026-10-18T02:00:02.500Z INFO  [extract] fetched page 154 from source (1565 rows)
+2026-10-18T02:00:03.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:03.500Z INFO  [extract] fetched page 320 from source (1571 rows)
+2026-10-18T02:00:04.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:04.500Z INFO  [extract] fetched page 77 from source (1460 rows)
+2026-10-18T02:00:05.000Z INFO  [extract] fetched page 209 from source (1257 rows)
+2026-10-18T02:00:05.500Z INFO  [monitor] throughput 1184 rows/min
+2026-10-18T02:00:06.000Z INFO  [extract] fetched page 104 from source (3940 rows)
+2026-10-18T02:00:06.500Z INFO  [loader] staged batch 96 to @RAW_STAGE/inventory_glue_job/ (3302 rows)
+2026-10-18T02:00:07.000Z INFO  [transform] applied 230 column mappings for inventory
+2026-10-18T02:00:07.500Z INFO  [monitor] throughput 4524 rows/min
+2026-10-18T02:00:08.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:08.500Z INFO  [loader] staged batch 136 to @RAW_STAGE/inventory_glue_job/ (3174 rows)
+2026-10-18T02:00:09.000Z INFO  [loader] staged batch 387 to @RAW_STAGE/inventory_glue_job/ (1915 rows)
+2026-10-18T02:00:09.500Z INFO  [loader] staged batch 365 to @RAW_STAGE/inventory_glue_job/ (3497 rows)
+2026-10-18T02:00:10.000Z WARN  [monitor] query queue latency 2.3s above 2.0s target
+2026-10-18T02:00:10.500Z INFO  [extract] fetched page 9 from source (2514 rows)
+2026-10-18T02:00:11.000Z INFO  [transform] applied 231 column mappings for inventory
+2026-10-18T02:00:11.500Z INFO  [transform] applied 209 column mappings for inventory
+2026-10-18T02:00:12.000Z INFO  [extract] fetched page 2 from source (3337 rows)
+2026-10-18T02:00:12.500Z INFO  [warehouse] TRANSFORM_WH credit usage 115 units this hour
+2026-10-18T02:00:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 177 units this hour
+2026-10-18T02:00:13.500Z INFO  [extract] fetched page 52 from source (4069 rows)
+2026-10-18T02:00:14.000Z INFO  [extract] fetched page 144 from source (4408 rows)
+2026-10-18T02:00:14.500Z INFO  [warehouse] TRANSFORM_WH credit usage 379 units this hour
+2026-10-18T02:00:15.000Z INFO  [transform] applied 106 column mappings for inventory
+2026-10-18T02:00:15.500Z INFO  [transform] applied 436 column mappings for inventory
+2026-10-18T02:00:16.000Z INFO  [loader] staged batch 403 to @RAW_STAGE/inventory_glue_job/ (433 rows)
+2026-10-18T02:00:16.500Z INFO  [transform] applied 291 column mappings for inventory
+2026-10-18T02:00:17.000Z INFO  [transform] applied 44 column mappings for inventory
+2026-10-18T02:00:17.500Z INFO  [loader] staged batch 363 to @RAW_STAGE/inventory_glue_job/ (3814 rows)
+2026-10-18T02:00:18.000Z INFO  [loader] staged batch 88 to @RAW_STAGE/inventory_glue_job/ (4163 rows)
+2026-10-18T02:00:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 149 units this hour
+2026-10-18T02:00:19.000Z INFO  [extract] fetched page 463 from source (1737 rows)
+2026-10-18T02:00:19.500Z INFO  [monitor] throughput 1832 rows/min
+2026-10-18T02:00:20.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:20.500Z INFO  [warehouse] TRANSFORM_WH credit usage 105 units this hour
+2026-10-18T02:00:21.000Z INFO  [extract] fetched page 190 from source (3252 rows)
+2026-10-18T02:00:21.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:00:22.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:22.500Z INFO  [monitor] throughput 4528 rows/min
+2026-10-18T02:00:23.000Z INFO  [monitor] throughput 2814 rows/min
+2026-10-18T02:00:23.500Z INFO  [transform] applied 58 column mappings for inventory
+2026-10-18T02:00:24.000Z INFO  [transform] applied 56 column mappings for inventory
+2026-10-18T02:00:24.500Z INFO  [monitor] throughput 3993 rows/min
+2026-10-18T02:00:25.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:25.500Z INFO  [loader] staged batch 336 to @RAW_STAGE/inventory_glue_job/ (2660 rows)
+2026-10-18T02:00:26.000Z INFO  [extract] fetched page 31 from source (3130 rows)
+2026-10-18T02:00:26.500Z INFO  [loader] staged batch 190 to @RAW_STAGE/inventory_glue_job/ (1623 rows)
+2026-10-18T02:00:27.000Z INFO  [transform] applied 186 column mappings for inventory
+2026-10-18T02:00:27.500Z INFO  [extract] fetched page 471 from source (3313 rows)
+2026-10-18T02:00:28.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:00:28.500Z INFO  [monitor] throughput 2607 rows/min
+2026-10-18T02:00:29.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:29.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:00:30.000Z WARN  [extract] source returned HTTP 429, backing off 1s (recovered)
+2026-10-18T02:00:30.500Z INFO  [transform] applied 395 column mappings for inventory
+2026-10-18T02:00:31.000Z INFO  [transform] applied 63 column mappings for inventory
+2026-10-18T02:00:31.500Z INFO  [transform] applied 299 column mappings for inventory
+2026-10-18T02:00:32.000Z INFO  [extract] fetched page 441 from source (3411 rows)
+2026-10-18T02:00:32.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:33.000Z INFO  [loader] staged batch 179 to @RAW_STAGE/inventory_glue_job/ (2861 rows)
+2026-10-18T02:00:33.500Z INFO  [transform] applied 255 column mappings for inventory
+2026-10-18T02:00:34.000Z INFO  [extract] fetched page 322 from source (3535 rows)
+2026-10-18T02:00:34.500Z INFO  [monitor] throughput 4109 rows/min
+2026-10-18T02:00:35.000Z INFO  [loader] staged batch 186 to @RAW_STAGE/inventory_glue_job/ (3496 rows)
+2026-10-18T02:00:35.500Z INFO  [transform] applied 177 column mappings for inventory
+2026-10-18T02:00:36.000Z INFO  [extract] fetched page 232 from source (3011 rows)
+2026-10-18T02:00:36.500Z INFO  [transform] applied 484 column mappings for inventory
+2026-10-18T02:00:37.000Z INFO  [loader] staged batch 318 to @RAW_STAGE/inventory_glue_job/ (320 rows)
+2026-10-18T02:00:37.500Z INFO  [warehouse] TRANSFORM_WH credit usage 328 units this hour
+2026-10-18T02:00:38.000Z INFO  [monitor] throughput 3001 rows/min
+2026-10-18T02:00:38.500Z INFO  [warehouse] TRANSFORM_WH credit usage 134 units this hour
+2026-10-18T02:00:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 400 units this hour
+2026-10-18T02:00:39.500Z INFO  [loader] staged batch 265 to @RAW_STAGE/inventory_glue_job/ (4080 rows)
+2026-10-18T02:00:40.000Z INFO  [monitor] throughput 2625 rows/min
+2026-10-18T02:00:40.500Z INFO  [loader] staged batch 26 to @RAW_STAGE/inventory_glue_job/ (311 rows)
+2026-10-18T02:00:41.000Z INFO  [warehouse] TRANSFORM_WH credit usage 320 units this hour
+2026-10-18T02:00:41.500Z INFO  [warehouse] TRANSFORM_WH credit usage 139 units this hour
+2026-10-18T02:00:42.000Z INFO  [loader] staged batch 144 to @RAW_STAGE/inventory_glue_job/ (4005 rows)
+2026-10-18T02:00:42.500Z INFO  [extract] fetched page 68 from source (2807 rows)
+2026-10-18T02:00:43.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:43.500Z INFO  [extract] fetched page 354 from source (2280 rows)
+2026-10-18T02:00:44.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:44.500Z INFO  [loader] staged batch 169 to @RAW_STAGE/inventory_glue_job/ (3119 rows)
+2026-10-18T02:00:45.000Z INFO  [monitor] throughput 2617 rows/min
+2026-10-18T02:00:45.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:46.000Z INFO  [extract] fetched page 75 from source (229 rows)
+2026-10-18T02:00:46.500Z INFO  [monitor] throughput 1412 rows/min
+2026-10-18T02:00:47.000Z INFO  [monitor] throughput 1416 rows/min
+2026-10-18T02:00:47.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:00:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 139 units this hour
+2026-10-18T02:00:48.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:00:49.000Z INFO  [monitor] throughput 2285 rows/min
+2026-10-18T02:00:49.500Z INFO  [loader] staged batch 45 to @RAW_STAGE/inventory_glue_job/ (598 rows)
+2026-10-18T02:00:50.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:50.500Z INFO  [warehouse] TRANSFORM_WH credit usage 283 units this hour
+2026-10-18T02:00:51.000Z INFO  [extract] fetched page 34 from source (1203 rows)
+2026-10-18T02:00:51.500Z INFO  [transform] applied 92 column mappings for inventory
+2026-10-18T02:00:52.000Z INFO  [monitor] throughput 4376 rows/min
+2026-10-18T02:00:52.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:53.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:53.500Z INFO  [loader] staged batch 270 to @RAW_STAGE/inventory_glue_job/ (906 rows)
+2026-10-18T02:00:54.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:54.500Z INFO  [extract] fetched page 407 from source (4805 rows)
+2026-10-18T02:00:55.000Z INFO  [loader] staged batch 109 to @RAW_STAGE/inventory_glue_job/ (4448 rows)
+2026-10-18T02:00:55.500Z INFO  [monitor] throughput 2017 rows/min
+2026-10-18T02:00:56.000Z INFO  [warehouse] TRANSFORM_WH credit usage 459 units this hour
+2026-10-18T02:00:56.500Z INFO  [warehouse] TRANSFORM_WH credit usage 155 units this hour
+2026-10-18T02:00:57.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:00:57.500Z INFO  [monitor] throughput 3109 rows/min
+2026-10-18T02:00:58.000Z INFO  [extract] fetched page 194 from source (3174 rows)
+2026-10-18T02:00:58.500Z INFO  [loader] staged batch 105 to @RAW_STAGE/inventory_glue_job/ (462 rows)
+2026-10-18T02:00:59.000Z INFO  [extract] fetched page 111 from source (4901 rows)
+2026-10-18T02:00:59.500Z ERROR [metrics] failed to push metrics to statsd:8125 (ignored, non-fatal)
+2026-10-18T02:01:00.000Z INFO  [warehouse] TRANSFORM_WH credit usage 116 units this hour
+2026-10-18T02:01:00.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:01.000Z INFO  [monitor] throughput 1519 rows/min
+2026-10-18T02:01:01.500Z INFO  [extract] fetched page 359 from source (1673 rows)
+2026-10-18T02:01:02.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:02.500Z INFO  [transform] applied 90 column mappings for inventory
+2026-10-18T02:01:03.000Z INFO  [extract] fetched page 97 from source (3746 rows)
+2026-10-18T02:01:03.500Z INFO  [loader] staged batch 229 to @RAW_STAGE/inventory_glue_job/ (4699 rows)
+2026-10-18T02:01:04.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:04.500Z INFO  [warehouse] TRANSFORM_WH credit usage 339 units this hour
+2026-10-18T02:01:05.000Z INFO  [extract] fetched page 493 from source (3548 rows)
+2026-10-18T02:01:05.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:06.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:01:06.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:07.000Z INFO  [transform] applied 222 column mappings for inventory
+2026-10-18T02:01:07.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:08.000Z INFO  [extract] fetched page 374 from source (1076 rows)
+2026-10-18T02:01:08.500Z INFO  [monitor] throughput 1171 rows/min
+2026-10-18T02:01:09.000Z INFO  [loader] staged batch 74 to @RAW_STAGE/inventory_glue_job/ (4863 rows)
+2026-10-18T02:01:09.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:10.000Z INFO  [extract] fetched page 427 from source (593 rows)
+2026-10-18T02:01:10.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:11.000Z INFO  [extract] fetched page 261 from source (3593 rows)
+2026-10-18T02:01:11.500Z INFO  [loader] staged batch 214 to @RAW_STAGE/inventory_glue_job/ (1491 rows)
+2026-10-18T02:01:12.000Z INFO  [monitor] throughput 4425 rows/min
+2026-10-18T02:01:12.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 333 units this hour
+2026-10-18T02:01:13.500Z INFO  [warehouse] TRANSFORM_WH credit usage 130 units this hour
+2026-10-18T02:01:14.000Z INFO  [warehouse] TRANSFORM_WH credit usage 36 units this hour
+2026-10-18T02:01:14.500Z INFO  [extract] fetched page 11 from source (4401 rows)
+2026-10-18T02:01:15.000Z INFO  [monitor] throughput 1366 rows/min
+2026-10-18T02:01:15.500Z INFO  [warehouse] TRANSFORM_WH credit usage 251 units this hour
+2026-10-18T02:01:16.000Z INFO  [loader] staged batch 462 to @RAW_STAGE/inventory_glue_job/ (3753 rows)
+2026-10-18T02:01:16.500Z INFO  [loader] staged batch 431 to @RAW_STAGE/inventory_glue_job/ (4134 rows)
+2026-10-18T02:01:17.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:17.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:18.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:18.500Z INFO  [transform] applied 492 column mappings for inventory
+2026-10-18T02:01:19.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:19.500Z INFO  [extract] fetched page 204 from source (3161 rows)
+2026-10-18T02:01:20.000Z INFO  [extract] fetched page 334 from source (2974 rows)
+2026-10-18T02:01:20.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:21.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:01:21.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 168 units this hour
+2026-10-18T02:01:22.500Z INFO  [monitor] throughput 420 rows/min
+2026-10-18T02:01:23.000Z INFO  [loader] staged batch 343 to @RAW_STAGE/inventory_glue_job/ (648 rows)
+2026-10-18T02:01:23.500Z INFO  [loader] staged batch 342 to @RAW_STAGE/inventory_glue_job/ (2644 rows)
+2026-10-18T02:01:24.000Z INFO  [monitor] throughput 1311 rows/min
+2026-10-18T02:01:24.500Z INFO  [extract] fetched page 367 from source (619 rows)
+2026-10-18T02:01:25.000Z INFO  [loader] staged batch 64 to @RAW_STAGE/inventory_glue_job/ (1237 rows)
+2026-10-18T02:01:25.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:01:26.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:26.500Z INFO  [warehouse] TRANSFORM_WH credit usage 238 units this hour
+2026-10-18T02:01:27.000Z INFO  [warehouse] TRANSFORM_WH credit usage 380 units this hour
+2026-10-18T02:01:27.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:28.000Z INFO  [transform] applied 270 column mappings for inventory
+2026-10-18T02:01:28.500Z INFO  [monitor] throughput 1728 rows/min
+2026-10-18T02:01:29.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:01:29.500Z INFO  [loader] staged batch 76 to @RAW_STAGE/inventory_glue_job/ (1577 rows)
+2026-10-18T02:01:30.000Z INFO  [extract] fetched page 345 from source (173 rows)
+2026-10-18T02:01:30.500Z INFO  [extract] fetched page 358 from source (3845 rows)
+2026-10-18T02:01:31.000Z INFO  [monitor] throughput 2423 rows/min
+2026-10-18T02:01:31.500Z INFO  [loader] staged batch 422 to @RAW_STAGE/inventory_glue_job/ (1294 rows)
+2026-10-18T02:01:32.000Z INFO  [extract] fetched page 239 from source (437 rows)
+2026-10-18T02:01:32.500Z INFO  [loader] staged batch 426 to @RAW_STAGE/inventory_glue_job/ (2402 rows)
+2026-10-18T02:01:33.000Z INFO  [transform] applied 500 column mappings for inventory
+2026-10-18T02:01:33.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:34.000Z INFO  [loader] staged batch 350 to @RAW_STAGE/inventory_glue_job/ (2283 rows)
+2026-10-18T02:01:34.500Z INFO  [loader] staged batch 299 to @RAW_STAGE/inventory_glue_job/ (2066 rows)
+2026-10-18T02:01:35.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:35.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:36.000Z INFO  [monitor] throughput 1801 rows/min
+2026-10-18T02:01:36.500Z INFO  [loader] staged batch 61 to @RAW_STAGE/inventory_glue_job/ (3154 rows)
+2026-10-18T02:01:37.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:37.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:38.000Z INFO  [warehouse] TRANSFORM_WH credit usage 295 units this hour
+2026-10-18T02:01:38.500Z INFO  [transform] applied 226 column mappings for inventory
+2026-10-18T02:01:39.000Z INFO  [extract] fetched page 446 from source (515 rows)
+2026-10-18T02:01:39.500Z INFO  [monitor] throughput 2277 rows/min
+2026-10-18T02:01:40.000Z INFO  [extract] fetched page 203 from source (3654 rows)
+2026-10-18T02:01:40.500Z INFO  [monitor] throughput 3777 rows/min
+2026-10-18T02:01:41.000Z INFO  [extract] fetched page 22 from source (2353 rows)
+2026-10-18T02:01:41.500Z INFO  [loader] staged batch 149 to @RAW_STAGE/inventory_glue_job/ (2738 rows)
+2026-10-18T02:01:42.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:42.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:43.000Z INFO  [extract] fetched page 53 from source (218 rows)
+2026-10-18T02:01:43.500Z INFO  [extract] fetched page 369 from source (3237 rows)
+2026-10-18T02:01:44.000Z INFO  [warehouse] TRANSFORM_WH credit usage 297 units this hour
+2026-10-18T02:01:44.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:01:45.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:45.500Z INFO  [extract] fetched page 277 from source (2259 rows)
+2026-10-18T02:01:46.000Z INFO  [transform] applied 33 column mappings for inventory
+2026-10-18T02:01:46.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:47.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:47.500Z INFO  [transform] applied 310 column mappings for inventory
+2026-10-18T02:01:48.000Z INFO  [extract] fetched page 316 from source (2336 rows)
+2026-10-18T02:01:48.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:49.000Z INFO  [loader] staged batch 244 to @RAW_STAGE/inventory_glue_job/ (2664 rows)
+2026-10-18T02:01:49.500Z INFO  [loader] staged batch 372 to @RAW_STAGE/inventory_glue_job/ (2822 rows)
+2026-10-18T02:01:50.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:01:50.500Z INFO  [loader] staged batch 276 to @RAW_STAGE/inventory_glue_job/ (3689 rows)
+2026-10-18T02:01:51.000Z INFO  [warehouse] TRANSFORM_WH credit usage 104 units this hour
+2026-10-18T02:01:51.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:01:52.000Z INFO  [loader] staged batch 51 to @RAW_STAGE/inventory_glue_job/ (696 rows)
+2026-10-18T02:01:52.500Z INFO  [warehouse] TRANSFORM_WH credit usage 168 units this hour
+2026-10-18T02:01:53.000Z INFO  [warehouse] TRANSFORM_WH credit usage 471 units this hour
+2026-10-18T02:01:53.500Z INFO  [loader] staged batch 73 to @RAW_STAGE/inventory_glue_job/ (4423 rows)
+2026-10-18T02:01:54.000Z INFO  [loader] staged batch 471 to @RAW_STAGE/inventory_glue_job/ (4732 rows)
+2026-10-18T02:01:54.500Z INFO  [loader] staged batch 122 to @RAW_STAGE/inventory_glue_job/ (1626 rows)
+2026-10-18T02:01:55.000Z INFO  [monitor] throughput 2925 rows/min
+2026-10-18T02:01:55.500Z INFO  [monitor] throughput 3578 rows/min
+2026-10-18T02:01:56.000Z INFO  [transform] applied 411 column mappings for inventory
+2026-10-18T02:01:56.500Z INFO  [transform] applied 406 column mappings for inventory
+2026-10-18T02:01:57.000Z INFO  [monitor] throughput 3818 rows/min
+2026-10-18T02:01:57.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:01:58.000Z INFO  [transform] applied 114 column mappings for inventory
+2026-10-18T02:01:58.500Z INFO  [monitor] throughput 1544 rows/min
+2026-10-18T02:01:59.000Z INFO  [monitor] throughput 2791 rows/min
+2026-10-18T02:01:59.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:00.000Z INFO  [monitor] throughput 3100 rows/min
+2026-10-18T02:02:00.500Z INFO  [monitor] throughput 997 rows/min
+2026-10-18T02:02:01.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:01.500Z INFO  [transform] applied 192 column mappings for inventory
+2026-10-18T02:02:02.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:02.500Z INFO  [transform] applied 411 column mappings for inventory
+2026-10-18T02:02:03.000Z INFO  [extract] fetched page 55 from source (3891 rows)
+2026-10-18T02:02:03.500Z INFO  [warehouse] TRANSFORM_WH credit usage 51 units this hour
+2026-10-18T02:02:04.000Z INFO  [transform] applied 152 column mappings for inventory
+2026-10-18T02:02:04.500Z INFO  [transform] applied 147 column mappings for inventory
+2026-10-18T02:02:05.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:05.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:06.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:06.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:07.000Z INFO  [transform] applied 498 column mappings for inventory
+2026-10-18T02:02:07.500Z INFO  [warehouse] TRANSFORM_WH credit usage 283 units this hour
+2026-10-18T02:02:08.000Z INFO  [monitor] throughput 285 rows/min
+2026-10-18T02:02:08.500Z INFO  [loader] staged batch 74 to @RAW_STAGE/inventory_glue_job/ (3158 rows)
+2026-10-18T02:02:09.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:09.500Z INFO  [extract] fetched page 406 from source (2891 rows)
+2026-10-18T02:02:10.000Z INFO  [monitor] throughput 1097 rows/min
+2026-10-18T02:02:10.500Z INFO  [warehouse] TRANSFORM_WH credit usage 489 units this hour
+2026-10-18T02:02:11.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:11.500Z INFO  [monitor] throughput 2329 rows/min
+2026-10-18T02:02:12.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:12.500Z INFO  [extract] fetched page 149 from source (1478 rows)
+2026-10-18T02:02:13.000Z INFO  [warehouse] TRANSFORM_WH credit usage 47 units this hour
+2026-10-18T02:02:13.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:02:14.000Z INFO  [extract] fetched page 196 from source (370 rows)
+2026-10-18T02:02:14.500Z INFO  [monitor] throughput 1882 rows/min
+2026-10-18T02:02:15.000Z INFO  [monitor] throughput 399 rows/min
+2026-10-18T02:02:15.500Z INFO  [extract] fetched page 218 from source (1866 rows)
+2026-10-18T02:02:16.000Z INFO  [transform] applied 463 column mappings for inventory
+2026-10-18T02:02:16.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:17.000Z INFO  [monitor] throughput 4226 rows/min
+2026-10-18T02:02:17.500Z INFO  [extract] fetched page 16 from source (1009 rows)
+2026-10-18T02:02:18.000Z INFO  [loader] staged batch 367 to @RAW_STAGE/inventory_glue_job/ (2443 rows)
+2026-10-18T02:02:18.500Z INFO  [monitor] throughput 1446 rows/min
+2026-10-18T02:02:19.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:19.500Z INFO  [loader] staged batch 487 to @RAW_STAGE/inventory_glue_job/ (3971 rows)
+2026-10-18T02:02:20.000Z INFO  [monitor] throughput 3344 rows/min
+2026-10-18T02:02:20.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:21.000Z INFO  [monitor] throughput 1359 rows/min
+2026-10-18T02:02:21.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:22.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:22.500Z INFO  [transform] applied 424 column mappings for inventory
+2026-10-18T02:02:23.000Z INFO  [warehouse] TRANSFORM_WH credit usage 65 units this hour
+2026-10-18T02:02:23.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:24.000Z INFO  [monitor] throughput 4836 rows/min
+2026-10-18T02:02:24.500Z INFO  [transform] applied 443 column mappings for inventory
+2026-10-18T02:02:25.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:02:25.500Z INFO  [extract] fetched page 221 from source (3020 rows)
+2026-10-18T02:02:26.000Z INFO  [warehouse] TRANSFORM_WH credit usage 40 units this hour
+2026-10-18T02:02:26.500Z INFO  [monitor] throughput 423 rows/min
+2026-10-18T02:02:27.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:27.500Z INFO  [monitor] throughput 4698 rows/min
+2026-10-18T02:02:28.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:28.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:29.000Z INFO  [loader] staged batch 287 to @RAW_STAGE/inventory_glue_job/ (2750 rows)
+2026-10-18T02:02:29.500Z INFO  [transform] applied 495 column mappings for inventory
+2026-10-18T02:02:30.000Z INFO  [extract] fetched page 271 from source (2572 rows)
+2026-10-18T02:02:30.500Z INFO  [monitor] throughput 287 rows/min
+2026-10-18T02:02:31.000Z INFO  [transform] applied 210 column mappings for inventory
+2026-10-18T02:02:31.500Z INFO  [extract] fetched page 271 from source (2910 rows)
+2026-10-18T02:02:32.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:32.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:33.000Z INFO  [extract] fetched page 329 from source (2680 rows)
+2026-10-18T02:02:33.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:34.000Z INFO  [monitor] throughput 4435 rows/min
+2026-10-18T02:02:34.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:35.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:35.500Z INFO  [loader] staged batch 238 to @RAW_STAGE/inventory_glue_job/ (518 rows)
+2026-10-18T02:02:36.000Z INFO  [warehouse] TRANSFORM_WH credit usage 447 units this hour
+2026-10-18T02:02:36.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:37.000Z INFO  [transform] applied 275 column mappings for inventory
+2026-10-18T02:02:37.500Z INFO  [monitor] throughput 2999 rows/min
+2026-10-18T02:02:38.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:38.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:39.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:02:39.500Z INFO  [extract] fetched page 68 from source (707 rows)
+2026-10-18T02:02:40.000Z INFO  [extract] fetched page 127 from source (2534 rows)
+2026-10-18T02:02:40.500Z INFO  [transform] applied 83 column mappings for inventory
+2026-10-18T02:02:41.000Z INFO  [monitor] throughput 114 rows/min
+2026-10-18T02:02:41.500Z INFO  [monitor] throughput 2545 rows/min
+2026-10-18T02:02:42.000Z INFO  [loader] staged batch 138 to @RAW_STAGE/inventory_glue_job/ (4136 rows)
+2026-10-18T02:02:42.500Z INFO  [transform] applied 292 column mappings for inventory
+2026-10-18T02:02:43.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:02:43.500Z INFO  [extract] fetched page 399 from source (3351 rows)
+2026-10-18T02:02:44.000Z INFO  [transform] applied 370 column mappings for inventory
+2026-10-18T02:02:44.500Z INFO  [extract] fetched page 336 from source (4570 rows)
+2026-10-18T02:02:45.000Z INFO  [monitor] throughput 497 rows/min
+2026-10-18T02:02:45.500Z INFO  [warehouse] TRANSFORM_WH credit usage 251 units this hour
+2026-10-18T02:02:46.000Z INFO  [loader] staged batch 24 to @RAW_STAGE/inventory_glue_job/ (3535 rows)
+2026-10-18T02:02:46.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:47.000Z INFO  [extract] fetched page 432 from source (1864 rows)
+2026-10-18T02:02:47.500Z INFO  [loader] staged batch 90 to @RAW_STAGE/inventory_glue_job/ (876 rows)
+2026-10-18T02:02:48.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:48.500Z INFO  [monitor] throughput 1075 rows/min
+2026-10-18T02:02:49.000Z INFO  [extract] fetched page 374 from source (1169 rows)
+2026-10-18T02:02:49.500Z INFO  [extract] fetched page 355 from source (2895 rows)
+2026-10-18T02:02:50.000Z INFO  [extract] fetched page 267 from source (2603 rows)
+2026-10-18T02:02:50.500Z INFO  [extract] fetched page 58 from source (1314 rows)
+2026-10-18T02:02:51.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:51.500Z INFO  [extract] fetched page 129 from source (3994 rows)
+2026-10-18T02:02:52.000Z INFO  [loader] staged batch 149 to @RAW_STAGE/inventory_glue_job/ (1281 rows)
+2026-10-18T02:02:52.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:02:53.000Z INFO  [extract] fetched page 330 from source (4900 rows)
+2026-10-18T02:02:53.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:02:54.000Z INFO  [monitor] throughput 481 rows/min
+2026-10-18T02:02:54.500Z INFO  [warehouse] TRANSFORM_WH credit usage 28 units this hour
+2026-10-18T02:02:55.000Z INFO  [transform] applied 28 column mappings for inventory
+2026-10-18T02:02:55.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:02:56.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:02:56.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:02:57.000Z INFO  [transform] applied 112 column mappings for inventory
+2026-10-18T02:02:57.500Z INFO  [loader] staged batch 309 to @RAW_STAGE/inventory_glue_job/ (2775 rows)
+2026-10-18T02:02:58.000Z INFO  [extract] fetched page 45 from source (1277 rows)
+2026-10-18T02:02:58.500Z INFO  [warehouse] TRANSFORM_WH credit usage 443 units this hour
+2026-10-18T02:02:59.000Z INFO  [loader] staged batch 62 to @RAW_STAGE/inventory_glue_job/ (3094 rows)
+2026-10-18T02:02:59.500Z INFO  [extract] fetched page 307 from source (961 rows)
+2026-10-18T02:03:00.000Z INFO  [monitor] throughput 3054 rows/min
+2026-10-18T02:03:00.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:01.000Z INFO  [monitor] throughput 1971 rows/min
+2026-10-18T02:03:01.500Z INFO  [monitor] throughput 2871 rows/min
+2026-10-18T02:03:02.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:02.500Z INFO  [loader] staged batch 433 to @RAW_STAGE/inventory_glue_job/ (3904 rows)
+2026-10-18T02:03:03.000Z INFO  [loader] staged batch 45 to @RAW_STAGE/inventory_glue_job/ (2143 rows)
+2026-10-18T02:03:03.500Z INFO  [transform] applied 92 column mappings for inventory
+2026-10-18T02:03:04.000Z INFO  [warehouse] TRANSFORM_WH credit usage 462 units this hour
+2026-10-18T02:03:04.500Z INFO  [monitor] throughput 4557 rows/min
+2026-10-18T02:03:05.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:05.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:06.000Z INFO  [monitor] throughput 1292 rows/min
+2026-10-18T02:03:06.500Z INFO  [warehouse] TRANSFORM_WH credit usage 139 units this hour
+2026-10-18T02:03:07.000Z INFO  [warehouse] TRANSFORM_WH credit usage 331 units this hour
+2026-10-18T02:03:07.500Z INFO  [monitor] throughput 4615 rows/min
+2026-10-18T02:03:08.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:08.500Z INFO  [monitor] throughput 2422 rows/min
+2026-10-18T02:03:09.000Z INFO  [loader] staged batch 352 to @RAW_STAGE/inventory_glue_job/ (1290 rows)
+2026-10-18T02:03:09.500Z INFO  [extract] fetched page 8 from source (401 rows)
+2026-10-18T02:03:10.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:10.500Z INFO  [transform] applied 326 column mappings for inventory
+2026-10-18T02:03:11.000Z INFO  [monitor] throughput 4375 rows/min
+2026-10-18T02:03:11.500Z INFO  [warehouse] TRANSFORM_WH credit usage 355 units this hour
+2026-10-18T02:03:12.000Z INFO  [monitor] throughput 4607 rows/min
+2026-10-18T02:03:12.500Z INFO  [transform] applied 14 column mappings for inventory
+2026-10-18T02:03:13.000Z INFO  [monitor] throughput 1759 rows/min
+2026-10-18T02:03:13.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:14.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:03:14.500Z INFO  [monitor] throughput 3673 rows/min
+2026-10-18T02:03:15.000Z INFO  [extract] fetched page 93 from source (4252 rows)
+2026-10-18T02:03:15.500Z INFO  [monitor] throughput 217 rows/min
+2026-10-18T02:03:16.000Z INFO  [loader] staged batch 228 to @RAW_STAGE/inventory_glue_job/ (1839 rows)
+2026-10-18T02:03:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 477 units this hour
+2026-10-18T02:03:17.000Z INFO  [warehouse] TRANSFORM_WH credit usage 436 units this hour
+2026-10-18T02:03:17.500Z INFO  [extract] fetched page 381 from source (4155 rows)
+2026-10-18T02:03:18.000Z INFO  [loader] staged batch 128 to @RAW_STAGE/inventory_glue_job/ (989 rows)
+2026-10-18T02:03:18.500Z INFO  [warehouse] TRANSFORM_WH credit usage 76 units this hour
+2026-10-18T02:03:19.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:19.500Z INFO  [monitor] throughput 3074 rows/min
+2026-10-18T02:03:20.000Z INFO  [transform] applied 238 column mappings for inventory
+2026-10-18T02:03:20.500Z INFO  [monitor] throughput 1107 rows/min
+2026-10-18T02:03:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 467 units this hour
+2026-10-18T02:03:21.500Z INFO  [loader] staged batch 384 to @RAW_STAGE/inventory_glue_job/ (641 rows)
+2026-10-18T02:03:22.000Z INFO  [monitor] throughput 3210 rows/min
+2026-10-18T02:03:22.500Z INFO  [warehouse] TRANSFORM_WH credit usage 199 units this hour
+2026-10-18T02:03:23.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:23.500Z INFO  [monitor] throughput 3546 rows/min
+2026-10-18T02:03:24.000Z INFO  [extract] fetched page 171 from source (937 rows)
+2026-10-18T02:03:24.500Z INFO  [loader] staged batch 389 to @RAW_STAGE/inventory_glue_job/ (4510 rows)
+2026-10-18T02:03:25.000Z INFO  [transform] applied 378 column mappings for inventory
+2026-10-18T02:03:25.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:26.000Z INFO  [extract] fetched page 330 from source (2836 rows)
+2026-10-18T02:03:26.500Z INFO  [monitor] throughput 3066 rows/min
+2026-10-18T02:03:27.000Z INFO  [transform] applied 220 column mappings for inventory
+2026-10-18T02:03:27.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:03:28.000Z INFO  [monitor] throughput 344 rows/min
+2026-10-18T02:03:28.500Z INFO  [loader] staged batch 408 to @RAW_STAGE/inventory_glue_job/ (683 rows)
+2026-10-18T02:03:29.000Z INFO  [warehouse] TRANSFORM_WH credit usage 299 units this hour
+2026-10-18T02:03:29.500Z INFO  [warehouse] TRANSFORM_WH credit usage 92 units this hour
+2026-10-18T02:03:30.000Z INFO  [monitor] throughput 4481 rows/min
+2026-10-18T02:03:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 6 units this hour
+2026-10-18T02:03:31.000Z INFO  [transform] applied 346 column mappings for inventory
+2026-10-18T02:03:31.500Z INFO  [transform] applied 324 column mappings for inventory
+2026-10-18T02:03:32.000Z INFO  [loader] staged batch 354 to @RAW_STAGE/inventory_glue_job/ (507 rows)
+2026-10-18T02:03:32.500Z INFO  [extract] fetched page 379 from source (417 rows)
+2026-10-18T02:03:33.000Z INFO  [warehouse] TRANSFORM_WH credit usage 164 units this hour
+2026-10-18T02:03:33.500Z INFO  [extract] fetched page 138 from source (1492 rows)
+2026-10-18T02:03:34.000Z INFO  [transform] applied 283 column mappings for inventory
+2026-10-18T02:03:34.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:03:35.000Z INFO  [extract] fetched page 5 from source (3431 rows)
+2026-10-18T02:03:35.500Z INFO  [extract] fetched page 290 from source (3241 rows)
+2026-10-18T02:03:36.000Z INFO  [warehouse] TRANSFORM_WH credit usage 288 units this hour
+2026-10-18T02:03:36.500Z INFO  [warehouse] TRANSFORM_WH credit usage 197 units this hour
+2026-10-18T02:03:37.000Z INFO  [warehouse] TRANSFORM_WH credit usage 390 units this hour
+2026-10-18T02:03:37.500Z INFO  [transform] applied 303 column mappings for inventory
+2026-10-18T02:03:38.000Z INFO  [transform] applied 467 column mappings for inventory
+2026-10-18T02:03:38.500Z INFO  [transform] applied 430 column mappings for inventory
+2026-10-18T02:03:39.000Z INFO  [monitor] throughput 2963 rows/min
+2026-10-18T02:03:39.500Z INFO  [monitor] throughput 3802 rows/min
+2026-10-18T02:03:40.000Z INFO  [monitor] throughput 1839 rows/min
+2026-10-18T02:03:40.500Z INFO  [monitor] throughput 1640 rows/min
+2026-10-18T02:03:41.000Z INFO  [transform] applied 313 column mappings for inventory
+2026-10-18T02:03:41.500Z INFO  [warehouse] TRANSFORM_WH credit usage 177 units this hour
+2026-10-18T02:03:42.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:03:42.500Z INFO  [loader] staged batch 427 to @RAW_STAGE/inventory_glue_job/ (1026 rows)
+2026-10-18T02:03:43.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:43.500Z INFO  [loader] staged batch 470 to @RAW_STAGE/inventory_glue_job/ (4521 rows)
+2026-10-18T02:03:44.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:44.500Z INFO  [monitor] throughput 3679 rows/min
+2026-10-18T02:03:45.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:45.500Z INFO  [loader] staged batch 125 to @RAW_STAGE/inventory_glue_job/ (2392 rows)
+2026-10-18T02:03:46.000Z INFO  [monitor] throughput 2980 rows/min
+2026-10-18T02:03:46.500Z INFO  [loader] staged batch 392 to @RAW_STAGE/inventory_glue_job/ (150 rows)
+2026-10-18T02:03:47.000Z INFO  [http] GET https://inventory-api.mock.local/v2/stock?page=37
+2026-10-18T02:03:47.500Z ERROR [http] ConnectionResetError: connection reset by peer while reading from inventory-api (attempt 1/3)
+2026-10-18T02:03:48.000Z INFO  [http] retrying in 2s (attempt 2/3)
+2026-10-18T02:03:48.500Z INFO  [http] GET https://inventory-api.mock.local/v2/stock?page=37 -> 200
+2026-10-18T02:03:49.000Z INFO  [transform] applied 467 column mappings for inventory
+2026-10-18T02:03:49.500Z INFO  [monitor] throughput 2339 rows/min
+2026-10-18T02:03:50.000Z INFO  [extract] fetched page 393 from source (1671 rows)
+2026-10-18T02:03:50.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:51.000Z INFO  [extract] fetched page 224 from source (3558 rows)
+2026-10-18T02:03:51.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:52.000Z INFO  [monitor] throughput 3312 rows/min
+2026-10-18T02:03:52.500Z INFO  [transform] applied 13 column mappings for inventory
+2026-10-18T02:03:53.000Z INFO  [loader] staged batch 460 to @RAW_STAGE/inventory_glue_job/ (356 rows)
+2026-10-18T02:03:53.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:54.000Z INFO  [transform] applied 398 column mappings for inventory
+2026-10-18T02:03:54.500Z INFO  [transform] applied 164 column mappings for inventory
+2026-10-18T02:03:55.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:03:55.500Z INFO  [transform] applied 272 column mappings for inventory
+2026-10-18T02:03:56.000Z INFO  [monitor] throughput 2576 rows/min
+2026-10-18T02:03:56.500Z INFO  [warehouse] TRANSFORM_WH credit usage 114 units this hour
+2026-10-18T02:03:57.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:03:57.500Z INFO  [transform] applied 300 column mappings for inventory
+2026-10-18T02:03:58.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:03:58.500Z INFO  [warehouse] TRANSFORM_WH credit usage 362 units this hour
+2026-10-18T02:03:59.000Z INFO  [monitor] throughput 2754 rows/min
+2026-10-18T02:03:59.500Z INFO  [warehouse] TRANSFORM_WH credit usage 167 units this hour
+2026-10-18T02:04:00.000Z INFO  [extract] fetched page 176 from source (3356 rows)
+2026-10-18T02:04:00.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:01.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:01.500Z INFO  [loader] staged batch 133 to @RAW_STAGE/inventory_glue_job/ (1756 rows)
+2026-10-18T02:04:02.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:02.500Z INFO  [extract] fetched page 171 from source (512 rows)
+2026-10-18T02:04:03.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:03.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:04.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:04:04.500Z INFO  [warehouse] TRANSFORM_WH credit usage 8 units this hour
+2026-10-18T02:04:05.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:04:05.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:06.000Z INFO  [transform] applied 141 column mappings for inventory
+2026-10-18T02:04:06.500Z INFO  [warehouse] TRANSFORM_WH credit usage 424 units this hour
+2026-10-18T02:04:07.000Z INFO  [extract] fetched page 71 from source (862 rows)
+2026-10-18T02:04:07.500Z INFO  [monitor] throughput 1018 rows/min
+2026-10-18T02:04:08.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:04:08.500Z INFO  [extract] fetched page 37 from source (239 rows)
+2026-10-18T02:04:09.000Z INFO  [loader] staged batch 106 to @RAW_STAGE/inventory_glue_job/ (3778 rows)
+2026-10-18T02:04:09.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:10.000Z INFO  [transform] applied 485 column mappings for inventory
+2026-10-18T02:04:10.500Z INFO  [warehouse] TRANSFORM_WH credit usage 365 units this hour
+2026-10-18T02:04:11.000Z INFO  [monitor] throughput 2427 rows/min
+2026-10-18T02:04:11.500Z INFO  [loader] staged batch 489 to @RAW_STAGE/inventory_glue_job/ (348 rows)
+2026-10-18T02:04:12.000Z INFO  [transform] applied 338 column mappings for inventory
+2026-10-18T02:04:12.500Z INFO  [loader] staged batch 363 to @RAW_STAGE/inventory_glue_job/ (3416 rows)
+2026-10-18T02:04:13.000Z INFO  [transform] applied 111 column mappings for inventory
+2026-10-18T02:04:13.500Z INFO  [transform] applied 161 column mappings for inventory
+2026-10-18T02:04:14.000Z INFO  [transform] applied 26 column mappings for inventory
+2026-10-18T02:04:14.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:15.000Z INFO  [extract] fetched page 7 from source (2902 rows)
+2026-10-18T02:04:15.500Z INFO  [extract] fetched page 251 from source (186 rows)
+2026-10-18T02:04:16.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:16.500Z INFO  [monitor] throughput 1160 rows/min
+2026-10-18T02:04:17.000Z INFO  [monitor] throughput 3724 rows/min
+2026-10-18T02:04:17.500Z INFO  [transform] applied 19 column mappings for inventory
+2026-10-18T02:04:18.000Z INFO  [monitor] throughput 2065 rows/min
+2026-10-18T02:04:18.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:19.000Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:04:19.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 153 units this hour
+2026-10-18T02:04:20.500Z INFO  [extract] fetched page 281 from source (2622 rows)
+2026-10-18T02:04:21.000Z INFO  [extract] fetched page 414 from source (649 rows)
+2026-10-18T02:04:21.500Z INFO  [transform] applied 208 column mappings for inventory
+2026-10-18T02:04:22.000Z INFO  [warehouse] TRANSFORM_WH credit usage 151 units this hour
+2026-10-18T02:04:22.500Z INFO  [loader] staged batch 52 to @RAW_STAGE/inventory_glue_job/ (3732 rows)
+2026-10-18T02:04:23.000Z INFO  [transform] applied 352 column mappings for inventory
+2026-10-18T02:04:23.500Z INFO  [loader] staged batch 438 to @RAW_STAGE/inventory_glue_job/ (677 rows)
+2026-10-18T02:04:24.000Z INFO  [warehouse] TRANSFORM_WH credit usage 480 units this hour
+2026-10-18T02:04:24.500Z INFO  [warehouse] TRANSFORM_WH credit usage 254 units this hour
+2026-10-18T02:04:25.000Z INFO  [transform] applied 328 column mappings for inventory
+2026-10-18T02:04:25.500Z INFO  [extract] fetched page 314 from source (3598 rows)
+2026-10-18T02:04:26.000Z INFO  [extract] fetched page 420 from source (1344 rows)
+2026-10-18T02:04:26.500Z INFO  [monitor] throughput 3063 rows/min
+2026-10-18T02:04:27.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:27.500Z INFO  [warehouse] TRANSFORM_WH credit usage 177 units this hour
+2026-10-18T02:04:28.000Z INFO  [transform] applied 158 column mappings for inventory
+2026-10-18T02:04:28.500Z INFO  [warehouse] TRANSFORM_WH credit usage 357 units this hour
+2026-10-18T02:04:29.000Z INFO  [warehouse] TRANSFORM_WH credit usage 64 units this hour
+2026-10-18T02:04:29.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:30.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:30.500Z INFO  [warehouse] TRANSFORM_WH credit usage 398 units this hour
+2026-10-18T02:04:31.000Z INFO  [loader] staged batch 500 to @RAW_STAGE/inventory_glue_job/ (3995 rows)
+2026-10-18T02:04:31.500Z INFO  [loader] staged batch 317 to @RAW_STAGE/inventory_glue_job/ (3387 rows)
+2026-10-18T02:04:32.000Z INFO  [transform] applied 464 column mappings for inventory
+2026-10-18T02:04:32.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:33.000Z INFO  [extract] fetched page 197 from source (506 rows)
+2026-10-18T02:04:33.500Z INFO  [loader] staged batch 446 to @RAW_STAGE/inventory_glue_job/ (588 rows)
+2026-10-18T02:04:34.000Z INFO  [monitor] throughput 1651 rows/min
+2026-10-18T02:04:34.500Z INFO  [warehouse] TRANSFORM_WH credit usage 483 units this hour
+2026-10-18T02:04:35.000Z INFO  [transform] applied 328 column mappings for inventory
+2026-10-18T02:04:35.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:36.000Z INFO  [loader] staged batch 481 to @RAW_STAGE/inventory_glue_job/ (4097 rows)
+2026-10-18T02:04:36.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:37.000Z INFO  [warehouse] TRANSFORM_WH credit usage 487 units this hour
+2026-10-18T02:04:37.500Z INFO  [extract] fetched page 158 from source (1240 rows)
+2026-10-18T02:04:38.000Z INFO  [transform] applied 489 column mappings for inventory
+2026-10-18T02:04:38.500Z INFO  [loader] staged batch 189 to @RAW_STAGE/inventory_glue_job/ (4232 rows)
+2026-10-18T02:04:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 83 units this hour
+2026-10-18T02:04:39.500Z INFO  [monitor] throughput 1621 rows/min
+2026-10-18T02:04:40.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:40.500Z INFO  [monitor] throughput 2165 rows/min
+2026-10-18T02:04:41.000Z INFO  [extract] fetched page 113 from source (1226 rows)
+2026-10-18T02:04:41.500Z INFO  [extract] fetched page 398 from source (3578 rows)
+2026-10-18T02:04:42.000Z INFO  [extract] fetched page 6 from source (4276 rows)
+2026-10-18T02:04:42.500Z INFO  [transform] applied 209 column mappings for inventory
+2026-10-18T02:04:43.000Z INFO  [monitor] throughput 1033 rows/min
+2026-10-18T02:04:43.500Z INFO  [warehouse] TRANSFORM_WH credit usage 162 units this hour
+2026-10-18T02:04:44.000Z INFO  [loader] staged batch 42 to @RAW_STAGE/inventory_glue_job/ (1411 rows)
+2026-10-18T02:04:44.500Z INFO  [transform] applied 202 column mappings for inventory
+2026-10-18T02:04:45.000Z INFO  [monitor] throughput 283 rows/min
+2026-10-18T02:04:45.500Z INFO  [transform] applied 269 column mappings for inventory
+2026-10-18T02:04:46.000Z INFO  [warehouse] TRANSFORM_WH credit usage 469 units this hour
+2026-10-18T02:04:46.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:47.000Z INFO  [transform] applied 246 column mappings for inventory
+2026-10-18T02:04:47.500Z INFO  [extract] fetched page 221 from source (4855 rows)
+2026-10-18T02:04:48.000Z INFO  [loader] staged batch 327 to @RAW_STAGE/inventory_glue_job/ (1031 rows)
+2026-10-18T02:04:48.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:04:49.000Z INFO  [loader] staged batch 23 to @RAW_STAGE/inventory_glue_job/ (269 rows)
+2026-10-18T02:04:49.500Z INFO  [monitor] throughput 820 rows/min
+2026-10-18T02:04:50.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:50.500Z INFO  [transform] applied 136 column mappings for inventory
+2026-10-18T02:04:51.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:51.500Z INFO  [extract] fetched page 456 from source (4866 rows)
+2026-10-18T02:04:52.000Z INFO  [monitor] throughput 261 rows/min
+2026-10-18T02:04:52.500Z INFO  [monitor] throughput 1233 rows/min
+2026-10-18T02:04:53.000Z INFO  [warehouse] TRANSFORM_WH credit usage 421 units this hour
+2026-10-18T02:04:53.500Z INFO  [transform] applied 153 column mappings for inventory
+2026-10-18T02:04:54.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:04:54.500Z INFO  [transform] applied 398 column mappings for inventory
+2026-10-18T02:04:55.000Z INFO  [extract] fetched page 205 from source (1418 rows)
+2026-10-18T02:04:55.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:04:56.000Z INFO  [extract] fetched page 254 from source (4269 rows)
+2026-10-18T02:04:56.500Z INFO  [loader] staged batch 150 to @RAW_STAGE/inventory_glue_job/ (1698 rows)
+2026-10-18T02:04:57.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:04:57.500Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:04:58.000Z INFO  [monitor] throughput 4503 rows/min
+2026-10-18T02:04:58.500Z INFO  [monitor] throughput 2305 rows/min
+2026-10-18T02:04:59.000Z INFO  [extract] fetched page 326 from source (4300 rows)
+2026-10-18T02:04:59.500Z INFO  [loader] staged batch 32 to @RAW_STAGE/inventory_glue_job/ (1569 rows)
+2026-10-18T02:05:00.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:00.500Z INFO  [loader] staged batch 376 to @RAW_STAGE/inventory_glue_job/ (105 rows)
+2026-10-18T02:05:01.000Z INFO  [warehouse] TRANSFORM_WH credit usage 165 units this hour
+2026-10-18T02:05:01.500Z INFO  [loader] staged batch 376 to @RAW_STAGE/inventory_glue_job/ (3245 rows)
+2026-10-18T02:05:02.000Z INFO  [transform] applied 257 column mappings for inventory
+2026-10-18T02:05:02.500Z INFO  [monitor] throughput 1802 rows/min
+2026-10-18T02:05:03.000Z INFO  [extract] fetched page 44 from source (1326 rows)
+2026-10-18T02:05:03.500Z INFO  [transform] applied 447 column mappings for inventory
+2026-10-18T02:05:04.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:04.500Z INFO  [extract] fetched page 477 from source (2916 rows)
+2026-10-18T02:05:05.000Z INFO  [extract] fetched page 98 from source (4317 rows)
+2026-10-18T02:05:05.500Z INFO  [transform] applied 478 column mappings for inventory
+2026-10-18T02:05:06.000Z INFO  [transform] applied 443 column mappings for inventory
+2026-10-18T02:05:06.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:07.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:07.500Z INFO  [transform] applied 192 column mappings for inventory
+2026-10-18T02:05:08.000Z INFO  [monitor] throughput 531 rows/min
+2026-10-18T02:05:08.500Z INFO  [extract] fetched page 470 from source (211 rows)
+2026-10-18T02:05:09.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:09.500Z INFO  [transform] applied 345 column mappings for inventory
+2026-10-18T02:05:10.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:10.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:11.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:11.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:12.000Z INFO  [monitor] throughput 2831 rows/min
+2026-10-18T02:05:12.500Z INFO  [extract] fetched page 108 from source (3599 rows)
+2026-10-18T02:05:13.000Z INFO  [monitor] throughput 445 rows/min
+2026-10-18T02:05:13.500Z INFO  [monitor] throughput 2976 rows/min
+2026-10-18T02:05:14.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:14.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:15.000Z INFO  [warehouse] TRANSFORM_WH credit usage 87 units this hour
+2026-10-18T02:05:15.500Z INFO  [monitor] throughput 4870 rows/min
+2026-10-18T02:05:16.000Z INFO  [transform] applied 139 column mappings for inventory
+2026-10-18T02:05:16.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:17.000Z INFO  [warehouse] TRANSFORM_WH credit usage 79 units this hour
+2026-10-18T02:05:17.500Z INFO  [warehouse] TRANSFORM_WH credit usage 146 units this hour
+2026-10-18T02:05:18.000Z INFO  [loader] staged batch 221 to @RAW_STAGE/inventory_glue_job/ (1962 rows)
+2026-10-18T02:05:18.500Z INFO  [transform] applied 165 column mappings for inventory
+2026-10-18T02:05:19.000Z INFO  [transform] applied 447 column mappings for inventory
+2026-10-18T02:05:19.500Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:20.000Z INFO  [warehouse] TRANSFORM_WH credit usage 130 units this hour
+2026-10-18T02:05:20.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:05:21.000Z INFO  [warehouse] TRANSFORM_WH credit usage 348 units this hour
+2026-10-18T02:05:21.500Z INFO  [warehouse] TRANSFORM_WH credit usage 477 units this hour
+2026-10-18T02:05:22.000Z INFO  [loader] staged batch 60 to @RAW_STAGE/inventory_glue_job/ (2980 rows)
+2026-10-18T02:05:22.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:05:23.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:23.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:05:24.000Z INFO  [extract] fetched page 184 from source (961 rows)
+2026-10-18T02:05:24.500Z INFO  [transform] applied 421 column mappings for inventory
+2026-10-18T02:05:25.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:25.500Z INFO  [monitor] throughput 4768 rows/min
+2026-10-18T02:05:26.000Z INFO  [extract] fetched page 360 from source (1944 rows)
+2026-10-18T02:05:26.500Z INFO  [extract] fetched page 427 from source (381 rows)
+2026-10-18T02:05:27.000Z INFO  [loader] staged batch 187 to @RAW_STAGE/inventory_glue_job/ (4747 rows)
+2026-10-18T02:05:27.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:05:28.000Z INFO  [loader] staged batch 186 to @RAW_STAGE/inventory_glue_job/ (3624 rows)
+2026-10-18T02:05:28.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:29.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:29.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:05:30.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:30.500Z INFO  [transform] applied 23 column mappings for inventory
+2026-10-18T02:05:31.000Z INFO  [transform] applied 85 column mappings for inventory
+2026-10-18T02:05:31.500Z INFO  [monitor] throughput 1002 rows/min
+2026-10-18T02:05:32.000Z INFO  [loader] staged batch 269 to @RAW_STAGE/inventory_glue_job/ (1455 rows)
+2026-10-18T02:05:32.500Z INFO  [loader] staged batch 192 to @RAW_STAGE/inventory_glue_job/ (4777 rows)
+2026-10-18T02:05:33.000Z INFO  [monitor] throughput 3105 rows/min
+2026-10-18T02:05:33.500Z INFO  [transform] applied 311 column mappings for inventory
+2026-10-18T02:05:34.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:34.500Z INFO  [monitor] throughput 4242 rows/min
+2026-10-18T02:05:35.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:35.500Z INFO  [monitor] throughput 3466 rows/min
+2026-10-18T02:05:36.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:05:36.500Z INFO  [monitor] throughput 1476 rows/min
+2026-10-18T02:05:37.000Z INFO  [warehouse] TRANSFORM_WH credit usage 186 units this hour
+2026-10-18T02:05:37.500Z INFO  [loader] staged batch 361 to @RAW_STAGE/inventory_glue_job/ (4352 rows)
+2026-10-18T02:05:38.000Z INFO  [loader] staged batch 209 to @RAW_STAGE/inventory_glue_job/ (4706 rows)
+2026-10-18T02:05:38.500Z INFO  [extract] fetched page 310 from source (3286 rows)
+2026-10-18T02:05:39.000Z INFO  [warehouse] TRANSFORM_WH credit usage 437 units this hour
+2026-10-18T02:05:39.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:40.000Z INFO  [transform] applied 290 column mappings for inventory
+2026-10-18T02:05:40.500Z INFO  [transform] applied 232 column mappings for inventory
+2026-10-18T02:05:41.000Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:05:41.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:42.000Z INFO  [warehouse] TRANSFORM_WH credit usage 289 units this hour
+2026-10-18T02:05:42.500Z INFO  [transform] applied 418 column mappings for inventory
+2026-10-18T02:05:43.000Z INFO  [warehouse] TRANSFORM_WH credit usage 452 units this hour
+2026-10-18T02:05:43.500Z INFO  [extract] fetched page 466 from source (735 rows)
+2026-10-18T02:05:44.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:05:44.500Z INFO  [monitor] throughput 2413 rows/min
+2026-10-18T02:05:45.000Z INFO  [warehouse] TRANSFORM_WH credit usage 406 units this hour
+2026-10-18T02:05:45.500Z INFO  [extract] fetched page 472 from source (1963 rows)
+2026-10-18T02:05:46.000Z INFO  [loader] staged batch 401 to @RAW_STAGE/inventory_glue_job/ (1018 rows)
+2026-10-18T02:05:46.500Z INFO  [extract] fetched page 114 from source (3373 rows)
+2026-10-18T02:05:47.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:05:47.500Z INFO  [extract] fetched page 215 from source (1780 rows)
+2026-10-18T02:05:48.000Z INFO  [warehouse] TRANSFORM_WH credit usage 445 units this hour
+2026-10-18T02:05:48.500Z INFO  [warehouse] TRANSFORM_WH credit usage 227 units this hour
+2026-10-18T02:05:49.000Z INFO  [monitor] throughput 1054 rows/min
+2026-10-18T02:05:49.500Z INFO  [transform] applied 315 column mappings for inventory
+2026-10-18T02:05:50.000Z INFO  [extract] fetched page 326 from source (2678 rows)
+2026-10-18T02:05:50.500Z INFO  [monitor] throughput 1330 rows/min
+2026-10-18T02:05:51.000Z INFO  [transform] applied 376 column mappings for inventory
+2026-10-18T02:05:51.500Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:52.000Z INFO  [extract] fetched page 375 from source (3066 rows)
+2026-10-18T02:05:52.500Z INFO  [loader] staged batch 470 to @RAW_STAGE/inventory_glue_job/ (4657 rows)
+2026-10-18T02:05:53.000Z INFO  [monitor] throughput 3886 rows/min
+2026-10-18T02:05:53.500Z INFO  [extract] fetched page 223 from source (2709 rows)
+2026-10-18T02:05:54.000Z INFO  [transform] applied 96 column mappings for inventory
+2026-10-18T02:05:54.500Z INFO  [extract] fetched page 29 from source (1254 rows)
+2026-10-18T02:05:55.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:05:55.500Z INFO  [loader] staged batch 305 to @RAW_STAGE/inventory_glue_job/ (4516 rows)
+2026-10-18T02:05:56.000Z INFO  [monitor] throughput 2300 rows/min
+2026-10-18T02:05:56.500Z INFO  [transform] applied 80 column mappings for inventory
+2026-10-18T02:05:57.000Z INFO  [loader] staged batch 96 to @RAW_STAGE/inventory_glue_job/ (410 rows)
+2026-10-18T02:05:57.500Z INFO  [extract] fetched page 19 from source (2331 rows)
+2026-10-18T02:05:58.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:05:58.500Z INFO  [warehouse] TRANSFORM_WH credit usage 265 units this hour
+2026-10-18T02:05:59.000Z INFO  [extract] fetched page 182 from source (801 rows)
+2026-10-18T02:05:59.500Z INFO  [monitor] throughput 3529 rows/min
+2026-10-18T02:06:00.000Z INFO  [warehouse] TRANSFORM_WH credit usage 54 units this hour
+2026-10-18T02:06:00.500Z DEBUG [pool] connection pool size=8 active=7
+2026-10-18T02:06:01.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:01.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:02.000Z INFO  [transform] applied 264 column mappings for inventory
+2026-10-18T02:06:02.500Z INFO  [extract] fetched page 398 from source (2985 rows)
+2026-10-18T02:06:03.000Z INFO  [monitor] throughput 4892 rows/min
+2026-10-18T02:06:03.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:04.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:06:04.500Z INFO  [warehouse] TRANSFORM_WH credit usage 391 units this hour
+2026-10-18T02:06:05.000Z INFO  [monitor] throughput 3745 rows/min
+2026-10-18T02:06:05.500Z INFO  [extract] fetched page 246 from source (3731 rows)
+2026-10-18T02:06:06.000Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:06.500Z DEBUG [pool] connection pool size=8 active=6
+2026-10-18T02:06:07.000Z INFO  [extract] fetched page 405 from source (2113 rows)
+2026-10-18T02:06:07.500Z DEBUG [pool] connection pool size=8 active=4
+2026-10-18T02:06:08.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:08.500Z INFO  [transform] applied 339 column mappings for inventory
+2026-10-18T02:06:09.000Z INFO  [loader] staged batch 393 to @RAW_STAGE/inventory_glue_job/ (355 rows)
+2026-10-18T02:06:09.500Z INFO  [transform] applied 61 column mappings for inventory
+2026-10-18T02:06:10.000Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:06:10.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:11.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:11.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:12.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:12.500Z DEBUG [pool] connection pool size=8 active=5
+2026-10-18T02:06:13.000Z INFO  [transform] applied 261 column mappings for inventory
+2026-10-18T02:06:13.500Z INFO  [transform] applied 128 column mappings for inventory
+2026-10-18T02:06:14.000Z INFO  [loader] staged batch 17 to @RAW_STAGE/inventory_glue_job/ (2044 rows)
+2026-10-18T02:06:14.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:15.000Z INFO  [monitor] throughput 4616 rows/min
+2026-10-18T02:06:15.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:16.000Z INFO  [monitor] throughput 1778 rows/min
+2026-10-18T02:06:16.500Z INFO  [warehouse] TRANSFORM_WH credit usage 481 units this hour
+2026-10-18T02:06:17.000Z DEBUG [pool] connection pool size=8 active=0
+2026-10-18T02:06:17.500Z INFO  [monitor] throughput 1648 rows/min
+2026-10-18T02:06:18.000Z DEBUG [pool] connection pool size=8 active=8
+2026-10-18T02:06:18.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:19.000Z INFO  [loader] staged batch 306 to @RAW_STAGE/inventory_glue_job/ (2488 rows)
+2026-10-18T02:06:19.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:20.000Z INFO  [extract] fetched page 387 from source (960 rows)
+2026-10-18T02:06:20.500Z INFO  [extract] fetched page 76 from source (3526 rows)
+2026-10-18T02:06:21.000Z INFO  [loader] staged batch 104 to @RAW_STAGE/inventory_glue_job/ (177 rows)
+2026-10-18T02:06:21.500Z INFO  [loader] staged batch 5 to @RAW_STAGE/inventory_glue_job/ (3644 rows)
+2026-10-18T02:06:22.000Z INFO  [loader] staged batch 296 to @RAW_STAGE/inventory_glue_job/ (2455 rows)
+2026-10-18T02:06:22.500Z INFO  [transform] applied 389 column mappings for inventory
+2026-10-18T02:06:23.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:23.500Z INFO  [monitor] throughput 1737 rows/min
+2026-10-18T02:06:24.000Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:24.500Z INFO  [extract] fetched page 14 from source (1549 rows)
+2026-10-18T02:06:25.000Z INFO  [transform] applied 111 column mappings for inventory
+2026-10-18T02:06:25.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:26.000Z INFO  [transform] applied 271 column mappings for inventory
+2026-10-18T02:06:26.500Z DEBUG [pool] connection pool size=8 active=3
+2026-10-18T02:06:27.000Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:27.500Z INFO  [transform] applied 73 column mappings for inventory
+2026-10-18T02:06:28.000Z INFO  [transform] applied 218 column mappings for inventory
+2026-10-18T02:06:28.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:29.000Z INFO  [monitor] throughput 1924 rows/min
+2026-10-18T02:06:29.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:30.000Z INFO  [monitor] throughput 1670 rows/min
+2026-10-18T02:06:30.500Z INFO  [loader] staged batch 62 to @RAW_STAGE/inventory_glue_job/ (1168 rows)
+2026-10-18T02:06:31.000Z INFO  [transform] applied 309 column mappings for inventory
+2026-10-18T02:06:31.500Z INFO  [transform] applied 463 column mappings for inventory
+2026-10-18T02:06:32.000Z INFO  [transform] applied 85 column mappings for inventory
+2026-10-18T02:06:32.500Z INFO  [loader] staged batch 143 to @RAW_STAGE/inventory_glue_job/ (4500 rows)
+2026-10-18T02:06:33.000Z INFO  [warehouse] TRANSFORM_WH credit usage 117 units this hour
+2026-10-18T02:06:33.500Z INFO  [monitor] throughput 4535 rows/min
+2026-10-18T02:06:34.000Z INFO  [loader] staged batch 37 to @RAW_STAGE/inventory_glue_job/ (4008 rows)
+2026-10-18T02:06:34.500Z INFO  [monitor] throughput 372 rows/min
+2026-10-18T02:06:35.000Z INFO  [extract] fetched page 430 from source (3791 rows)
+2026-10-18T02:06:35.500Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:36.000Z DEBUG [pool] connection pool size=8 active=2
+2026-10-18T02:06:36.500Z INFO  [loader] staged batch 57 to @RAW_STAGE/inventory_glue_job/ (126 rows)
+2026-10-18T02:06:37.000Z DEBUG [pool] connection pool size=8 active=1
+2026-10-18T02:06:37.500Z INFO  [transform] applied 237 column mappings for inventory
+2026-10-18T02:06:38.000Z INFO  [monitor] throughput 4911 rows/min
+2026-10-18T02:06:38.500Z INFO  [scheduler] heartbeat ok for inventory_glue_job
+2026-10-18T02:06:39.000Z INFO  [loader] staged batch 489 to @RAW_STAGE/inventory_glue_job/ (822 rows)
+2026-10-18T02:06:39.500Z INFO  [scheduler] job inventory_glue_job run inventory_glue_job-0 finished with status SUCCEEDED after automatic retry
+2026-10-18T02:06:40.000Z INFO  [scheduler] alert dispatched to on-call rotation

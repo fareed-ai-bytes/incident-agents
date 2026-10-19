@@ -1,0 +1,9 @@
+{
+  "alert_id": "ALERT-warehouse_unavailable",
+  "source": "scheduler",
+  "pipeline": "orders_warehouse_load",
+  "severity": "high",
+  "summary": "Warehouse load failed for orders_warehouse_load",
+  "message": "Load failed: warehouse LOAD_WH is suspended",
+  "occurred_at": "2026-10-18T02:08:20Z"
+}
