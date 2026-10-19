@@ -14,7 +14,7 @@ LOCAL_HOSTS = frozenset({"localhost", "127.0.0.1", "::1"})
 
 # Module run as the stdio MCP server. Kept here (not in mcp_client/) so the client
 # never names the server package (verification.md S12).
-MCP_SERVER_MODULE = "incident_agent.mcp_server"
+SERVER_MODULE = "incident_agent.mcp_server"
 
 
 class ConfigError(ValueError):
