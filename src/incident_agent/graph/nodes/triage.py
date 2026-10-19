@@ -15,7 +15,8 @@ from incident_agent.graph.state import IncidentState
 from incident_agent.llm.base import ChatMessage, ModelError
 from incident_agent.log import node_logger
 from incident_agent.models import ALERT_REQUIRED_FIELDS, AlertType, IncidentStatus
-from incident_agent.raw_loop.tokens import estimate_messages
+from incident_agent.policy.budgets import budget_for
+from incident_agent.raw_loop.tokens import estimate_messages, fit_to_budget
 
 NODE = "triage"
 
@@ -55,6 +56,7 @@ def make_triage_node(rt: Runtime) -> Callable[[IncidentState], dict[str, Any]]:
             ]
             alert_type = None
             for attempt in range(rt.settings.max_reprompts + 1):
+                messages = fit_to_budget(messages, budget_for(NODE))  # raises if over
                 tokens = max(tokens, estimate_messages(messages))
                 try:
                     reply = rt.model.chat(messages, purpose=NODE)

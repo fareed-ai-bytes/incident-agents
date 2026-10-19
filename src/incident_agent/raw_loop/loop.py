@@ -18,7 +18,11 @@ from incident_agent.errors import ToolCallError
 from incident_agent.llm.base import ChatMessage, ChatModel, ToolSchema, tool_schema
 from incident_agent.log import get_logger
 from incident_agent.raw_loop.memory import Transcript
-from incident_agent.raw_loop.tokens import estimate_messages
+from incident_agent.raw_loop.tokens import (
+    TokenBudgetExceededError,
+    estimate_messages,
+    fit_to_budget,
+)
 
 log = get_logger(__name__)
 
@@ -129,6 +133,7 @@ def run_react_loop(
     max_iterations: int = 6,
     max_reprompts: int = 2,
     transcript: Transcript | None = None,
+    token_budget: int | None = None,
     purpose: str = "react",
 ) -> LoopResult:
     """Run the loop. Never raises for model or tool misbehaviour: the status says what happened."""
@@ -149,6 +154,14 @@ def run_react_loop(
         step_reprompts = 0
         while True:
             messages = memory.build(system, task) + corrections
+            if token_budget is not None:
+                try:
+                    messages = fit_to_budget(messages, token_budget, tool_schemas)
+                except TokenBudgetExceededError as exc:
+                    result.status = "failed"
+                    result.error = str(exc)
+                    result.summary_note = memory.summary_note
+                    return result
             result.max_prompt_tokens = max(
                 result.max_prompt_tokens, estimate_messages(messages, tool_schemas)
             )

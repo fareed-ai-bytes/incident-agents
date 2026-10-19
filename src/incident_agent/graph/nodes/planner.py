@@ -23,8 +23,9 @@ from incident_agent.llm.base import ChatMessage
 from incident_agent.log import node_logger
 from incident_agent.mcp_client.schema import model_parameters, validate_args
 from incident_agent.models import AlertType, IncidentStatus, PlanStep, RiskTier
+from incident_agent.policy.budgets import budget_for
 from incident_agent.policy.risk import stricter
-from incident_agent.raw_loop.tokens import estimate_messages
+from incident_agent.raw_loop.tokens import estimate_messages, fit_to_budget
 
 NODE = "planner"
 MAX_STEPS = 6
@@ -145,6 +146,7 @@ def make_planner_node(rt: Runtime) -> Callable[[IncidentState], dict[str, Any]]:
         reprompts = 0
         tokens = 0
         for attempt in range(rt.settings.max_reprompts + 1):
+            messages = fit_to_budget(messages, budget_for(NODE))  # raises if over
             tokens = max(tokens, estimate_messages(messages))
             reply = rt.model.chat(messages, purpose=NODE)
             try:

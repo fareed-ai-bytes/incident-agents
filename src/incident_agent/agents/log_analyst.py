@@ -10,6 +10,7 @@ from incident_agent.config import Settings
 from incident_agent.llm.base import ChatModel
 from incident_agent.mcp_client import ScopedTools
 from incident_agent.models import Alert, AlertType, Finding
+from incident_agent.policy.budgets import budget_for
 from incident_agent.raw_loop import LoopResult, run_react_loop
 from incident_agent.raw_loop.memory import Transcript
 from incident_agent.raw_loop.retry import RetryPolicy
@@ -59,6 +60,7 @@ def run_log_analyst(
         max_iterations=settings.max_iterations,
         max_reprompts=settings.max_reprompts,
         transcript=make_transcript(settings),
+        token_budget=budget_for(WORKER),
         purpose=WORKER,
     )
     return LogAnalysis(_to_finding(result, round_no), result, dict(retrying.retries))
