@@ -34,7 +34,8 @@ incident_agent = ["mocks/fixtures/**/*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["tests"]
-addopts = "-ra"
+# importlib mode: tests/unit and tests/e2e both have a test_persistence.py (TOPICS.md names).
+addopts = "-ra --import-mode=importlib"
 markers = [
     "real_model: needs a running local Ollama model (skipped unless RUN_REAL_MODEL=1)",
 ]

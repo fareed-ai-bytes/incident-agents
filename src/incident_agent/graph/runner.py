@@ -97,7 +97,9 @@ class IncidentRunner:
         if self.exists(incident_id):
             raise IncidentExistsError(f"incident {incident_id} already has a thread")
         log.info("starting %s (%s)", incident_id, scenario_id)
-        return self.graph.invoke(initial_state(incident_id, scenario_id, alert), thread_config(incident_id))
+        return self.graph.invoke(
+            initial_state(incident_id, scenario_id, alert), thread_config(incident_id)
+        )
 
     def resume(self, incident_id: str) -> IncidentState:
         """Continue from the last checkpoint; completed nodes are not re-run."""
@@ -115,9 +117,13 @@ class IncidentRunner:
         return self.graph.get_state_history(thread_config(incident_id))
 
     def incident_ids(self) -> list[str]:
-        rows = self._conn.execute("SELECT DISTINCT thread_id FROM checkpoints ORDER BY thread_id").fetchall()
+        rows = self._conn.execute(
+            "SELECT DISTINCT thread_id FROM checkpoints ORDER BY thread_id"
+        ).fetchall()
         return [r[0] for r in rows]
 
     def _require(self, incident_id: str) -> None:
         if not self.exists(incident_id):
-            raise IncidentNotFoundError(f"no incident {incident_id!r} in {self.settings.checkpoint_db}")
+            raise IncidentNotFoundError(
+                f"no incident {incident_id!r} in {self.settings.checkpoint_db}"
+            )
