@@ -99,3 +99,62 @@ def test_raw_loop_respects_max_iterations():
     assert res.answer is None
     assert res.iterations == 6
     assert len(calls) == 6 and len(model.calls) == 6
+
+
+# -- S15 --------------------------------------------------------------------------------------
+
+
+def test_malformed_tool_call_reprompted():
+    """Bad JSON twice, then a valid call: the step succeeds after 2 re-prompts (BR-05)."""
+    model = ScriptedModel(
+        [
+            tool_call("final_answer", '{"root_cause": "boom", "confid'),
+            tool_call("final_answer", "not json at all"),
+            tool_call("final_answer", {"root_cause": "boom", "confidence": 0.8}),
+        ]
+    )
+    res = _run(model, [], max_reprompts=2)
+    assert res.status == "complete"
+    assert res.reprompts == 2
+    # The re-prompt told the model what was wrong.
+    correction = model.calls[1][-1]
+    assert correction["role"] == "user" and "not valid JSON" in correction["content"]
+
+
+def test_third_consecutive_malformed_call_fails_the_step():
+    model = ScriptedModel([tool_call("final_answer", "{bad")])
+    res = _run(model, [], max_reprompts=2)
+    assert res.status == "failed"
+    assert res.reprompts == 3
+    assert len(model.calls) == 3  # original + 2 re-prompts, never a 4th call
+    assert "re-prompts" in res.error
+
+
+def test_reprompt_budget_resets_per_step():
+    calls = []
+    model = ScriptedModel(
+        [
+            tool_call("fetch", "{bad"),
+            tool_call("fetch", {"offset": 1}),
+            tool_call("nope", {}),
+            tool_call("final_answer", {"root_cause": "x"}),  # missing confidence
+            tool_call("final_answer", {"root_cause": "x", "confidence": 0.7}),
+        ]
+    )
+    res = _run(model, [_echo_tool(calls)], max_reprompts=2)
+    assert res.status == "complete"
+    assert res.reprompts == 3
+
+
+def test_corrections_do_not_leak_into_later_steps():
+    calls = []
+    model = ScriptedModel(
+        [
+            tool_call("fetch", "{bad"),
+            tool_call("fetch", {"offset": 1}),
+            tool_call("final_answer", {"root_cause": "x", "confidence": 0.7}),
+        ]
+    )
+    _run(model, [_echo_tool(calls)])
+    last_prompt = model.calls[-1]
+    assert not any("not a valid tool call" in (m.get("content") or "") for m in last_prompt)
